@@ -1,0 +1,5 @@
+{
+  "name": "observatory-example",
+  "private": true,
+  "sideEffects": ["**/*.css", "**/*.svg", "**/*.png"]
+}

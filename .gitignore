@@ -1,0 +1,11 @@
+/target
+/dist
+examples/*/dist
+examples/*/preview/*.js
+examples/*/preview/*.css
+examples/*/preview/*.map
+examples/*/preview/*.svg
+examples/*/preview/*.png
+node_modules
+examples/*/dist
+.DS_Store

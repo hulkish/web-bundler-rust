@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Hello, World!",
+    "author": "ada",
+    "body": "# Hello\n\nShip **bundles** with `go` and cycles.\n"
+  },
+  {
+    "title": "Notes on cycles",
+    "author": "grace",
+    "body": "A module can import its importer.\n\nUse `export`.\n"
+  }
+]

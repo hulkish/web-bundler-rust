@@ -1,0 +1,949 @@
+/* Atlas stylesheet 02. Imported from src/shared/styles.js. */
+:root {
+  --atlas-sheet: 2;
+  --atlas-ink: #1b1a17;
+  --atlas-paper: #f4efe6;
+}
+.atlas-s02-r0000 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-26.svg");
+  border-image-source: url("../icons/svg/icon-26.svg");
+}
+.atlas-s02-r0000 { margin: 0px; }
+@media (min-width: 40rem) {
+  .atlas-s02-r0000 { outline: 1px solid transparent; }
+}
+.atlas-s02-r0001 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0002 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0003 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0004 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0005 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0006 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0007 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0008 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0009 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0010 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0011 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-37.svg");
+}
+.atlas-s02-r0012 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0013 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0014 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0015 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0016 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0017 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0018 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0019 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-05.png");
+}
+.atlas-s02-r0020 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0021 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0022 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-08.png");
+}
+.atlas-s02-r0023 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0023 { margin: 0px; }
+.atlas-s02-r0024 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0025 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0026 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0027 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0028 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0029 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 49rem) {
+  .atlas-s02-r0029 { outline: 1px solid transparent; }
+}
+.atlas-s02-r0030 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0031 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0032 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0033 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-19.png");
+}
+.atlas-s02-r0034 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0035 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0036 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0037 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0038 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-24.png");
+}
+.atlas-s02-r0039 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0040 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0041 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0042 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0043 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0044 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-30.png");
+}
+.atlas-s02-r0045 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0046 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0046 { margin: 0px; }
+.atlas-s02-r0047 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0048 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0049 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0050 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0051 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0052 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0053 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0054 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0055 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-01.svg");
+}
+.atlas-s02-r0056 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0057 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-03.svg");
+}
+.atlas-s02-r0058 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 58rem) {
+  .atlas-s02-r0058 { outline: 1px solid transparent; }
+}
+.atlas-s02-r0059 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0060 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0061 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0062 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0063 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0064 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0065 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0066 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-12.svg");
+}
+.atlas-s02-r0067 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0068 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0069 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0069 { margin: 0px; }
+.atlas-s02-r0070 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0071 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0072 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0073 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0074 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0075 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0076 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-22.svg");
+}
+.atlas-s02-r0077 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-23.svg");
+}
+.atlas-s02-r0078 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0079 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0080 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0081 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0082 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0083 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0084 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0085 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0086 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0087 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 47rem) {
+  .atlas-s02-r0087 { outline: 1px solid transparent; }
+}
+.atlas-s02-r0088 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-34.svg");
+}
+.atlas-s02-r0089 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0090 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0091 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0092 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0092 { margin: 0px; }
+.atlas-s02-r0093 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0094 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0095 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-01.png");
+}
+.atlas-s02-r0096 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0097 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0098 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0099 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-05.png");
+}
+.atlas-s02-r0100 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0101 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0102 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0103 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0104 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0105 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0106 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0107 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0108 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0109 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0110 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-16.png");
+}
+.atlas-s02-r0111 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0112 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0113 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0114 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-20.png");
+}
+.atlas-s02-r0115 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0115 { margin: 0px; }
+.atlas-s02-r0116 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 56rem) {
+  .atlas-s02-r0116 { outline: 1px solid transparent; }
+}
+.atlas-s02-r0117 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0118 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0119 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0120 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0121 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-27.png");
+}
+.atlas-s02-r0122 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0123 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0124 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0125 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0126 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0127 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s02-r0128 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}

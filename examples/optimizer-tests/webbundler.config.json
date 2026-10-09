@@ -1,0 +1,13 @@
+{
+  "entry": "src/folding.mjs",
+  "output": "dist/folding.mjs",
+  "target": "node",
+  "format": "esm",
+  "optimize": true,
+  "sourcemap": true,
+  "report": true,
+  "define": {
+    "process.env.NODE_ENV": "\"production\"",
+    "process.env.FOO": "\"BAR\""
+  }
+}

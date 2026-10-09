@@ -1,0 +1,22 @@
+[
+  {
+    "id": "orrery",
+    "title": "Orrery",
+    "blurb": "A sun, four planets, and two moons. Groups orbit groups."
+  },
+  {
+    "id": "yard",
+    "title": "Yard",
+    "blurb": "One instanced mesh of 144 posts, a traveling crane, and a shadow-casting light."
+  },
+  {
+    "id": "glass",
+    "title": "Glass",
+    "blurb": "A shader displaces an icosahedron and paints it from the lift."
+  },
+  {
+    "id": "loom",
+    "title": "Loom",
+    "blurb": "A tube follows a curve. A shuttle rides the curve from end to end."
+  }
+]

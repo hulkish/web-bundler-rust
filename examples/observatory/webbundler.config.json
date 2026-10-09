@@ -1,0 +1,17 @@
+{
+  "entry": "src/index.ts",
+  "output": "dist/observatory.js",
+  "sourcemap": true,
+  "report": true,
+  "minify": false,
+  "define": {
+    "process.env.NODE_ENV": "\"production\"",
+    "process.env.OBSERVATORY_SITE": "\"North Bowl\"",
+    "OBSERVATORY_BUILD": "\"field-7\"",
+    "OBSERVATORY_SHIFT": 3
+  },
+  "jsx": {
+    "pragma": "h",
+    "fragment": "Fragment"
+  }
+}

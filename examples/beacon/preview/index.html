@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beacon</title>
+    <link rel="stylesheet" href="./ui.css">
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        background: #14120b;
+        color: #f6e7a1;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+      }
+      .site-nav { display: flex; gap: 1rem; padding: 0.8rem 1.4rem; font-size: 0.85rem; }
+      .site-nav a { color: inherit; }
+      #app { max-width: 40rem; margin: 0 auto; padding: 1.2rem 1.4rem 3rem; }
+      .eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; opacity: 0.7; }
+      h1 { font-family: Palatino, "Iowan Old Style", serif; font-weight: 500; font-size: 2.6rem; margin: 0.2rem 0; }
+      figure { margin: 1rem 0; width: 8rem; }
+      img { width: 100%; height: auto; }
+      .is-lit { filter: drop-shadow(0 0 1.2rem #f6e7a1); }
+      .is-dim { filter: grayscale(1) brightness(0.45); }
+      button {
+        font: inherit;
+        color: #14120b;
+        background: #f6e7a1;
+        border: 0;
+        padding: 0.45rem 0.9rem;
+        cursor: pointer;
+      }
+      .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; margin-top: 1.2rem; }
+      .stats p { margin: 0; padding: 0.7rem; border: 1px solid rgb(246 231 161 / 30%); }
+      .stats span, .meta { display: block; font-size: 0.75rem; opacity: 0.7; }
+    </style>
+  </head>
+  <body class="beacon">
+    <nav class="site-nav">
+      <a href="../../index.html">Examples</a>
+      <a href="../../observatory/preview/index.html">Observatory</a>
+      <a href="../../gallery/preview/index.html">Gallery</a>
+      <a href="../../desk/preview/index.html">Desk</a>
+      <a href="./index.html" aria-current="page">Beacon</a>
+      <a href="../../economy/preview/index.html">Economy</a>
+      <a href="../../foundry/preview/index.html">Foundry</a>
+      <a href="../../storybook/preview/index.html">Storybook</a>
+    </nav>
+    <main id="app">Lighting the beacon…</main>
+    <script type="module" src="./ui.js"></script>
+  </body>
+</html>

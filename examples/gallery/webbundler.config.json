@@ -1,0 +1,16 @@
+{
+  "entry": "src/main.tsx",
+  "output": "dist/gallery.js",
+  "target": "browser",
+  "sourcemap": true,
+  "report": true,
+  "external": ["gallery-theme"],
+  "define": {
+    "process.env.NODE_ENV": "\"production\"",
+    "GALLERY_ROOM": "\"west\""
+  },
+  "jsx": {
+    "pragma": "h",
+    "fragment": "Fragment"
+  }
+}

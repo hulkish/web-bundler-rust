@@ -1,0 +1,6 @@
+{
+  "entry": "src/main.js",
+  "output": "preview/economy.js",
+  "target": "browser",
+  "sourcemap": true
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "packing",
+    "title": "Packing JavaScript",
+    "author": "Ada Lovelace",
+    "pages": 128,
+    "published": "2024-03-01",
+    "shelf": "systems",
+    "tags": ["bundling", "modules"],
+    "series": { "name": "Analytical", "index": 1 },
+    "status": "shelf",
+    "related": ["press", "cycles", "shelf"],
+    "blurb": "Follow **imports** until one script remains.",
+    "chapters": [
+      {
+        "id": "graph",
+        "title": "The graph",
+        "body": "Each file names the files it needs. The shelf walks those names and refuses a circle it cannot explain.\n\nA missing file is a gap in the graph, not a guess."
+      },
+      {
+        "id": "one-file",
+        "title": "One file",
+        "body": "When the walk finishes, the pages share one script. The `http` module is the part that stays outside.\n\nWhat remains is the shelf itself: routes, books, and the words between them."
+      }
+    ]
+  },
+  {
+    "id": "press",
+    "title": "The Second Press",
+    "author": "Ada Lovelace",
+    "pages": 96,
+    "published": "2024-11-18",
+    "shelf": "systems",
+    "tags": ["bundling", "editions"],
+    "series": { "name": "Analytical", "index": 2 },
+    "status": "reading",
+    "progress": "errata",
+    "related": ["packing", "checksum"],
+    "blurb": "A second edition is a diff you are willing to keep.",
+    "chapters": [
+      {
+        "id": "gathering",
+        "title": "Gathering the quires",
+        "body": "The first press set the order of the chapters. The second press may only insert a leaf where the old numbers still add up.\n\nReaders who own both editions should see the same story and a clearer margin."
+      },
+      {
+        "id": "errata",
+        "title": "Errata",
+        "body": "An erratum names the page, the line, and the word that replaced it. It does not rewrite the date on the title page.\n\nThe reading desk is open at this chapter."
+      }
+    ]
+  },
+  {
+    "id": "cycles",
+    "title": "Cycles and Live Bindings",
+    "author": "Grace Hopper",
+    "pages": 64,
+    "published": "2024-03-12",
+    "shelf": "systems",
+    "tags": ["modules", "bindings"],
+    "series": { "name": "Compiler", "index": 1 },
+    "status": "shelf",
+    "related": ["weather", "packing"],
+    "blurb": "Two modules can import each other.",
+    "chapters": [
+      {
+        "id": "handshake",
+        "title": "The handshake",
+        "body": "Module A asks B for a function. Module B asks A for a constant that A has not finished writing.\n\nThe binding stays live so the later assignment is the one the call observes."
+      },
+      {
+        "id": "order",
+        "title": "Who runs first",
+        "body": "Side effects run in the order the shelf first reached each file. A second import does not run them again.\n\nIf that order matters, the book says so in the margin."
+      }
+    ]
+  },
+  {
+    "id": "weather",
+    "title": "Compiler Weather",
+    "author": "Grace Hopper",
+    "pages": 210,
+    "published": "2025-01-09",
+    "shelf": "systems",
+    "tags": ["compilers", "bindings"],
+    "series": { "name": "Compiler", "index": 2 },
+    "status": "shelf",
+    "related": ["cycles", "checksum"],
+    "blurb": "Names are folded before the rain starts.",
+    "chapters": [
+      {
+        "id": "forecast",
+        "title": "Forecast",
+        "body": "A constant known at the press can delete a branch. A constant known only at the desk cannot.\n\nThe forecast is written beside the code, not over it."
+      },
+      {
+        "id": "instruments",
+        "title": "Instruments",
+        "body": "The compiler keeps a log of which names survived. The log is a chapter, not a secret.\n\nReaders who want the raw table can ask the API for the same book."
+      }
+    ]
+  },
+  {
+    "id": "foobar",
+    "title": "Foo bar journey",
+    "author": "Mike Rotch",
+    "pages": 334,
+    "published": "2023-11-02",
+    "shelf": "stories",
+    "tags": ["fiction", "names"],
+    "series": null,
+    "status": "lent",
+    "loan": { "to": "North desk", "due": "2026-10-20" },
+    "related": ["checksum", "tides"],
+    "blurb": "A foo becomes a `bar`.",
+    "chapters": [
+      {
+        "id": "departure",
+        "title": "Departure",
+        "body": "The traveler leaves with one name and a slip of paper that says the other name is waiting inland.\n\nEvery inn along the road asks which name should be written in the book."
+      },
+      {
+        "id": "inland",
+        "title": "Inland",
+        "body": "Inland, the second name fits the lock. The first name still opens the letters from home.\n\nNeither name is a lie. They are two bindings for one person."
+      }
+    ]
+  },
+  {
+    "id": "checksum",
+    "title": "Checksum Garden",
+    "author": "Frances Allen",
+    "pages": 88,
+    "published": "2024-06-21",
+    "shelf": "stories",
+    "tags": ["fiction", "numbers"],
+    "series": null,
+    "status": "shelf",
+    "related": ["foobar", "tides", "press"],
+    "blurb": "Every row of lavender has to sum to the same quiet total.",
+    "chapters": [
+      {
+        "id": "rows",
+        "title": "Rows",
+        "body": "The gardener counts leaves, not to hurry them, but to notice when a row has lost one.\n\nA mismatch is a weed or a miscount. The book asks you to look before you pull."
+      },
+      {
+        "id": "evening",
+        "title": "Evening tally",
+        "body": "At dusk the totals are copied into a narrower book. The garden itself is not rewritten.\n\nTomorrow's row must still recognize today's sum."
+      }
+    ]
+  },
+  {
+    "id": "shelf",
+    "title": "A Server in a Bundle",
+    "author": "Radia Perlman",
+    "pages": 40,
+    "published": "2024-04-01",
+    "shelf": "systems",
+    "tags": ["servers", "http"],
+    "series": { "name": "Network", "index": 1 },
+    "status": "shelf",
+    "related": ["routes", "packing"],
+    "blurb": "Node's `http` module stays outside the bundle.",
+    "chapters": [
+      {
+        "id": "listen",
+        "title": "Listen",
+        "body": "The process binds `127.0.0.1` and a port. The pages are already inside the script that just started.\n\nA request is a path, a method, and a query. The shelf answers with HTML or JSON."
+      },
+      {
+        "id": "outside",
+        "title": "What stays outside",
+        "body": "The bundle does not contain Node's own `http`. It calls it. That is the seam between the shelf and the machine.\n\nPackages such as `marked` travel with the pages. The listener does not."
+      }
+    ]
+  },
+  {
+    "id": "routes",
+    "title": "Routes and Replies",
+    "author": "Radia Perlman",
+    "pages": 156,
+    "published": "2025-05-02",
+    "shelf": "systems",
+    "tags": ["servers", "http"],
+    "series": { "name": "Network", "index": 2 },
+    "status": "lent",
+    "loan": { "to": "East carrel", "due": "2026-11-01" },
+    "related": ["shelf", "margins"],
+    "blurb": "A path is a promise about the shape of the answer.",
+    "chapters": [
+      {
+        "id": "patterns",
+        "title": "Patterns",
+        "body": " `/books/packing` is a page. `/api/books/packing` is the same book as data. The chapter path adds one more segment.\n\nUnknown paths share one refusal, worded the same way each time."
+      },
+      {
+        "id": "methods",
+        "title": "Methods",
+        "body": "The shelf reads. It does not accept a body. `GET` and `HEAD` are the whole conversation.\n\nAnything else is answered with `405` and a single plain line."
+      }
+    ]
+  },
+  {
+    "id": "margins",
+    "title": "Margin Notes",
+    "author": "Margaret Hamilton",
+    "pages": 172,
+    "published": "2024-08-14",
+    "shelf": "systems",
+    "tags": ["software", "editions"],
+    "series": null,
+    "status": "reading",
+    "progress": "priority",
+    "related": ["routes", "weather"],
+    "blurb": "The note in the margin is part of the program.",
+    "chapters": [
+      {
+        "id": "priority",
+        "title": "Priority",
+        "body": "When two alarms arrive together, the margin says which one may interrupt the other.\n\nThe rule is short so it can be checked by hand."
+      },
+      {
+        "id": "display",
+        "title": "Display",
+        "body": "A display that hides the alarm is a different program from the one that was reviewed.\n\nThis chapter is the one currently open on the reading desk."
+      }
+    ]
+  },
+  {
+    "id": "tides",
+    "title": "Orbital Tables",
+    "author": "Katherine Johnson",
+    "pages": 240,
+    "published": "2023-07-19",
+    "shelf": "reference",
+    "tags": ["numbers", "orbits"],
+    "series": null,
+    "status": "reading",
+    "progress": "columns",
+    "related": ["checksum", "foobar"],
+    "blurb": "A table you can recompute is a table you can trust.",
+    "chapters": [
+      {
+        "id": "columns",
+        "title": "Columns",
+        "body": "Each column names its unit before it names its numbers. A reader should not have to guess the scale.\n\nThe first column is the date. The rest are differences from a stated epoch."
+      },
+      {
+        "id": "recompute",
+        "title": "Recompute",
+        "body": "If a later hand copies the table, the copy should meet the same totals. The original grid stays in the back of the book.\n\nTrust here means: show the steps, then the figure."
+      }
+    ]
+  }
+]

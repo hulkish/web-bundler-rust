@@ -1,0 +1,1568 @@
+[
+  {
+    "industry": "Total nonfarm",
+    "footnotes": "",
+    "saYearAgo": 158548,
+    "saJul": 158882,
+    "saAug": 159015,
+    "saSep": 159044,
+    "change": 29
+  },
+  {
+    "industry": "Total private",
+    "footnotes": "",
+    "saYearAgo": 135005,
+    "saJul": 135582,
+    "saAug": 135671,
+    "saSep": 135717,
+    "change": 46
+  },
+  {
+    "industry": "Goods-producing",
+    "footnotes": "",
+    "saYearAgo": 21472,
+    "saJul": 21571,
+    "saAug": 21605,
+    "saSep": 21623,
+    "change": 18
+  },
+  {
+    "industry": "Mining and logging",
+    "footnotes": "",
+    "saYearAgo": 605,
+    "saJul": 606,
+    "saAug": 609,
+    "saSep": 607,
+    "change": -2
+  },
+  {
+    "industry": "Logging",
+    "footnotes": "",
+    "saYearAgo": 39,
+    "saJul": 39.1,
+    "saAug": 39.5,
+    "saSep": 39.9,
+    "change": 0.4
+  },
+  {
+    "industry": "Mining, quarrying, and oil and gas extraction",
+    "footnotes": "",
+    "saYearAgo": 566.1,
+    "saJul": 566.5,
+    "saAug": 569,
+    "saSep": 566.9,
+    "change": -2.1
+  },
+  {
+    "industry": "Oil and gas extraction",
+    "footnotes": "",
+    "saYearAgo": 115.9,
+    "saJul": 114.6,
+    "saAug": 114.7,
+    "saSep": 114.1,
+    "change": -0.6
+  },
+  {
+    "industry": "Mining (except oil and gas)",
+    "footnotes": "",
+    "saYearAgo": 188.1,
+    "saJul": 189.4,
+    "saAug": 189.8,
+    "saSep": 189.6,
+    "change": -0.2
+  },
+  {
+    "industry": "Coal mining",
+    "footnotes": "",
+    "saYearAgo": 39.3,
+    "saJul": 37.9,
+    "saAug": 38,
+    "saSep": 37.9,
+    "change": -0.1
+  },
+  {
+    "industry": "Metal ore mining",
+    "footnotes": "",
+    "saYearAgo": 44.7,
+    "saJul": 46.6,
+    "saAug": 46.8,
+    "saSep": 46.9,
+    "change": 0.1
+  },
+  {
+    "industry": "Nonmetallic mineral mining and quarrying",
+    "footnotes": "",
+    "saYearAgo": 104.1,
+    "saJul": 104.9,
+    "saAug": 105.1,
+    "saSep": 104.8,
+    "change": -0.3
+  },
+  {
+    "industry": "Support activities for mining",
+    "footnotes": "",
+    "saYearAgo": 262.1,
+    "saJul": 262.5,
+    "saAug": 264.5,
+    "saSep": 263.2,
+    "change": -1.3
+  },
+  {
+    "industry": "Construction",
+    "footnotes": "",
+    "saYearAgo": 8255,
+    "saJul": 8337,
+    "saAug": 8353,
+    "saSep": 8364,
+    "change": 11
+  },
+  {
+    "industry": "Construction of buildings",
+    "footnotes": "",
+    "saYearAgo": 1846.4,
+    "saJul": 1864.4,
+    "saAug": 1869.2,
+    "saSep": 1873.4,
+    "change": 4.2
+  },
+  {
+    "industry": "Residential building construction",
+    "footnotes": "",
+    "saYearAgo": 926.7,
+    "saJul": 914.4,
+    "saAug": 919.7,
+    "saSep": 922.7,
+    "change": 3
+  },
+  {
+    "industry": "Nonresidential building construction",
+    "footnotes": "",
+    "saYearAgo": 919.7,
+    "saJul": 950,
+    "saAug": 949.5,
+    "saSep": 950.7,
+    "change": 1.2
+  },
+  {
+    "industry": "Heavy and civil engineering construction",
+    "footnotes": "",
+    "saYearAgo": 1184.5,
+    "saJul": 1205.6,
+    "saAug": 1208.2,
+    "saSep": 1210.8,
+    "change": 2.6
+  },
+  {
+    "industry": "Specialty trade contractors",
+    "footnotes": "",
+    "saYearAgo": 5224,
+    "saJul": 5266.8,
+    "saAug": 5275.5,
+    "saSep": 5279.9,
+    "change": 4.4
+  },
+  {
+    "industry": "Residential specialty trade contractors",
+    "footnotes": "",
+    "saYearAgo": 2369.1,
+    "saJul": 2345.6,
+    "saAug": 2348.2,
+    "saSep": 2340.3,
+    "change": -7.9
+  },
+  {
+    "industry": "Nonresidential specialty trade contractors",
+    "footnotes": "",
+    "saYearAgo": 2854.9,
+    "saJul": 2921.2,
+    "saAug": 2927.3,
+    "saSep": 2939.6,
+    "change": 12.3
+  },
+  {
+    "industry": "Manufacturing",
+    "footnotes": "",
+    "saYearAgo": 12612,
+    "saJul": 12628,
+    "saAug": 12643,
+    "saSep": 12652,
+    "change": 9
+  },
+  {
+    "industry": "Durable goods",
+    "footnotes": "",
+    "saYearAgo": 7814,
+    "saJul": 7876,
+    "saAug": 7890,
+    "saSep": 7898,
+    "change": 8
+  },
+  {
+    "industry": "Wood product manufacturing",
+    "footnotes": "",
+    "saYearAgo": 401.4,
+    "saJul": 393.1,
+    "saAug": 391.9,
+    "saSep": 394,
+    "change": 2.1
+  },
+  {
+    "industry": "Nonmetallic mineral product manufacturing",
+    "footnotes": "",
+    "saYearAgo": 419.1,
+    "saJul": 422.1,
+    "saAug": 421.6,
+    "saSep": 420.8,
+    "change": -0.8
+  },
+  {
+    "industry": "Primary metal manufacturing",
+    "footnotes": "",
+    "saYearAgo": 363.4,
+    "saJul": 368.1,
+    "saAug": 369.3,
+    "saSep": 369.1,
+    "change": -0.2
+  },
+  {
+    "industry": "Fabricated metal product manufacturing",
+    "footnotes": "",
+    "saYearAgo": 1436.2,
+    "saJul": 1454.7,
+    "saAug": 1461.5,
+    "saSep": 1460.6,
+    "change": -0.9
+  },
+  {
+    "industry": "Machinery manufacturing",
+    "footnotes": "",
+    "saYearAgo": 1085.7,
+    "saJul": 1091.5,
+    "saAug": 1096.5,
+    "saSep": 1101,
+    "change": 4.5
+  },
+  {
+    "industry": "Computer and electronic product manufacturing",
+    "footnotes": "",
+    "saYearAgo": 993.7,
+    "saJul": 997.4,
+    "saAug": 1000.3,
+    "saSep": 1000.4,
+    "change": 0.1
+  },
+  {
+    "industry": "Computer and peripheral equipment manufacturing",
+    "footnotes": "",
+    "saYearAgo": 100,
+    "saJul": 100,
+    "saAug": 99.7,
+    "saSep": 99.4,
+    "change": -0.3
+  },
+  {
+    "industry": "Communications equipment manufacturing",
+    "footnotes": "",
+    "saYearAgo": 80.2,
+    "saJul": 83.3,
+    "saAug": 83.7,
+    "saSep": 82.7,
+    "change": -1
+  },
+  {
+    "industry": "Semiconductor and other electronic component manufacturing",
+    "footnotes": "",
+    "saYearAgo": 372.7,
+    "saJul": 370,
+    "saAug": 371.5,
+    "saSep": 372.7,
+    "change": 1.2
+  },
+  {
+    "industry": "Navigational, measuring, electromedical, and control instruments manufacturing",
+    "footnotes": "",
+    "saYearAgo": 412.2,
+    "saJul": 418.1,
+    "saAug": 419.1,
+    "saSep": 419.4,
+    "change": 0.3
+  },
+  {
+    "industry": "Manufacturing and reproducing magnetic and optical media and audio and video equipment manufacturing",
+    "footnotes": "",
+    "saYearAgo": 28.5,
+    "saJul": 26.1,
+    "saAug": 26.3,
+    "saSep": 26.2,
+    "change": -0.1
+  },
+  {
+    "industry": "Electrical equipment, appliance, and component manufacturing",
+    "footnotes": "",
+    "saYearAgo": 429,
+    "saJul": 441.8,
+    "saAug": 444.5,
+    "saSep": 446.3,
+    "change": 1.8
+  },
+  {
+    "industry": "Transportation equipment manufacturing",
+    "footnotes": "1",
+    "saYearAgo": 1735.4,
+    "saJul": 1766.2,
+    "saAug": 1763,
+    "saSep": 1766.4,
+    "change": 3.4
+  },
+  {
+    "industry": "Motor vehicles and parts",
+    "footnotes": "2",
+    "saYearAgo": 960.9,
+    "saJul": 968.2,
+    "saAug": 960.9,
+    "saSep": 962.5,
+    "change": 1.6
+  },
+  {
+    "industry": "Furniture and related product manufacturing",
+    "footnotes": "",
+    "saYearAgo": 338.1,
+    "saJul": 328.6,
+    "saAug": 329.4,
+    "saSep": 327.4,
+    "change": -2
+  },
+  {
+    "industry": "Miscellaneous manufacturing",
+    "footnotes": "",
+    "saYearAgo": 612.1,
+    "saJul": 612.8,
+    "saAug": 611.8,
+    "saSep": 612,
+    "change": 0.2
+  },
+  {
+    "industry": "Nondurable goods",
+    "footnotes": "",
+    "saYearAgo": 4798,
+    "saJul": 4752,
+    "saAug": 4753,
+    "saSep": 4754,
+    "change": 1
+  },
+  {
+    "industry": "Food manufacturing",
+    "footnotes": "",
+    "saYearAgo": 1784.1,
+    "saJul": 1769,
+    "saAug": 1768.6,
+    "saSep": 1768.2,
+    "change": -0.4
+  },
+  {
+    "industry": "Textile mills",
+    "footnotes": "",
+    "saYearAgo": 82.1,
+    "saJul": 77.1,
+    "saAug": 78.3,
+    "saSep": 78.1,
+    "change": -0.2
+  },
+  {
+    "industry": "Textile product mills",
+    "footnotes": "",
+    "saYearAgo": 92.5,
+    "saJul": 93.1,
+    "saAug": 93.6,
+    "saSep": 93.7,
+    "change": 0.1
+  },
+  {
+    "industry": "Apparel manufacturing",
+    "footnotes": "",
+    "saYearAgo": 78.7,
+    "saJul": 72.2,
+    "saAug": 72,
+    "saSep": 71.4,
+    "change": -0.6
+  },
+  {
+    "industry": "Paper manufacturing",
+    "footnotes": "",
+    "saYearAgo": 355.8,
+    "saJul": 355.9,
+    "saAug": 355.7,
+    "saSep": 353.1,
+    "change": -2.6
+  },
+  {
+    "industry": "Printing and related support activities",
+    "footnotes": "",
+    "saYearAgo": 341.8,
+    "saJul": 338.9,
+    "saAug": 337.6,
+    "saSep": 335.8,
+    "change": -1.8
+  },
+  {
+    "industry": "Petroleum and coal products manufacturing",
+    "footnotes": "",
+    "saYearAgo": 110.1,
+    "saJul": 109.4,
+    "saAug": 109,
+    "saSep": 109.2,
+    "change": 0.2
+  },
+  {
+    "industry": "Chemical manufacturing",
+    "footnotes": "",
+    "saYearAgo": 902.1,
+    "saJul": 902.6,
+    "saAug": 904.6,
+    "saSep": 905.5,
+    "change": 0.9
+  },
+  {
+    "industry": "Plastics and rubber products manufacturing",
+    "footnotes": "",
+    "saYearAgo": 701.3,
+    "saJul": 689.9,
+    "saAug": 690.3,
+    "saSep": 694.9,
+    "change": 4.6
+  },
+  {
+    "industry": "Beverage, tobacco, and leather and allied product manufacturing",
+    "footnotes": "",
+    "saYearAgo": 349.2,
+    "saJul": 343.6,
+    "saAug": 343.6,
+    "saSep": 343.7,
+    "change": 0.1
+  },
+  {
+    "industry": "Private service-providing",
+    "footnotes": "",
+    "saYearAgo": 113533,
+    "saJul": 114011,
+    "saAug": 114066,
+    "saSep": 114094,
+    "change": 28
+  },
+  {
+    "industry": "Trade, transportation, and utilities",
+    "footnotes": "",
+    "saYearAgo": 28725,
+    "saJul": 28751,
+    "saAug": 28760,
+    "saSep": 28778,
+    "change": 18
+  },
+  {
+    "industry": "Wholesale trade",
+    "footnotes": "",
+    "saYearAgo": 6051.8,
+    "saJul": 6065.3,
+    "saAug": 6073.3,
+    "saSep": 6078.3,
+    "change": 5
+  },
+  {
+    "industry": "Merchant wholesalers, durable goods",
+    "footnotes": "",
+    "saYearAgo": 3399.4,
+    "saJul": 3416.1,
+    "saAug": 3422.2,
+    "saSep": 3429.3,
+    "change": 7.1
+  },
+  {
+    "industry": "Merchant wholesalers, nondurable goods",
+    "footnotes": "",
+    "saYearAgo": 2210.9,
+    "saJul": 2203.7,
+    "saAug": 2207,
+    "saSep": 2206.5,
+    "change": -0.5
+  },
+  {
+    "industry": "Wholesale trade agents and brokers",
+    "footnotes": "",
+    "saYearAgo": 441.5,
+    "saJul": 445.5,
+    "saAug": 444.1,
+    "saSep": 442.5,
+    "change": -1.6
+  },
+  {
+    "industry": "Retail trade",
+    "footnotes": "",
+    "saYearAgo": 15453.4,
+    "saJul": 15479.2,
+    "saAug": 15474.1,
+    "saSep": 15479.9,
+    "change": 5.8
+  },
+  {
+    "industry": "Motor vehicle and parts dealers",
+    "footnotes": "",
+    "saYearAgo": 2047.2,
+    "saJul": 2052.2,
+    "saAug": 2051.5,
+    "saSep": 2053.6,
+    "change": 2.1
+  },
+  {
+    "industry": "Automobile dealers",
+    "footnotes": "",
+    "saYearAgo": 1291.6,
+    "saJul": 1286.4,
+    "saAug": 1283.4,
+    "saSep": 1283.3,
+    "change": -0.1
+  },
+  {
+    "industry": "Other motor vehicle dealers",
+    "footnotes": "",
+    "saYearAgo": 158,
+    "saJul": 159.9,
+    "saAug": 159.4,
+    "saSep": 160.5,
+    "change": 1.1
+  },
+  {
+    "industry": "Automotive parts, accessories, and tire retailers",
+    "footnotes": "",
+    "saYearAgo": 597.6,
+    "saJul": 605.9,
+    "saAug": 608.7,
+    "saSep": 609.8,
+    "change": 1.1
+  },
+  {
+    "industry": "Building material and garden equipment and supplies dealers",
+    "footnotes": "",
+    "saYearAgo": 1367.3,
+    "saJul": 1357,
+    "saAug": 1356.1,
+    "saSep": 1360.3,
+    "change": 4.2
+  },
+  {
+    "industry": "Food and beverage retailers",
+    "footnotes": "",
+    "saYearAgo": 3264.2,
+    "saJul": 3253.3,
+    "saAug": 3246.4,
+    "saSep": 3248.1,
+    "change": 1.7
+  },
+  {
+    "industry": "Furniture, home furnishings, electronics, and appliance retailers",
+    "footnotes": "",
+    "saYearAgo": 771.4,
+    "saJul": 755.5,
+    "saAug": 753,
+    "saSep": 751.8,
+    "change": -1.2
+  },
+  {
+    "industry": "Furniture and home furnishings retailers",
+    "footnotes": "",
+    "saYearAgo": 392.8,
+    "saJul": 387.4,
+    "saAug": 387.9,
+    "saSep": 385.6,
+    "change": -2.3
+  },
+  {
+    "industry": "Electronics and appliance retailers",
+    "footnotes": "",
+    "saYearAgo": 378.6,
+    "saJul": 368.1,
+    "saAug": 365.1,
+    "saSep": 366.2,
+    "change": 1.1
+  },
+  {
+    "industry": "General merchandise retailers",
+    "footnotes": "",
+    "saYearAgo": 3246.9,
+    "saJul": 3251.7,
+    "saAug": 3261.8,
+    "saSep": 3257,
+    "change": -4.8
+  },
+  {
+    "industry": "Department stores",
+    "footnotes": "",
+    "saYearAgo": 926.3,
+    "saJul": 944.7,
+    "saAug": 947.8,
+    "saSep": 947.1,
+    "change": -0.7
+  },
+  {
+    "industry": "Warehouse clubs, supercenters, and other general merchandise retailers",
+    "footnotes": "",
+    "saYearAgo": 2320.6,
+    "saJul": 2307,
+    "saAug": 2314,
+    "saSep": 2309.9,
+    "change": -4.1
+  },
+  {
+    "industry": "Health and personal care retailers",
+    "footnotes": "",
+    "saYearAgo": 1056.5,
+    "saJul": 1053.4,
+    "saAug": 1052.1,
+    "saSep": 1048.4,
+    "change": -3.7
+  },
+  {
+    "industry": "Gasoline stations and fuel dealers",
+    "footnotes": "",
+    "saYearAgo": 1052.7,
+    "saJul": 1060.8,
+    "saAug": 1057.8,
+    "saSep": 1065.1,
+    "change": 7.3
+  },
+  {
+    "industry": "Clothing, clothing accessories, shoe, and jewelry retailers",
+    "footnotes": "",
+    "saYearAgo": 1150,
+    "saJul": 1151.7,
+    "saAug": 1151.9,
+    "saSep": 1152.5,
+    "change": 0.6
+  },
+  {
+    "industry": "Sporting goods, hobby, musical instrument, book, and miscellaneous retailers",
+    "footnotes": "",
+    "saYearAgo": 1497.2,
+    "saJul": 1543.6,
+    "saAug": 1543.5,
+    "saSep": 1543.1,
+    "change": -0.4
+  },
+  {
+    "industry": "Transportation and warehousing",
+    "footnotes": "",
+    "saYearAgo": 6618.5,
+    "saJul": 6597.8,
+    "saAug": 6601.1,
+    "saSep": 6608.7,
+    "change": 7.6
+  },
+  {
+    "industry": "Air transportation",
+    "footnotes": "",
+    "saYearAgo": 570.2,
+    "saJul": 568.3,
+    "saAug": 567.3,
+    "saSep": 568.5,
+    "change": 1.2
+  },
+  {
+    "industry": "Rail transportation",
+    "footnotes": "",
+    "saYearAgo": 153.7,
+    "saJul": 148.8,
+    "saAug": 149.2,
+    "saSep": 148.9,
+    "change": -0.3
+  },
+  {
+    "industry": "Water transportation",
+    "footnotes": "",
+    "saYearAgo": 70.8,
+    "saJul": 70.4,
+    "saAug": 70.7,
+    "saSep": 70.9,
+    "change": 0.2
+  },
+  {
+    "industry": "Truck transportation",
+    "footnotes": "",
+    "saYearAgo": 1472.3,
+    "saJul": 1466.3,
+    "saAug": 1470.5,
+    "saSep": 1473.1,
+    "change": 2.6
+  },
+  {
+    "industry": "Transit and ground passenger transportation",
+    "footnotes": "",
+    "saYearAgo": 489.7,
+    "saJul": 492.7,
+    "saAug": 497.7,
+    "saSep": 500.8,
+    "change": 3.1
+  },
+  {
+    "industry": "Pipeline transportation",
+    "footnotes": "",
+    "saYearAgo": 56.5,
+    "saJul": 57.2,
+    "saAug": 56.8,
+    "saSep": 56.6,
+    "change": -0.2
+  },
+  {
+    "industry": "Scenic and sightseeing transportation",
+    "footnotes": "",
+    "saYearAgo": 36,
+    "saJul": 32.9,
+    "saAug": 32.6,
+    "saSep": 33.5,
+    "change": 0.9
+  },
+  {
+    "industry": "Support activities for transportation",
+    "footnotes": "",
+    "saYearAgo": 829.4,
+    "saJul": 827.3,
+    "saAug": 831.5,
+    "saSep": 835,
+    "change": 3.5
+  },
+  {
+    "industry": "Couriers and messengers",
+    "footnotes": "",
+    "saYearAgo": 1086.5,
+    "saJul": 1095.4,
+    "saAug": 1088.9,
+    "saSep": 1089.6,
+    "change": 0.7
+  },
+  {
+    "industry": "Warehousing and storage",
+    "footnotes": "",
+    "saYearAgo": 1853.4,
+    "saJul": 1838.5,
+    "saAug": 1835.9,
+    "saSep": 1831.8,
+    "change": -4.1
+  },
+  {
+    "industry": "Utilities",
+    "footnotes": "",
+    "saYearAgo": 601.4,
+    "saJul": 608.9,
+    "saAug": 611,
+    "saSep": 611.5,
+    "change": 0.5
+  },
+  {
+    "industry": "Information",
+    "footnotes": "",
+    "saYearAgo": 2859,
+    "saJul": 2767,
+    "saAug": 2749,
+    "saSep": 2739,
+    "change": -10
+  },
+  {
+    "industry": "Motion picture and sound recording industries",
+    "footnotes": "",
+    "saYearAgo": 348.8,
+    "saJul": 330.4,
+    "saAug": 328.7,
+    "saSep": 328.5,
+    "change": -0.2
+  },
+  {
+    "industry": "Publishing industries",
+    "footnotes": "",
+    "saYearAgo": 913,
+    "saJul": 890,
+    "saAug": 884.4,
+    "saSep": 880.4,
+    "change": -4
+  },
+  {
+    "industry": "Broadcasting and content providers",
+    "footnotes": "",
+    "saYearAgo": 342.5,
+    "saJul": 333.5,
+    "saAug": 331.1,
+    "saSep": 328.1,
+    "change": -3
+  },
+  {
+    "industry": "Telecommunications",
+    "footnotes": "",
+    "saYearAgo": 595.1,
+    "saJul": 569.1,
+    "saAug": 566.3,
+    "saSep": 564.6,
+    "change": -1.7
+  },
+  {
+    "industry": "Computing infrastructure providers, data processing, web hosting, and related services",
+    "footnotes": "",
+    "saYearAgo": 476.3,
+    "saJul": 461.1,
+    "saAug": 455.4,
+    "saSep": 453.8,
+    "change": -1.6
+  },
+  {
+    "industry": "Web search portals, libraries, archives, and other information services",
+    "footnotes": "",
+    "saYearAgo": 183.1,
+    "saJul": 183.2,
+    "saAug": 183.1,
+    "saSep": 183.3,
+    "change": 0.2
+  },
+  {
+    "industry": "Financial activities",
+    "footnotes": "",
+    "saYearAgo": 9189,
+    "saJul": 9098,
+    "saAug": 9089,
+    "saSep": 9082,
+    "change": -7
+  },
+  {
+    "industry": "Finance and insurance",
+    "footnotes": "",
+    "saYearAgo": 6737.9,
+    "saJul": 6659.5,
+    "saAug": 6651.6,
+    "saSep": 6644.6,
+    "change": -7
+  },
+  {
+    "industry": "Monetary authorities-central bank",
+    "footnotes": "",
+    "saYearAgo": 19.6,
+    "saJul": 18.3,
+    "saAug": 18.4,
+    "saSep": 18.3,
+    "change": -0.1
+  },
+  {
+    "industry": "Credit intermediation and related activities",
+    "footnotes": "",
+    "saYearAgo": 2565.1,
+    "saJul": 2530.8,
+    "saAug": 2526.5,
+    "saSep": 2521.9,
+    "change": -4.6
+  },
+  {
+    "industry": "Depository credit intermediation",
+    "footnotes": "1",
+    "saYearAgo": 1787,
+    "saJul": 1769.7,
+    "saAug": 1767.9,
+    "saSep": 1767.1,
+    "change": -0.8
+  },
+  {
+    "industry": "Commercial banking",
+    "footnotes": "",
+    "saYearAgo": 1373,
+    "saJul": 1350.6,
+    "saAug": 1348,
+    "saSep": 1347.5,
+    "change": -0.5
+  },
+  {
+    "industry": "Nondepository credit intermediation",
+    "footnotes": "",
+    "saYearAgo": 497.8,
+    "saJul": 489.8,
+    "saAug": 487.8,
+    "saSep": 485.6,
+    "change": -2.2
+  },
+  {
+    "industry": "Activities related to credit intermediation",
+    "footnotes": "",
+    "saYearAgo": 280.3,
+    "saJul": 271.3,
+    "saAug": 270.8,
+    "saSep": 269.2,
+    "change": -1.6
+  },
+  {
+    "industry": "Securities, commodity contracts, funds, trusts, and other financial vehicles, investments, and related activities",
+    "footnotes": "",
+    "saYearAgo": 1146.8,
+    "saJul": 1172.6,
+    "saAug": 1174,
+    "saSep": 1174,
+    "change": 0
+  },
+  {
+    "industry": "Insurance carriers and related activities",
+    "footnotes": "",
+    "saYearAgo": 3006.4,
+    "saJul": 2937.8,
+    "saAug": 2932.7,
+    "saSep": 2930.4,
+    "change": -2.3
+  },
+  {
+    "industry": "Real estate and rental and leasing",
+    "footnotes": "",
+    "saYearAgo": 2451.3,
+    "saJul": 2438.8,
+    "saAug": 2437.2,
+    "saSep": 2437.7,
+    "change": 0.5
+  },
+  {
+    "industry": "Real estate",
+    "footnotes": "",
+    "saYearAgo": 1853.1,
+    "saJul": 1846.4,
+    "saAug": 1844,
+    "saSep": 1842,
+    "change": -2
+  },
+  {
+    "industry": "Rental and leasing services",
+    "footnotes": "",
+    "saYearAgo": 576.4,
+    "saJul": 571.4,
+    "saAug": 572.2,
+    "saSep": 574.9,
+    "change": 2.7
+  },
+  {
+    "industry": "Lessors of nonfinancial intangible assets (except copyrighted works)",
+    "footnotes": "",
+    "saYearAgo": 21.8,
+    "saJul": 21,
+    "saAug": 21,
+    "saSep": 20.8,
+    "change": -0.2
+  },
+  {
+    "industry": "Professional and business services",
+    "footnotes": "",
+    "saYearAgo": 22359,
+    "saJul": 22496,
+    "saAug": 22491,
+    "saSep": 22482,
+    "change": -9
+  },
+  {
+    "industry": "Professional, scientific, and technical services",
+    "footnotes": "",
+    "saYearAgo": 10760.6,
+    "saJul": 10835.9,
+    "saAug": 10837.2,
+    "saSep": 10843.6,
+    "change": 6.4
+  },
+  {
+    "industry": "Legal services",
+    "footnotes": "",
+    "saYearAgo": 1226.2,
+    "saJul": 1246.1,
+    "saAug": 1247,
+    "saSep": 1249,
+    "change": 2
+  },
+  {
+    "industry": "Accounting, tax preparation, bookkeeping, and payroll services",
+    "footnotes": "",
+    "saYearAgo": 1128.5,
+    "saJul": 1124.7,
+    "saAug": 1122.5,
+    "saSep": 1121.2,
+    "change": -1.3
+  },
+  {
+    "industry": "Architectural, engineering, and related services",
+    "footnotes": "",
+    "saYearAgo": 1733.8,
+    "saJul": 1770.1,
+    "saAug": 1773,
+    "saSep": 1778.8,
+    "change": 5.8
+  },
+  {
+    "industry": "Specialized design services",
+    "footnotes": "",
+    "saYearAgo": 147.8,
+    "saJul": 151,
+    "saAug": 151.4,
+    "saSep": 152.6,
+    "change": 1.2
+  },
+  {
+    "industry": "Computer systems design and related services",
+    "footnotes": "",
+    "saYearAgo": 2387.6,
+    "saJul": 2362,
+    "saAug": 2359.8,
+    "saSep": 2355.4,
+    "change": -4.4
+  },
+  {
+    "industry": "Management, scientific, and technical consulting services",
+    "footnotes": "",
+    "saYearAgo": 1860,
+    "saJul": 1889.3,
+    "saAug": 1889.5,
+    "saSep": 1888.1,
+    "change": -1.4
+  },
+  {
+    "industry": "Scientific research and development services",
+    "footnotes": "",
+    "saYearAgo": 912.2,
+    "saJul": 916.4,
+    "saAug": 916.3,
+    "saSep": 918.3,
+    "change": 2
+  },
+  {
+    "industry": "Advertising, public relations, and related services",
+    "footnotes": "",
+    "saYearAgo": 481.3,
+    "saJul": 477.4,
+    "saAug": 476.8,
+    "saSep": 478.6,
+    "change": 1.8
+  },
+  {
+    "industry": "Other professional, scientific, and technical services",
+    "footnotes": "",
+    "saYearAgo": 883.2,
+    "saJul": 898.9,
+    "saAug": 901,
+    "saSep": 901.6,
+    "change": 0.6
+  },
+  {
+    "industry": "Management of companies and enterprises",
+    "footnotes": "",
+    "saYearAgo": 2627.8,
+    "saJul": 2620.8,
+    "saAug": 2620.1,
+    "saSep": 2619.6,
+    "change": -0.5
+  },
+  {
+    "industry": "Administrative and support and waste management and remediation services",
+    "footnotes": "",
+    "saYearAgo": 8970.1,
+    "saJul": 9039.3,
+    "saAug": 9033.9,
+    "saSep": 9018.6,
+    "change": -15.3
+  },
+  {
+    "industry": "Administrative and support services",
+    "footnotes": "",
+    "saYearAgo": 8449.3,
+    "saJul": 8512.8,
+    "saAug": 8508.2,
+    "saSep": 8490.6,
+    "change": -17.6
+  },
+  {
+    "industry": "Office administrative services",
+    "footnotes": "",
+    "saYearAgo": 616.6,
+    "saJul": 635.6,
+    "saAug": 636.1,
+    "saSep": 632.8,
+    "change": -3.3
+  },
+  {
+    "industry": "Facilities support services",
+    "footnotes": "",
+    "saYearAgo": 180.7,
+    "saJul": 178.5,
+    "saAug": 179.4,
+    "saSep": 180,
+    "change": 0.6
+  },
+  {
+    "industry": "Employment services",
+    "footnotes": "1",
+    "saYearAgo": 3157.4,
+    "saJul": 3197,
+    "saAug": 3195.9,
+    "saSep": 3181.6,
+    "change": -14.3
+  },
+  {
+    "industry": "Temporary help services",
+    "footnotes": "",
+    "saYearAgo": 2471.6,
+    "saJul": 2497.5,
+    "saAug": 2497.7,
+    "saSep": 2486.8,
+    "change": -10.9
+  },
+  {
+    "industry": "Business support services",
+    "footnotes": "",
+    "saYearAgo": 643.4,
+    "saJul": 625.5,
+    "saAug": 622.4,
+    "saSep": 618.2,
+    "change": -4.2
+  },
+  {
+    "industry": "Travel arrangement and reservation services",
+    "footnotes": "",
+    "saYearAgo": 186.3,
+    "saJul": 186.4,
+    "saAug": 185.6,
+    "saSep": 185.6,
+    "change": 0
+  },
+  {
+    "industry": "Investigation and security services",
+    "footnotes": "",
+    "saYearAgo": 1049.1,
+    "saJul": 1048,
+    "saAug": 1046.7,
+    "saSep": 1046.4,
+    "change": -0.3
+  },
+  {
+    "industry": "Services to buildings and dwellings",
+    "footnotes": "",
+    "saYearAgo": 2287.9,
+    "saJul": 2307.4,
+    "saAug": 2309.6,
+    "saSep": 2311,
+    "change": 1.4
+  },
+  {
+    "industry": "Other support services",
+    "footnotes": "",
+    "saYearAgo": 327.9,
+    "saJul": 334.5,
+    "saAug": 332.6,
+    "saSep": 335.2,
+    "change": 2.6
+  },
+  {
+    "industry": "Waste management and remediation services",
+    "footnotes": "",
+    "saYearAgo": 520.8,
+    "saJul": 526.5,
+    "saAug": 525.7,
+    "saSep": 528,
+    "change": 2.3
+  },
+  {
+    "industry": "Private education and health services",
+    "footnotes": "",
+    "saYearAgo": 27489,
+    "saJul": 27947,
+    "saAug": 27985,
+    "saSep": 28005,
+    "change": 20
+  },
+  {
+    "industry": "Private educational services",
+    "footnotes": "",
+    "saYearAgo": 4050.3,
+    "saJul": 4046.1,
+    "saAug": 4049.6,
+    "saSep": 4046.4,
+    "change": -3.2
+  },
+  {
+    "industry": "Health care and social assistance",
+    "footnotes": "",
+    "saYearAgo": 23438.2,
+    "saJul": 23900.5,
+    "saAug": 23935.6,
+    "saSep": 23958.6,
+    "change": 23
+  },
+  {
+    "industry": "Health care",
+    "footnotes": "3",
+    "saYearAgo": 18181.8,
+    "saJul": 18512.5,
+    "saAug": 18536.9,
+    "saSep": 18553.6,
+    "change": 16.7
+  },
+  {
+    "industry": "Ambulatory health care services",
+    "footnotes": "",
+    "saYearAgo": 9053.1,
+    "saJul": 9241.8,
+    "saAug": 9253,
+    "saSep": 9266.4,
+    "change": 13.4
+  },
+  {
+    "industry": "Offices of physicians",
+    "footnotes": "",
+    "saYearAgo": 3024.8,
+    "saJul": 3058.6,
+    "saAug": 3061.6,
+    "saSep": 3062.7,
+    "change": 1.1
+  },
+  {
+    "industry": "Offices of dentists",
+    "footnotes": "",
+    "saYearAgo": 1049.1,
+    "saJul": 1058,
+    "saAug": 1053.6,
+    "saSep": 1057.6,
+    "change": 4
+  },
+  {
+    "industry": "Offices of other health practitioners",
+    "footnotes": "",
+    "saYearAgo": 1309.2,
+    "saJul": 1353.2,
+    "saAug": 1355.6,
+    "saSep": 1362.3,
+    "change": 6.7
+  },
+  {
+    "industry": "Outpatient care centers",
+    "footnotes": "",
+    "saYearAgo": 1179.7,
+    "saJul": 1194.8,
+    "saAug": 1196.3,
+    "saSep": 1199.7,
+    "change": 3.4
+  },
+  {
+    "industry": "Medical and diagnostic laboratories",
+    "footnotes": "",
+    "saYearAgo": 310.9,
+    "saJul": 311.8,
+    "saAug": 310.3,
+    "saSep": 309.6,
+    "change": -0.7
+  },
+  {
+    "industry": "Home health care services",
+    "footnotes": "",
+    "saYearAgo": 1813.5,
+    "saJul": 1884.7,
+    "saAug": 1896.5,
+    "saSep": 1894.2,
+    "change": -2.3
+  },
+  {
+    "industry": "Other ambulatory health care services",
+    "footnotes": "",
+    "saYearAgo": 365.9,
+    "saJul": 380.7,
+    "saAug": 379.1,
+    "saSep": 380.2,
+    "change": 1.1
+  },
+  {
+    "industry": "Hospitals",
+    "footnotes": "",
+    "saYearAgo": 5689.7,
+    "saJul": 5774.4,
+    "saAug": 5785.8,
+    "saSep": 5797.8,
+    "change": 12
+  },
+  {
+    "industry": "Nursing and residential care facilities",
+    "footnotes": "",
+    "saYearAgo": 3439,
+    "saJul": 3496.3,
+    "saAug": 3498.1,
+    "saSep": 3489.4,
+    "change": -8.7
+  },
+  {
+    "industry": "Skilled nursing care facilities",
+    "footnotes": "",
+    "saYearAgo": 1557.3,
+    "saJul": 1588.8,
+    "saAug": 1589,
+    "saSep": 1587.4,
+    "change": -1.6
+  },
+  {
+    "industry": "Residential intellectual and developmental disability, mental health, and substance abuse facilities",
+    "footnotes": "",
+    "saYearAgo": 695.9,
+    "saJul": 707.6,
+    "saAug": 707.9,
+    "saSep": 708.9,
+    "change": 1
+  },
+  {
+    "industry": "Continuing care retirement communities and assisted living facilities for the elderly",
+    "footnotes": "",
+    "saYearAgo": 1013.9,
+    "saJul": 1028,
+    "saAug": 1029.1,
+    "saSep": 1022.1,
+    "change": -7
+  },
+  {
+    "industry": "Other residential care facilities",
+    "footnotes": "",
+    "saYearAgo": 171.9,
+    "saJul": 172,
+    "saAug": 172.2,
+    "saSep": 171.1,
+    "change": -1.1
+  },
+  {
+    "industry": "Social assistance",
+    "footnotes": "",
+    "saYearAgo": 5256.4,
+    "saJul": 5388,
+    "saAug": 5398.7,
+    "saSep": 5405,
+    "change": 6.3
+  },
+  {
+    "industry": "Individual and family services",
+    "footnotes": "",
+    "saYearAgo": 3648.8,
+    "saJul": 3782.4,
+    "saAug": 3791.1,
+    "saSep": 3801.6,
+    "change": 10.5
+  },
+  {
+    "industry": "Community food and housing, and emergency and other relief services",
+    "footnotes": "",
+    "saYearAgo": 234.1,
+    "saJul": 236.3,
+    "saAug": 238,
+    "saSep": 238.2,
+    "change": 0.2
+  },
+  {
+    "industry": "Vocational rehabilitation services",
+    "footnotes": "",
+    "saYearAgo": 279.7,
+    "saJul": 279.1,
+    "saAug": 281,
+    "saSep": 279,
+    "change": -2
+  },
+  {
+    "industry": "Child care services",
+    "footnotes": "",
+    "saYearAgo": 1093.9,
+    "saJul": 1090.2,
+    "saAug": 1088.6,
+    "saSep": 1086.3,
+    "change": -2.3
+  },
+  {
+    "industry": "Leisure and hospitality",
+    "footnotes": "",
+    "saYearAgo": 16907,
+    "saJul": 16922,
+    "saAug": 16959,
+    "saSep": 16969,
+    "change": 10
+  },
+  {
+    "industry": "Arts, entertainment, and recreation",
+    "footnotes": "",
+    "saYearAgo": 2701.7,
+    "saJul": 2660.4,
+    "saAug": 2656.6,
+    "saSep": 2659.1,
+    "change": 2.5
+  },
+  {
+    "industry": "Performing arts, spectator sports, and related industries",
+    "footnotes": "",
+    "saYearAgo": 609.6,
+    "saJul": 590.4,
+    "saAug": 589.5,
+    "saSep": 596.2,
+    "change": 6.7
+  },
+  {
+    "industry": "Museums, historical sites, and similar institutions",
+    "footnotes": "",
+    "saYearAgo": 180.2,
+    "saJul": 183.3,
+    "saAug": 183.7,
+    "saSep": 182.6,
+    "change": -1.1
+  },
+  {
+    "industry": "Amusement, gambling, and recreation industries",
+    "footnotes": "",
+    "saYearAgo": 1911.9,
+    "saJul": 1886.7,
+    "saAug": 1883.4,
+    "saSep": 1880.3,
+    "change": -3.1
+  },
+  {
+    "industry": "Accommodation and food services",
+    "footnotes": "",
+    "saYearAgo": 14205.3,
+    "saJul": 14261.8,
+    "saAug": 14302.3,
+    "saSep": 14309.5,
+    "change": 7.2
+  },
+  {
+    "industry": "Accommodation",
+    "footnotes": "",
+    "saYearAgo": 1921.4,
+    "saJul": 1913.4,
+    "saAug": 1920.1,
+    "saSep": 1916.5,
+    "change": -3.6
+  },
+  {
+    "industry": "Food services and drinking places",
+    "footnotes": "",
+    "saYearAgo": 12283.9,
+    "saJul": 12348.4,
+    "saAug": 12382.2,
+    "saSep": 12393,
+    "change": 10.8
+  },
+  {
+    "industry": "Other services",
+    "footnotes": "",
+    "saYearAgo": 6005,
+    "saJul": 6030,
+    "saAug": 6033,
+    "saSep": 6039,
+    "change": 6
+  },
+  {
+    "industry": "Repair and maintenance",
+    "footnotes": "",
+    "saYearAgo": 1476.3,
+    "saJul": 1480.1,
+    "saAug": 1476.8,
+    "saSep": 1472.9,
+    "change": -3.9
+  },
+  {
+    "industry": "Personal and laundry services",
+    "footnotes": "",
+    "saYearAgo": 1600.3,
+    "saJul": 1611.3,
+    "saAug": 1620.9,
+    "saSep": 1621.1,
+    "change": 0.2
+  },
+  {
+    "industry": "Religious, grantmaking, civic, professional, and similar organizations",
+    "footnotes": "",
+    "saYearAgo": 2928.8,
+    "saJul": 2938.9,
+    "saAug": 2935.2,
+    "saSep": 2944.6,
+    "change": 9.4
+  },
+  {
+    "industry": "Government",
+    "footnotes": "",
+    "saYearAgo": 23543,
+    "saJul": 23300,
+    "saAug": 23344,
+    "saSep": 23327,
+    "change": -17
+  },
+  {
+    "industry": "Federal",
+    "footnotes": "",
+    "saYearAgo": 2914,
+    "saJul": 2686,
+    "saAug": 2683,
+    "saSep": 2682,
+    "change": -1
+  },
+  {
+    "industry": "Federal, except U.S. Postal Service",
+    "footnotes": "",
+    "saYearAgo": 2321.5,
+    "saJul": 2083.5,
+    "saAug": 2082.6,
+    "saSep": 2083.3,
+    "change": 0.7
+  },
+  {
+    "industry": "U.S. Postal Service",
+    "footnotes": "",
+    "saYearAgo": 592.7,
+    "saJul": 602.1,
+    "saAug": 600.3,
+    "saSep": 598.4,
+    "change": -1.9
+  },
+  {
+    "industry": "State government",
+    "footnotes": "",
+    "saYearAgo": 5497,
+    "saJul": 5482,
+    "saAug": 5475,
+    "saSep": 5472,
+    "change": -3
+  },
+  {
+    "industry": "State government education",
+    "footnotes": "",
+    "saYearAgo": 2621.2,
+    "saJul": 2616.7,
+    "saAug": 2604.5,
+    "saSep": 2601.8,
+    "change": -2.7
+  },
+  {
+    "industry": "State government, excluding education",
+    "footnotes": "",
+    "saYearAgo": 2875.3,
+    "saJul": 2864.8,
+    "saAug": 2870.3,
+    "saSep": 2870.6,
+    "change": 0.3
+  },
+  {
+    "industry": "Local government",
+    "footnotes": "",
+    "saYearAgo": 15132,
+    "saJul": 15132,
+    "saAug": 15186,
+    "saSep": 15173,
+    "change": -13
+  },
+  {
+    "industry": "Local government education",
+    "footnotes": "",
+    "saYearAgo": 8234,
+    "saJul": 8157.4,
+    "saAug": 8206.7,
+    "saSep": 8204.9,
+    "change": -1.8
+  },
+  {
+    "industry": "Local government, excluding education",
+    "footnotes": "",
+    "saYearAgo": 6898.4,
+    "saJul": 6974.4,
+    "saAug": 6978.9,
+    "saSep": 6968.3,
+    "change": -10.6
+  }
+]

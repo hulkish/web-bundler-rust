@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webbundler examples</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #f4efe6;
+        --muted: #b7aa9a;
+        --line: rgb(244 239 230 / 16%);
+        --paper: #161513;
+        --panel: #1d1b17;
+        --gold: #d6c07a;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+      }
+
+      a { color: inherit; }
+
+      .top {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem 2rem;
+        align-items: end;
+        justify-content: space-between;
+        padding: 1.4rem 1.4rem 1rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .eyebrow {
+        margin: 0;
+        color: var(--gold);
+        font-size: 0.75rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0.15rem 0 0;
+        font-family: Palatino, "Iowan Old Style", serif;
+        font-weight: 500;
+        font-size: 2.4rem;
+      }
+
+      .lede {
+        max-width: 36rem;
+        margin: 0.45rem 0 0;
+        color: var(--muted);
+      }
+
+      .find {
+        display: grid;
+        gap: 0.35rem;
+        min-width: min(100%, 18rem);
+        color: var(--muted);
+        font-size: 0.75rem;
+      }
+
+      input[type="search"] {
+        font: inherit;
+        color: var(--ink);
+        background: #100e0c;
+        border: 1px solid var(--line);
+        padding: 0.45rem 0.6rem;
+      }
+
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        align-items: center;
+        padding: 0.7rem 1.4rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .filters p {
+        margin: 0 0.4rem 0 0;
+        color: var(--muted);
+        font-size: 0.75rem;
+      }
+
+      .chip, .ghost {
+        font: inherit;
+        color: var(--ink);
+        background: transparent;
+        border: 1px solid var(--line);
+        padding: 0.2rem 0.5rem;
+        cursor: pointer;
+      }
+
+      .chip[aria-pressed="true"] {
+        background: var(--gold);
+        color: #1a160c;
+        border-color: var(--gold);
+      }
+
+      .shell {
+        display: grid;
+        grid-template-columns: 17rem minmax(0, 1fr);
+        align-items: start;
+      }
+
+      .outline {
+        position: sticky;
+        top: 0;
+        max-height: 100vh;
+        overflow: auto;
+        padding: 0.8rem 0.9rem 2rem;
+        border-right: 1px solid var(--line);
+      }
+
+      .outline h2 {
+        margin: 1rem 0 0.35rem;
+        color: var(--muted);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      details { margin: 0.15rem 0; }
+
+      summary {
+        cursor: pointer;
+        padding: 0.28rem 0.2rem;
+        list-style: none;
+      }
+
+      summary::-webkit-details-marker { display: none; }
+
+      summary::before {
+        content: "▸";
+        display: inline-block;
+        width: 1rem;
+        color: var(--gold);
+      }
+
+      details[open] > summary::before { content: "▾"; }
+
+      summary a {
+        text-decoration: none;
+      }
+
+      summary a[aria-current="true"] { color: var(--gold); }
+
+      .parts {
+        display: grid;
+        margin: 0 0 0.35rem 1rem;
+        padding: 0;
+        list-style: none;
+      }
+
+      .parts a {
+        display: block;
+        padding: 0.18rem 0;
+        color: var(--muted);
+        font-size: 0.86rem;
+        text-decoration: none;
+      }
+
+      .parts a:hover { color: var(--ink); }
+
+      .catalog { padding: 0.4rem 1.4rem 3rem; }
+
+      article {
+        padding: 1.3rem 0 1.5rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .kind {
+        margin: 0;
+        color: var(--gold);
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      article h2 {
+        margin: 0.2rem 0;
+        font-family: Palatino, "Iowan Old Style", serif;
+        font-weight: 500;
+        font-size: 1.8rem;
+      }
+
+      .summary { margin: 0.3rem 0 0.8rem; max-width: 42rem; }
+
+      .actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 0.9rem; }
+
+      .open, .actions a, .copy {
+        display: inline-block;
+        padding: 0.35rem 0.7rem;
+        border: 1px solid var(--line);
+        text-decoration: none;
+        font: inherit;
+        color: inherit;
+        background: transparent;
+        cursor: pointer;
+      }
+
+      .open { background: var(--gold); color: #1a160c; border-color: var(--gold); }
+
+      .tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0; padding: 0; list-style: none; }
+
+      .tags li {
+        color: var(--muted);
+        border: 1px solid var(--line);
+        padding: 0.12rem 0.4rem;
+        font-size: 0.75rem;
+      }
+
+      .block { margin-top: 1rem; }
+
+      .block h3 {
+        margin: 0 0 0.4rem;
+        font-size: 0.78rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .tree { margin: 0; padding: 0; list-style: none; }
+
+      .tree li {
+        display: grid;
+        grid-template-columns: minmax(9rem, 16rem) minmax(0, 1fr);
+        gap: 0.8rem;
+        padding: 0.35rem 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .tree a { text-underline-offset: 0.15em; }
+
+      .tree span { color: var(--muted); }
+
+      .run {
+        display: flex;
+        gap: 0.8rem;
+        align-items: start;
+        margin: 0 0 0.6rem;
+      }
+
+      pre {
+        flex: 1;
+        margin: 0;
+        padding: 0.7rem 0.8rem;
+        overflow: auto;
+        white-space: pre-wrap;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        font-size: 0.86rem;
+        line-height: 1.45;
+      }
+
+      .empty {
+        color: var(--muted);
+        padding: 2rem 0;
+      }
+
+      [hidden] { display: none !important; }
+
+      @media (max-width: 800px) {
+        h1 { font-size: 2rem; }
+        .shell { display: block; }
+        .outline {
+          position: sticky;
+          top: 0;
+          z-index: 2;
+          display: flex;
+          gap: 0.9rem;
+          max-height: none;
+          overflow: auto;
+          padding: 0.65rem 0.9rem;
+          background: var(--paper);
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+        .outline h2, .outline .parts, .outline summary::before { display: none; }
+        .outline details { margin: 0; }
+        .outline summary { padding: 0; white-space: nowrap; }
+        article { scroll-margin-top: 3.2rem; }
+        .tree li { grid-template-columns: 1fr; gap: 0.15rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="eyebrow">webbundler</p>
+        <h1>Examples</h1>
+        <p class="lede">Eleven programs. Five open in the browser. The rest bundle to a Node script. Build a preview before opening its page.</p>
+      </div>
+      <label class="find">Search
+        <input id="q" type="search" placeholder="Name, file, or feature" autocomplete="off">
+      </label>
+    </header>
+    <div class="filters" id="filters"></div>
+    <div class="shell">
+      <nav class="outline" id="outline" aria-label="Example outline"></nav>
+      <main class="catalog" id="catalog"></main>
+    </div>
+    <script>
+      const featureOrder = [
+        "TypeScript",
+        "JSX",
+        "JSON",
+        "CSS",
+        "Assets",
+        "Tree shaking",
+        "Defines",
+        "Source maps",
+        "Minify",
+        "Code splitting",
+        "Packages",
+        "Externals",
+        "Node built-ins",
+        "Top-level await",
+        "CommonJS",
+        "Dynamic import",
+        "Live bindings",
+        "import.meta",
+      ];
+
+      const examples = [
+        {
+          id: "observatory",
+          name: "Observatory",
+          group: "Browser",
+          summary: "Night station for the Node target, plus a separate browser page that redraws the card. The Node bundle keeps require(\"path\"); the page does not.",
+          page: "observatory/preview/index.html",
+          readme: "observatory/README.md",
+          features: ["TypeScript", "JSX", "JSON", "CSS", "Assets", "Tree shaking", "Defines", "Source maps", "Packages", "Node built-ins", "Top-level await", "CommonJS", "Dynamic import", "import.meta"],
+          parts: [
+            ["Page", "observatory/preview/index.html", "Blue and Red redraw the Ada Ridge card."],
+            ["Browser entry", "observatory/src/ui.ts", "The preview bundle. It does not import legacy.cjs."],
+            ["Node entry", "observatory/src/index.ts", "Top-level await, import.meta, and the production define."],
+            ["Card", "observatory/src/view.tsx", "JSX lowered with the h / Fragment pragma."],
+            ["Station", "observatory/src/station/legacy.cjs", "CommonJS, __dirname, and __filename."],
+            ["Styles and plates", "observatory/src/styles/night.css", "CSS is concatenated. The SVG and PNG are copied beside the bundle."],
+            ["Node config", "observatory/webbundler.config.json", "Defines, source map, report, and the JSX pragma."],
+          ],
+          commands: [
+            ["Node log", "cargo run -- --config examples/observatory/webbundler.config.json\nnode examples/observatory/dist/observatory.js"],
+            ["Browser page", "cargo run -- --config examples/observatory/webbundler.ui.json"],
+          ],
+        },
+        {
+          id: "gallery",
+          name: "Gallery",
+          group: "Browser",
+          summary: "A wall of works filtered by room. gallery-theme stays an external import, resolved by the import map on the page.",
+          page: "gallery/preview/index.html",
+          readme: "gallery/README.md",
+          features: ["TypeScript", "JSX", "CSS", "Assets", "Tree shaking", "Defines", "Source maps", "Externals", "Top-level await", "import.meta"],
+          parts: [
+            ["Page", "gallery/preview/index.html", "West, East, and All filter the wall."],
+            ["Entry", "gallery/src/main.tsx", "Browser target. A Node built-in here would fail the build."],
+            ["Frames", "gallery/src/frame.tsx", "A list of elements, a spread attribute, and two images."],
+            ["Catalog", "gallery/src/works.ts", "droppedCaption is unused and leaves the bundle."],
+            ["Theme", "gallery/node_modules/gallery-theme/index.js", "Left external. GALLERY_THEME_SECRET stays in this file."],
+            ["Config", "gallery/webbundler.config.json", "target browser, external gallery-theme, room define \"west\"."],
+          ],
+          commands: [
+            ["Node log", "cargo run -- --config examples/gallery/webbundler.config.json\nnode examples/gallery/dist/gallery.js"],
+            ["Browser page", "cargo run -- --config examples/gallery/webbundler.ui.json"],
+          ],
+        },
+        {
+          id: "desk",
+          name: "Desk",
+          group: "Browser",
+          summary: "Reader and editor share a shelf, a catalog, a stylesheet, and the ink package. The Node build writes those once to chunk.js. The page shows both panes in one bundle.",
+          page: "desk/preview/index.html",
+          readme: "desk/README.md",
+          features: ["TypeScript", "JSON", "CSS", "Tree shaking", "Defines", "Source maps", "Packages", "Code splitting"],
+          parts: [
+            ["Page", "desk/preview/index.html", "Reader shows the preface. Editor takes a margin note."],
+            ["Reader", "desk/src/reader.ts", "One Node entry."],
+            ["Editor", "desk/src/editor.ts", "The other Node entry. scrap.ts is unused and omitted."],
+            ["Shared shelf", "desk/src/shared/shelf.ts", "Reached by both entries, so the Node build puts it in chunk.js."],
+            ["Catalog", "desk/src/shared/catalog.json", "Shared JSON."],
+            ["Config", "desk/webbundler.config.json", "Two entries, one output directory, shared bundle.css."],
+          ],
+          commands: [
+            ["Node logs", "cargo run -- --config examples/desk/webbundler.config.json\nnode examples/desk/dist/reader.js\nnode examples/desk/dist/editor.js"],
+            ["Browser page", "cargo run -- --config examples/desk/webbundler.ui.json"],
+          ],
+        },
+        {
+          id: "beacon",
+          name: "Beacon",
+          group: "Browser",
+          summary: "The minified build. Defines turn constant branches into dead code, and minify drops them. The browser page uses the same readings without minifying the page script.",
+          page: "beacon/preview/index.html",
+          readme: "beacon/README.md",
+          features: ["TypeScript", "JSON", "CSS", "Assets", "Tree shaking", "Defines", "Source maps", "Minify", "Packages", "Top-level await", "CommonJS", "Dynamic import", "import.meta"],
+          parts: [
+            ["Page", "beacon/preview/index.html", "Close shutter dims the lamp. Open shutter lights it."],
+            ["Entry", "beacon/src/index.ts", "BEACON_ARMED and NODE_ENV are compile-time constants."],
+            ["Chain", "beacon/src/chain/c.ts", "Three modules await in a chain. The printed chain is 3."],
+            ["Paths", "beacon/src/paths/here.cjs", "__filename and __dirname for this file and the nested one."],
+            ["Lamp", "beacon/src/assets/lamp.svg", "Copied beside the bundle."],
+            ["Config", "beacon/webbundler.config.json", "minify and sourcemap both on."],
+          ],
+          commands: [
+            ["Minified log", "cargo run -- --config examples/beacon/webbundler.config.json\nnode examples/beacon/dist/beacon.js"],
+            ["Browser page", "cargo run -- --config examples/beacon/webbundler.ui.json"],
+          ],
+        },
+        {
+          id: "economy",
+          name: "Economy",
+          group: "Browser",
+          summary: "Workbook of the US statistics already published on October 3, 2026, now including the August CPI detail tables and the September payroll industry table. Sort, filter, outline, formulas, pins, and derived checks over those published cells.",
+          page: "economy/preview/index.html",
+          readme: "economy/README.md",
+          features: ["JSON", "CSS", "Source maps"],
+          parts: [
+            ["Page", "economy/preview/index.html", "Ledger through jobless spells."],
+            ["Entry", "economy/src/main.js", "Prints the five headlines, then mounts the grid."],
+            ["Readings", "economy/src/data.js", "Published figures, the August CPI tables, and the September industry table."],
+            ["Formulas", "economy/src/formula.js", "The where-clause and formula columns. No eval."],
+            ["Grid", "economy/src/grid.js", "Outline, pins, undo, layouts, and the footer stats."],
+            ["States", "economy/src/states.json", "Eight transcribed July 2026 state rows, plus the CPI and payroll JSON tables."],
+            ["Config", "economy/webbundler.config.json", "One browser bundle and a source map."],
+          ],
+          commands: [
+            ["Browser page", "cargo run -- --config examples/economy/webbundler.config.json"],
+          ],
+        },
+        {
+          id: "foundry",
+          name: "Foundry",
+          group: "Browser",
+          summary: "Four Three.js scenes: an orrery, an instanced yard, a displaced shader, and a shuttle riding a curve. Drag to orbit.",
+          page: "foundry/preview/index.html",
+          readme: "foundry/README.md",
+          features: ["JSON", "CSS", "Packages", "Defines", "Source maps"],
+          parts: [
+            ["Page", "foundry/preview/index.html", "Orrery, Yard, Glass, and Loom."],
+            ["Entry", "foundry/src/main.js", "Prints the scene count and the Three revision, then mounts the stage."],
+            ["Stage", "foundry/src/stage.js", "WebGL renderer, camera, and OrbitControls."],
+            ["Scenes", "foundry/src/scenes", "Orrery, instanced yard, shader glass, and the loom curve."],
+            ["Catalog", "foundry/src/catalog.json", "Titles and blurbs for the four scenes."],
+            ["Packages", "foundry/package.json", "Three.js 0.186."],
+            ["Config", "foundry/webbundler.config.json", "Browser ESM bundle, production define, source map."],
+          ],
+          commands: [
+            ["Browser page", "npm install --prefix examples/foundry\ncargo run -- --config examples/foundry/webbundler.config.json"],
+          ],
+        },
+        {
+          id: "storybook",
+          name: "Storybook",
+          group: "Browser",
+          summary: "A React workshop of 107 UI components and 535 stories: data grid, menus, dialogs, inputs, charts, and seven Three.js scenes, including a city, a portrait, and a Milky Way galaxy. @storybook/react composeStory builds each variant.",
+          page: "storybook/preview/index.html",
+          readme: "storybook/README.md",
+          features: ["JSX", "CSS", "Packages", "Defines", "Source maps"],
+          parts: [
+            ["Page", "storybook/preview/index.html", "Search, open a story, and edit its args."],
+            ["Entry", "storybook/src/main.jsx", "Prints the catalog size, then mounts the workshop."],
+            ["Catalog", "storybook/src/catalog.js", "107 components, five stories each, composed with composeStory."],
+            ["Components", "storybook/src/components", "Data grid, menu, dialog, tabs, inputs, charts, and the Three.js scenes."],
+            ["Three", "storybook/src/components/three", "Portrait, city, Milky Way, orrery, yard, glass shader, and loom, each a Storybook story."],
+            ["Shell", "storybook/src/shell.jsx", "Sidebar, canvas, controls, docs, and actions."],
+            ["Packages", "storybook/package.json", "React 19.3 and Storybook 10.6."],
+            ["Config", "storybook/webbundler.config.json", "Browser ESM bundle, production define, source map."],
+          ],
+          commands: [
+            ["Browser page", "npm install --prefix examples/storybook\ncargo run -- --config examples/storybook/webbundler.config.json"],
+          ],
+        },
+        {
+          id: "app",
+          name: "App",
+          group: "Node",
+          summary: "The smallest program. Named imports, a local module, and a JSON file. It prints Hello Ada, the answer is 20.",
+          features: ["JSON"],
+          parts: [
+            ["Entry", "app/index.js", "mul(add(2, 3), factor) passed to greet."],
+            ["Math", "app/math.js", "add and mul."],
+            ["Greeting", "app/greet.js", "The sentence the program prints."],
+            ["Data", "app/data.json", "name Ada, factor 4."],
+          ],
+          commands: [
+            ["Bundle and run", "cargo run -- examples/app/index.js -o dist/bundle.js\nnode dist/bundle.js"],
+          ],
+        },
+        {
+          id: "shop",
+          name: "Shop",
+          group: "Node",
+          summary: "A checkout. The cart and the quote import each other, and the live itemCount export turns on the bulk discount at 3.",
+          features: ["JSON", "Live bindings"],
+          parts: [
+            ["Entry", "shop/index.js", "Adds a notebook and a pencil, then prints the receipt."],
+            ["Cart", "shop/cart/cart.js", "export let itemCount. Callers see it change."],
+            ["Quote", "shop/pricing/quote.js", "Imports the cart. The cart imports the quote."],
+            ["Catalog", "shop/catalog/index.js", "Directory index for products and inventory."],
+            ["Products", "shop/data/products.json", "Catalog JSON, with tax beside it."],
+          ],
+          commands: [
+            ["Bundle and run", "cargo run -- examples/shop/index.js -o dist/shop.js\nnode dist/shop.js"],
+          ],
+        },
+        {
+          id: "feed",
+          name: "Feed",
+          group: "Node",
+          summary: "A small static-site pipeline: JSON posts, a CommonJS word counter, export *, a dynamic renderer import, and Node's path and url.",
+          features: ["JSON", "CommonJS", "Dynamic import", "Packages", "Node built-ins"],
+          parts: [
+            ["Entry", "feed/index.js", "Builds the feed and renders it as text and HTML."],
+            ["Pipeline", "feed/pipeline/index.js", "Assembles posts and re-exports the markdown helpers."],
+            ["Word count", "feed/pipeline/stats.cjs", "CommonJS counter."],
+            ["Renderers", "feed/loaders/select.js", "Dynamic import of the HTML or plain renderer, from a string literal."],
+            ["Source path", "feed/site/source.js", "path and url built-ins stay external."],
+            ["Slug package", "feed/node_modules/slug/package.json", "A local package resolved through exports."],
+          ],
+          commands: [
+            ["Bundle and run", "cargo run -- examples/feed/index.js -o dist/feed.js\nnode dist/feed.js"],
+          ],
+        },
+        {
+          id: "release",
+          name: "Release",
+          group: "Node",
+          summary: "A release note assembled from packages in node_modules. minimist, ms, chalk, and marked are bundled, including their dependencies.",
+          features: ["Packages"],
+          parts: [
+            ["Entry", "release/index.js", "Writes the note to stdout."],
+            ["Note", "release/render.js", "Flags, age, a colored heading, and a markdown body."],
+            ["Packages", "release/package.json", "chalk 4, marked 14, minimist, and ms."],
+          ],
+          commands: [
+            ["Bundle and run", "cargo run -- examples/release/index.js -o dist/release.js\nnode dist/release.js"],
+          ],
+        },
+        {
+          id: "server",
+          name: "Server",
+          group: "Node",
+          summary: "A book shelf on Node's http module: ten hand-set books plus a press run of 4,000, with authors, stacks, series, tags, a timeline, loans, compare, chapter notes, a site map, and a JSON catalog. Lists are paged. The http built-in stays external. escape-html, marked, date-fns, slugify, reading-time, and mime-types are bundled.",
+          features: ["JSON", "Packages", "Node built-ins", "Defines", "Source maps"],
+          parts: [
+            ["Entry", "server/index.js", "Listens on PORT or 3000, on 127.0.0.1."],
+            ["Router", "server/http/router.js", "HTML rooms and the /api tree."],
+            ["Catalog", "server/books/catalog.js", "Books, shelves, authors, series, timeline, loans, and compare."],
+            ["Shelf", "server/pages/home.js", "Search by text, stack, tag, and status."],
+            ["Book", "server/pages/book.js", "A book and its chapters."],
+            ["Data", "server/data/books.json", "Ten hand-set books, data/shelves.json, and the 4,000-volume press run in books/press.js."],
+            ["Packages", "server/package.json", "The libraries the pages import."],
+          ],
+          commands: [
+            ["Bundle and run", "cargo run -- --config examples/server/webbundler.config.json\nnode examples/server/dist/bundle.js"],
+          ],
+        },
+        {
+          id: "audit",
+          name: "Audit",
+          group: "Node",
+          summary: "Reads a fixture directory and writes a report. The graph pulls in commander, gray-matter, papaparse, markdown-it, highlight.js, cheerio, semver, diff, date-fns, slugify, and chalk.",
+          features: ["Packages", "Node built-ins"],
+          parts: [
+            ["Entry", "audit/index.js", "commander flags, then audit() over the fixtures."],
+            ["Report", "audit/audit.js", "Loads notes, a changelog, events.csv, and manifest.yml."],
+            ["Fixtures", "audit/fixtures/notes/packing.md", "Sample notes, with a changelog and a CSV beside them."],
+            ["Packages", "audit/package.json", "The direct dependencies."],
+          ],
+          commands: [
+            ["Bundle and run", "cargo run -- examples/audit/index.js -o dist/audit.js\nnode dist/audit.js"],
+          ],
+        },
+      ];
+
+      const state = { query: "", features: new Set() };
+      const outline = document.querySelector("#outline");
+      const catalog = document.querySelector("#catalog");
+      const filters = document.querySelector("#filters");
+      const search = document.querySelector("#q");
+
+      search.addEventListener("input", () => {
+        state.query = search.value.trim().toLowerCase();
+        paint();
+      });
+
+      filters.addEventListener("click", (event) => {
+        const button = event.target.closest("button");
+        if (!button) return;
+        if (button.dataset.clear) {
+          state.features.clear();
+        } else {
+          const feature = button.dataset.feature;
+          if (state.features.has(feature)) state.features.delete(feature);
+          else state.features.add(feature);
+        }
+        paint();
+      });
+
+      outline.addEventListener("click", (event) => {
+        const link = event.target.closest("a[href^='#']");
+        if (!link) return;
+        const id = link.getAttribute("href").slice(1);
+        const details = link.closest("details");
+        if (details) details.open = true;
+        const section = document.getElementById(id);
+        if (section) {
+          event.preventDefault();
+          history.replaceState(null, "", "#" + id);
+          section.scrollIntoView({ block: "start" });
+          markCurrent(id);
+        }
+      });
+
+      catalog.addEventListener("click", async (event) => {
+        const button = event.target.closest(".copy");
+        if (!button) return;
+        const text = button.parentElement.querySelector("pre").textContent;
+        try {
+          await navigator.clipboard.writeText(text);
+          button.textContent = "Copied";
+        } catch (error) {
+          button.textContent = "Copy failed";
+        }
+        setTimeout(() => {
+          button.textContent = "Copy";
+        }, 1200);
+      });
+
+      function matches(example) {
+        if (state.features.size) {
+          const hit = example.features.some((feature) => state.features.has(feature));
+          if (!hit) return false;
+        }
+        if (!state.query) return true;
+        const haystack = [
+          example.name,
+          example.group,
+          example.summary,
+          example.features.join(" "),
+          example.parts.map((part) => part.join(" ")).join(" "),
+        ].join(" ").toLowerCase();
+        return haystack.includes(state.query);
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+
+      function paint() {
+        const shown = examples.filter(matches);
+        const shownIds = new Set(shown.map((example) => example.id));
+        const used = new Set(examples.flatMap((example) => example.features));
+        const chips = featureOrder.filter((feature) => used.has(feature));
+
+        filters.innerHTML = `<p>${shown.length} of ${examples.length}</p>` + chips.map((feature) => {
+          const on = state.features.has(feature) ? "true" : "false";
+          return `<button type="button" class="chip" data-feature="${escapeHtml(feature)}" aria-pressed="${on}">${escapeHtml(feature)}</button>`;
+        }).join("") + (state.features.size ? `<button type="button" class="ghost" data-clear="1">Clear</button>` : "");
+
+        const groups = ["Browser", "Node"];
+        outline.innerHTML = groups.map((group) => {
+          const items = examples.filter((example) => example.group === group && shownIds.has(example.id));
+          if (!items.length) return "";
+          const blocks = items.map((example) => {
+            const parts = example.parts.map((part) => `<li><a href="${escapeHtml(part[1])}">${escapeHtml(part[0])}</a></li>`).join("");
+            return `<details id="nav-${example.id}" ${state.query || state.features.size ? "open" : ""}>
+              <summary><a href="#${example.id}">${escapeHtml(example.name)}</a></summary>
+              <ul class="parts">${parts}</ul>
+            </details>`;
+          }).join("");
+          return `<h2>${group}</h2>${blocks}`;
+        }).join("");
+
+        if (!shown.length) {
+          catalog.innerHTML = `<p class="empty">Nothing in the outline matches.</p>`;
+          return;
+        }
+
+        catalog.innerHTML = shown.map((example) => {
+          const open = example.page ? `<a class="open" href="${escapeHtml(example.page)}">Open page</a>` : "";
+          const notes = example.readme ? `<a href="${escapeHtml(example.readme)}">Notes</a>` : "";
+          const tags = example.features.map((feature) => `<li>${escapeHtml(feature)}</li>`).join("");
+          const tree = example.parts.map((part) => `<li><a href="${escapeHtml(part[1])}">${escapeHtml(part[0])}</a><span>${escapeHtml(part[2])}</span></li>`).join("");
+          const runs = example.commands.map((command) => `<div class="run"><pre>${escapeHtml(command[1])}</pre><button type="button" class="copy">Copy</button></div>`).join("");
+          return `<article id="${example.id}">
+            <p class="kind">${escapeHtml(example.group)}</p>
+            <h2>${escapeHtml(example.name)}</h2>
+            <p class="summary">${escapeHtml(example.summary)}</p>
+            <p class="actions">${open}${notes}</p>
+            <ul class="tags">${tags}</ul>
+            <div class="block">
+              <h3>Outline</h3>
+              <ul class="tree">${tree}</ul>
+            </div>
+            <div class="block">
+              <h3>Run</h3>
+              ${runs}
+            </div>
+          </article>`;
+        }).join("");
+
+        const hash = location.hash.slice(1);
+        if (shownIds.has(hash)) markCurrent(hash);
+      }
+
+      function markCurrent(id) {
+        outline.querySelectorAll("summary a").forEach((link) => {
+          const on = link.getAttribute("href") === "#" + id;
+          if (on) link.setAttribute("aria-current", "true");
+          else link.removeAttribute("aria-current");
+          if (on) link.closest("details").open = true;
+        });
+      }
+
+      paint();
+      if (location.hash && document.getElementById(location.hash.slice(1))) {
+        document.getElementById(location.hash.slice(1)).scrollIntoView();
+        markCurrent(location.hash.slice(1));
+      }
+    </script>
+  </body>
+</html>

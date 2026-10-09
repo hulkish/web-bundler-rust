@@ -1,0 +1,10 @@
+{
+  "entry": "src/ui.ts",
+  "output": "preview/ui.js",
+  "target": "browser",
+  "sourcemap": true,
+  "define": {
+    "BEACON_ARMED": true,
+    "process.env.NODE_ENV": "\"production\""
+  }
+}

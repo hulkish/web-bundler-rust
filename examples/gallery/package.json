@@ -1,0 +1,6 @@
+{
+  "name": "gallery-example",
+  "private": true,
+  "type": "module",
+  "sideEffects": ["**/*.css", "**/*.svg", "**/*.png"]
+}

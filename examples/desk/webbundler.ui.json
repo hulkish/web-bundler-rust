@@ -1,0 +1,11 @@
+{
+  "entry": "src/ui.ts",
+  "output": "preview/ui.js",
+  "target": "browser",
+  "sourcemap": true,
+  "define": {
+    "DESK_EDITION": "\"folio\"",
+    "DESK_COPIES": 2,
+    "process.env.NODE_ENV": "\"production\""
+  }
+}

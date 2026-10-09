@@ -1,0 +1,12 @@
+{
+  "entries": ["src/reader.ts", "src/editor.ts"],
+  "output": "dist",
+  "format": "esm",
+  "sourcemap": true,
+  "report": true,
+  "define": {
+    "DESK_EDITION": "\"folio\"",
+    "DESK_COPIES": 2,
+    "process.env.NODE_ENV": "\"production\""
+  }
+}

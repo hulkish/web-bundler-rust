@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Observatory</title>
+    <link rel="stylesheet" href="./ui.css">
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        font-family: Palatino, "Iowan Old Style", "Palatino Linotype", serif;
+      }
+      .site-nav {
+        display: flex;
+        gap: 1rem;
+        padding: 0.8rem 1.4rem;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        font-size: 0.85rem;
+      }
+      .site-nav a { color: inherit; }
+      #app { max-width: 52rem; margin: 0 auto; padding: 1.2rem 1.4rem 3rem; }
+      .eyebrow, .lede, .meta, figcaption { letter-spacing: 0.04em; }
+      .eyebrow { text-transform: uppercase; font-size: 0.75rem; opacity: 0.7; }
+      h1 { font-weight: 500; font-size: 2.4rem; margin: 0.2rem 0; }
+      .stats, .assets { display: grid; gap: 0.8rem; }
+      .stats { grid-template-columns: repeat(4, 1fr); margin: 1.4rem 0; }
+      .stats p, .plate-card, .assets figure {
+        margin: 0;
+        padding: 0.8rem;
+        background: rgb(255 255 255 / 4%);
+        border: 1px solid rgb(215 227 255 / 18%);
+      }
+      .stats span, figcaption { display: block; font-size: 0.75rem; opacity: 0.7; }
+      .toolbar { display: flex; gap: 0.5rem; margin-bottom: 0.8rem; }
+      button {
+        font: inherit;
+        color: inherit;
+        background: transparent;
+        border: 1px solid rgb(215 227 255 / 40%);
+        padding: 0.35rem 0.8rem;
+        cursor: pointer;
+      }
+      button[aria-pressed="true"] { background: #d7e3ff; color: #0b1020; }
+      .card { background: #f4f7ff; color: #142033; padding: 1rem; }
+      .card :is(.blue, .red) { margin: 0.4rem 0; }
+      .blue { color: #1d4e89; }
+      .red { color: #8c2f39; }
+      .assets { grid-template-columns: 1.4fr 1fr 1fr; align-items: start; }
+      .plate-list { list-style: none; padding: 0; margin: 0; }
+      .plate-list li { display: flex; justify-content: space-between; padding: 0.35rem 0; border-bottom: 1px solid rgb(215 227 255 / 18%); }
+      img { width: 100%; height: auto; background: white; }
+      .plate-image { image-rendering: pixelated; height: 4rem; object-fit: contain; }
+      @media (max-width: 700px) {
+        .stats, .assets { grid-template-columns: 1fr 1fr; }
+      }
+    </style>
+  </head>
+  <body class="night">
+    <nav class="site-nav">
+      <a href="../../index.html">Examples</a>
+      <a href="./index.html" aria-current="page">Observatory</a>
+      <a href="../../gallery/preview/index.html">Gallery</a>
+      <a href="../../desk/preview/index.html">Desk</a>
+      <a href="../../beacon/preview/index.html">Beacon</a>
+      <a href="../../economy/preview/index.html">Economy</a>
+      <a href="../../foundry/preview/index.html">Foundry</a>
+      <a href="../../storybook/preview/index.html">Storybook</a>
+    </nav>
+    <main id="app">Loading the station…</main>
+    <script type="module" src="./ui.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "site": "Ada Ridge",
+  "nights": 4,
+  "plates": [
+    { "id": "P-12", "exposure": 30 },
+    { "id": "P-13", "exposure": 45 }
+  ]
+}

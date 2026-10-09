@@ -1,0 +1,13 @@
+name: Ship
+asOf: "2024-03-15"
+windowDays: 20
+dependencies:
+  - name: chalk
+    wanted: "^4.1.0"
+    installed: 4.1.2
+  - name: marked
+    wanted: "^15.0.0"
+    installed: 14.1.4
+  - name: semver
+    wanted: ">=7.5.0 <8"
+    installed: 7.7.1

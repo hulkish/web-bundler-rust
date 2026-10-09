@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Folding</title>
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        background: #10141c;
+        color: #e7eefc;
+      }
+      main {
+        max-width: 52rem;
+        margin: 0 auto;
+        padding: 2rem 1.4rem 3rem;
+      }
+      p { color: #b7c3d9; }
+      pre {
+        margin: 0;
+        padding: 1rem;
+        overflow: auto;
+        white-space: pre-wrap;
+        background: #07090e;
+        border: 1px solid rgb(215 227 255 / 18%);
+        font-family: "SFMono-Regular", ui-monospace, monospace;
+        font-size: 0.92rem;
+        line-height: 1.5;
+      }
+      .error { color: #ffb4b4; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Folding</h1>
+      <p>Output from <code>dist/folding.wasm</code>.</p>
+      <pre id="log">Loading folding.wasm…</pre>
+    </main>
+    <script type="module">
+      const log = document.querySelector("#log");
+      const lines = [];
+      const write = (...args) => {
+        lines.push(args.map(String).join(" "));
+        log.textContent = lines.join("\n");
+      };
+      const previous = console.log.bind(console);
+      console.log = (...args) => {
+        write(...args);
+        previous(...args);
+      };
+
+      try {
+        const response = await fetch("../dist/folding.wasm");
+        if (!response.ok) {
+          throw new Error(`could not load folding.wasm (${response.status})`);
+        }
+        const bytes = await response.arrayBuffer();
+        const mod = await WebAssembly.compile(bytes);
+        const wanted = new Set(WebAssembly.Module.imports(mod).map((item) => item.name));
+        let linked = false;
+        let last = null;
+        for (let pages = 1; pages <= 64 && !linked; pages += 1) {
+          const env = {};
+          if (wanted.has("log")) env.log = (value) => write(value);
+          if (wanted.has("memory")) env.memory = new WebAssembly.Memory({ initial: pages });
+          if (wanted.has("run")) {
+            env.run = (ptr, len) => {
+              const src = new TextDecoder().decode(new Uint8Array(env.memory.buffer, ptr, len));
+              const module = { exports: {} };
+              new Function("require", "module", "exports", src)(
+                (name) => { throw new Error(`cannot require ${name}`); },
+                module,
+                module.exports,
+              );
+            };
+          }
+          try {
+            await WebAssembly.instantiate(mod, { env });
+            linked = true;
+          } catch (error) {
+            last = error;
+            if (!(error instanceof WebAssembly.LinkError) || pages === 64) throw error;
+          }
+        }
+        if (!linked) throw last;
+        if (lines.length === 0) log.textContent = "(no console output)";
+      } catch (error) {
+        log.textContent = error instanceof Error ? error.message : String(error);
+        log.classList.add("error");
+      }
+    </script>
+  </body>
+</html>

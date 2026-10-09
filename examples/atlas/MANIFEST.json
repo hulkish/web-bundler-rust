@@ -1,0 +1,2955 @@
+{
+  "javascript": 560,
+  "css": 26,
+  "svg": 40,
+  "png": 40,
+  "externals": 57,
+  "entries": [
+    "catalog",
+    "warehouse",
+    "storefront",
+    "dispatch",
+    "archive",
+    "ledger"
+  ],
+  "javascriptBytes": {
+    "min": 21248,
+    "max": 195242
+  },
+  "cssBytes": {
+    "min": 20505,
+    "max": 153500
+  },
+  "files": [
+    {
+      "path": "src/shared/mod-000.js",
+      "kind": "javascript",
+      "bytes": 21278
+    },
+    {
+      "path": "src/shared/mod-001.js",
+      "kind": "javascript",
+      "bytes": 191309
+    },
+    {
+      "path": "src/shared/mod-002.js",
+      "kind": "javascript",
+      "bytes": 52851
+    },
+    {
+      "path": "src/shared/mod-003.js",
+      "kind": "javascript",
+      "bytes": 66622
+    },
+    {
+      "path": "src/shared/mod-004.js",
+      "kind": "javascript",
+      "bytes": 80407
+    },
+    {
+      "path": "src/shared/mod-005.js",
+      "kind": "javascript",
+      "bytes": 94236
+    },
+    {
+      "path": "src/shared/mod-006.js",
+      "kind": "javascript",
+      "bytes": 107999
+    },
+    {
+      "path": "src/shared/mod-007.js",
+      "kind": "javascript",
+      "bytes": 121489
+    },
+    {
+      "path": "src/shared/mod-008.js",
+      "kind": "javascript",
+      "bytes": 32925
+    },
+    {
+      "path": "src/shared/mod-009.js",
+      "kind": "javascript",
+      "bytes": 46644
+    },
+    {
+      "path": "src/shared/mod-010.js",
+      "kind": "javascript",
+      "bytes": 60416
+    },
+    {
+      "path": "src/shared/mod-011.js",
+      "kind": "javascript",
+      "bytes": 74221
+    },
+    {
+      "path": "src/shared/mod-012.js",
+      "kind": "javascript",
+      "bytes": 87987
+    },
+    {
+      "path": "src/shared/mod-013.js",
+      "kind": "javascript",
+      "bytes": 101791
+    },
+    {
+      "path": "src/shared/mod-014.js",
+      "kind": "javascript",
+      "bytes": 115593
+    },
+    {
+      "path": "src/shared/mod-015.js",
+      "kind": "javascript",
+      "bytes": 27019
+    },
+    {
+      "path": "src/shared/mod-016.js",
+      "kind": "javascript",
+      "bytes": 40756
+    },
+    {
+      "path": "src/shared/mod-017.js",
+      "kind": "javascript",
+      "bytes": 54526
+    },
+    {
+      "path": "src/shared/mod-018.js",
+      "kind": "javascript",
+      "bytes": 68292
+    },
+    {
+      "path": "src/shared/mod-019.js",
+      "kind": "javascript",
+      "bytes": 82084
+    },
+    {
+      "path": "src/shared/mod-020.js",
+      "kind": "javascript",
+      "bytes": 95881
+    },
+    {
+      "path": "src/shared/mod-021.js",
+      "kind": "javascript",
+      "bytes": 109669
+    },
+    {
+      "path": "src/shared/mod-022.js",
+      "kind": "javascript",
+      "bytes": 123451
+    },
+    {
+      "path": "src/shared/mod-023.js",
+      "kind": "javascript",
+      "bytes": 34886
+    },
+    {
+      "path": "src/shared/mod-024.js",
+      "kind": "javascript",
+      "bytes": 48589
+    },
+    {
+      "path": "src/shared/mod-025.js",
+      "kind": "javascript",
+      "bytes": 62385
+    },
+    {
+      "path": "src/shared/mod-026.js",
+      "kind": "javascript",
+      "bytes": 76191
+    },
+    {
+      "path": "src/shared/mod-027.js",
+      "kind": "javascript",
+      "bytes": 89960
+    },
+    {
+      "path": "src/shared/mod-028.js",
+      "kind": "javascript",
+      "bytes": 102486
+    },
+    {
+      "path": "src/shared/mod-029.js",
+      "kind": "javascript",
+      "bytes": 21460
+    },
+    {
+      "path": "src/shared/mod-030.js",
+      "kind": "javascript",
+      "bytes": 191146
+    },
+    {
+      "path": "src/shared/mod-031.js",
+      "kind": "javascript",
+      "bytes": 41319
+    },
+    {
+      "path": "src/shared/mod-032.js",
+      "kind": "javascript",
+      "bytes": 55086
+    },
+    {
+      "path": "src/shared/mod-033.js",
+      "kind": "javascript",
+      "bytes": 68860
+    },
+    {
+      "path": "src/shared/mod-034.js",
+      "kind": "javascript",
+      "bytes": 82395
+    },
+    {
+      "path": "src/shared/mod-035.js",
+      "kind": "javascript",
+      "bytes": 96198
+    },
+    {
+      "path": "src/shared/mod-036.js",
+      "kind": "javascript",
+      "bytes": 109956
+    },
+    {
+      "path": "src/shared/mod-037.js",
+      "kind": "javascript",
+      "bytes": 123767
+    },
+    {
+      "path": "src/shared/mod-038.js",
+      "kind": "javascript",
+      "bytes": 35186
+    },
+    {
+      "path": "src/shared/mod-039.js",
+      "kind": "javascript",
+      "bytes": 48590
+    },
+    {
+      "path": "src/shared/mod-040.js",
+      "kind": "javascript",
+      "bytes": 62373
+    },
+    {
+      "path": "src/shared/mod-041.js",
+      "kind": "javascript",
+      "bytes": 76194
+    },
+    {
+      "path": "src/shared/mod-042.js",
+      "kind": "javascript",
+      "bytes": 89956
+    },
+    {
+      "path": "src/shared/mod-043.js",
+      "kind": "javascript",
+      "bytes": 103755
+    },
+    {
+      "path": "src/shared/mod-044.js",
+      "kind": "javascript",
+      "bytes": 117548
+    },
+    {
+      "path": "src/shared/mod-045.js",
+      "kind": "javascript",
+      "bytes": 28990
+    },
+    {
+      "path": "src/shared/mod-046.js",
+      "kind": "javascript",
+      "bytes": 42712
+    },
+    {
+      "path": "src/shared/mod-047.js",
+      "kind": "javascript",
+      "bytes": 56488
+    },
+    {
+      "path": "src/shared/mod-048.js",
+      "kind": "javascript",
+      "bytes": 70250
+    },
+    {
+      "path": "src/shared/mod-049.js",
+      "kind": "javascript",
+      "bytes": 84053
+    },
+    {
+      "path": "src/shared/mod-050.js",
+      "kind": "javascript",
+      "bytes": 97858
+    },
+    {
+      "path": "src/shared/mod-051.js",
+      "kind": "javascript",
+      "bytes": 111630
+    },
+    {
+      "path": "src/shared/mod-052.js",
+      "kind": "javascript",
+      "bytes": 125410
+    },
+    {
+      "path": "src/shared/mod-053.js",
+      "kind": "javascript",
+      "bytes": 36849
+    },
+    {
+      "path": "src/shared/mod-054.js",
+      "kind": "javascript",
+      "bytes": 50559
+    },
+    {
+      "path": "src/shared/mod-055.js",
+      "kind": "javascript",
+      "bytes": 64354
+    },
+    {
+      "path": "src/shared/mod-056.js",
+      "kind": "javascript",
+      "bytes": 78148
+    },
+    {
+      "path": "src/shared/mod-057.js",
+      "kind": "javascript",
+      "bytes": 91897
+    },
+    {
+      "path": "src/shared/mod-058.js",
+      "kind": "javascript",
+      "bytes": 21405
+    },
+    {
+      "path": "src/shared/mod-059.js",
+      "kind": "javascript",
+      "bytes": 191111
+    },
+    {
+      "path": "src/shared/mod-060.js",
+      "kind": "javascript",
+      "bytes": 29646
+    },
+    {
+      "path": "src/shared/mod-061.js",
+      "kind": "javascript",
+      "bytes": 43381
+    },
+    {
+      "path": "src/shared/mod-062.js",
+      "kind": "javascript",
+      "bytes": 57141
+    },
+    {
+      "path": "src/shared/mod-063.js",
+      "kind": "javascript",
+      "bytes": 70788
+    },
+    {
+      "path": "src/shared/mod-064.js",
+      "kind": "javascript",
+      "bytes": 84571
+    },
+    {
+      "path": "src/shared/mod-065.js",
+      "kind": "javascript",
+      "bytes": 98375
+    },
+    {
+      "path": "src/shared/mod-066.js",
+      "kind": "javascript",
+      "bytes": 112164
+    },
+    {
+      "path": "src/shared/mod-067.js",
+      "kind": "javascript",
+      "bytes": 125953
+    },
+    {
+      "path": "src/shared/mod-068.js",
+      "kind": "javascript",
+      "bytes": 37087
+    },
+    {
+      "path": "src/shared/mod-069.js",
+      "kind": "javascript",
+      "bytes": 50825
+    },
+    {
+      "path": "src/shared/mod-070.js",
+      "kind": "javascript",
+      "bytes": 64619
+    },
+    {
+      "path": "src/shared/mod-071.js",
+      "kind": "javascript",
+      "bytes": 78405
+    },
+    {
+      "path": "src/shared/mod-072.js",
+      "kind": "javascript",
+      "bytes": 92181
+    },
+    {
+      "path": "src/shared/mod-073.js",
+      "kind": "javascript",
+      "bytes": 105685
+    },
+    {
+      "path": "src/shared/mod-074.js",
+      "kind": "javascript",
+      "bytes": 119470
+    },
+    {
+      "path": "src/shared/mod-075.js",
+      "kind": "javascript",
+      "bytes": 30900
+    },
+    {
+      "path": "src/shared/mod-076.js",
+      "kind": "javascript",
+      "bytes": 44621
+    },
+    {
+      "path": "src/shared/mod-077.js",
+      "kind": "javascript",
+      "bytes": 58400
+    },
+    {
+      "path": "src/shared/mod-078.js",
+      "kind": "javascript",
+      "bytes": 72186
+    },
+    {
+      "path": "src/shared/mod-079.js",
+      "kind": "javascript",
+      "bytes": 85977
+    },
+    {
+      "path": "src/shared/mod-080.js",
+      "kind": "javascript",
+      "bytes": 99755
+    },
+    {
+      "path": "src/shared/mod-081.js",
+      "kind": "javascript",
+      "bytes": 113561
+    },
+    {
+      "path": "src/shared/mod-082.js",
+      "kind": "javascript",
+      "bytes": 127351
+    },
+    {
+      "path": "src/shared/mod-083.js",
+      "kind": "javascript",
+      "bytes": 38744
+    },
+    {
+      "path": "src/shared/mod-084.js",
+      "kind": "javascript",
+      "bytes": 52480
+    },
+    {
+      "path": "src/shared/mod-085.js",
+      "kind": "javascript",
+      "bytes": 66279
+    },
+    {
+      "path": "src/shared/mod-086.js",
+      "kind": "javascript",
+      "bytes": 80069
+    },
+    {
+      "path": "src/shared/mod-087.js",
+      "kind": "javascript",
+      "bytes": 21400
+    },
+    {
+      "path": "src/shared/mod-088.js",
+      "kind": "javascript",
+      "bytes": 191086
+    },
+    {
+      "path": "src/shared/mod-089.js",
+      "kind": "javascript",
+      "bytes": 121445
+    },
+    {
+      "path": "src/shared/mod-090.js",
+      "kind": "javascript",
+      "bytes": 32864
+    },
+    {
+      "path": "src/shared/mod-091.js",
+      "kind": "javascript",
+      "bytes": 46591
+    },
+    {
+      "path": "src/shared/mod-092.js",
+      "kind": "javascript",
+      "bytes": 60354
+    },
+    {
+      "path": "src/shared/mod-093.js",
+      "kind": "javascript",
+      "bytes": 72906
+    },
+    {
+      "path": "src/shared/mod-094.js",
+      "kind": "javascript",
+      "bytes": 86689
+    },
+    {
+      "path": "src/shared/mod-095.js",
+      "kind": "javascript",
+      "bytes": 100483
+    },
+    {
+      "path": "src/shared/mod-096.js",
+      "kind": "javascript",
+      "bytes": 114114
+    },
+    {
+      "path": "src/shared/mod-097.js",
+      "kind": "javascript",
+      "bytes": 25587
+    },
+    {
+      "path": "src/shared/mod-098.js",
+      "kind": "javascript",
+      "bytes": 39311
+    },
+    {
+      "path": "src/shared/mod-099.js",
+      "kind": "javascript",
+      "bytes": 53054
+    },
+    {
+      "path": "src/shared/mod-100.js",
+      "kind": "javascript",
+      "bytes": 66573
+    },
+    {
+      "path": "src/shared/mod-101.js",
+      "kind": "javascript",
+      "bytes": 80374
+    },
+    {
+      "path": "src/shared/mod-102.js",
+      "kind": "javascript",
+      "bytes": 94163
+    },
+    {
+      "path": "src/shared/mod-103.js",
+      "kind": "javascript",
+      "bytes": 107956
+    },
+    {
+      "path": "src/shared/mod-104.js",
+      "kind": "javascript",
+      "bytes": 121733
+    },
+    {
+      "path": "src/shared/mod-105.js",
+      "kind": "javascript",
+      "bytes": 32862
+    },
+    {
+      "path": "src/shared/mod-106.js",
+      "kind": "javascript",
+      "bytes": 46595
+    },
+    {
+      "path": "src/shared/mod-107.js",
+      "kind": "javascript",
+      "bytes": 60368
+    },
+    {
+      "path": "src/shared/mod-108.js",
+      "kind": "javascript",
+      "bytes": 74148
+    },
+    {
+      "path": "src/shared/mod-109.js",
+      "kind": "javascript",
+      "bytes": 87955
+    },
+    {
+      "path": "src/shared/mod-110.js",
+      "kind": "javascript",
+      "bytes": 101741
+    },
+    {
+      "path": "src/shared/mod-111.js",
+      "kind": "javascript",
+      "bytes": 115534
+    },
+    {
+      "path": "src/shared/mod-112.js",
+      "kind": "javascript",
+      "bytes": 26978
+    },
+    {
+      "path": "src/shared/mod-113.js",
+      "kind": "javascript",
+      "bytes": 40713
+    },
+    {
+      "path": "src/shared/mod-114.js",
+      "kind": "javascript",
+      "bytes": 54458
+    },
+    {
+      "path": "src/shared/mod-115.js",
+      "kind": "javascript",
+      "bytes": 68250
+    },
+    {
+      "path": "src/shared/mod-116.js",
+      "kind": "javascript",
+      "bytes": 21398
+    },
+    {
+      "path": "src/shared/mod-117.js",
+      "kind": "javascript",
+      "bytes": 191116
+    },
+    {
+      "path": "src/shared/mod-118.js",
+      "kind": "javascript",
+      "bytes": 109621
+    },
+    {
+      "path": "src/shared/mod-119.js",
+      "kind": "javascript",
+      "bytes": 123408
+    },
+    {
+      "path": "src/shared/mod-120.js",
+      "kind": "javascript",
+      "bytes": 34820
+    },
+    {
+      "path": "src/shared/mod-121.js",
+      "kind": "javascript",
+      "bytes": 48551
+    },
+    {
+      "path": "src/shared/mod-122.js",
+      "kind": "javascript",
+      "bytes": 62336
+    },
+    {
+      "path": "src/shared/mod-123.js",
+      "kind": "javascript",
+      "bytes": 76126
+    },
+    {
+      "path": "src/shared/mod-124.js",
+      "kind": "javascript",
+      "bytes": 89907
+    },
+    {
+      "path": "src/shared/boot.js",
+      "kind": "javascript",
+      "bytes": 115630
+    },
+    {
+      "path": "src/shared/styles.js",
+      "kind": "javascript",
+      "bytes": 27889
+    },
+    {
+      "path": "src/shared/marks.js",
+      "kind": "javascript",
+      "bytes": 41271
+    },
+    {
+      "path": "src/bridges/bridge-000.js",
+      "kind": "javascript",
+      "bytes": 109733
+    },
+    {
+      "path": "src/bridges/bridge-001.js",
+      "kind": "javascript",
+      "bytes": 123546
+    },
+    {
+      "path": "src/bridges/bridge-002.js",
+      "kind": "javascript",
+      "bytes": 34951
+    },
+    {
+      "path": "src/bridges/bridge-003.js",
+      "kind": "javascript",
+      "bytes": 48683
+    },
+    {
+      "path": "src/bridges/bridge-004.js",
+      "kind": "javascript",
+      "bytes": 62455
+    },
+    {
+      "path": "src/bridges/bridge-005.js",
+      "kind": "javascript",
+      "bytes": 76264
+    },
+    {
+      "path": "src/bridges/bridge-006.js",
+      "kind": "javascript",
+      "bytes": 90052
+    },
+    {
+      "path": "src/bridges/bridge-007.js",
+      "kind": "javascript",
+      "bytes": 102584
+    },
+    {
+      "path": "src/bridges/bridge-008.js",
+      "kind": "javascript",
+      "bytes": 116363
+    },
+    {
+      "path": "src/bridges/bridge-009.js",
+      "kind": "javascript",
+      "bytes": 27684
+    },
+    {
+      "path": "src/bridges/bridge-010.js",
+      "kind": "javascript",
+      "bytes": 41412
+    },
+    {
+      "path": "src/bridges/bridge-011.js",
+      "kind": "javascript",
+      "bytes": 55164
+    },
+    {
+      "path": "src/bridges/bridge-012.js",
+      "kind": "javascript",
+      "bytes": 68947
+    },
+    {
+      "path": "src/bridges/bridge-013.js",
+      "kind": "javascript",
+      "bytes": 82481
+    },
+    {
+      "path": "src/bridges/bridge-014.js",
+      "kind": "javascript",
+      "bytes": 96262
+    },
+    {
+      "path": "src/bridges/bridge-015.js",
+      "kind": "javascript",
+      "bytes": 110062
+    },
+    {
+      "path": "src/bridges/bridge-016.js",
+      "kind": "javascript",
+      "bytes": 123837
+    },
+    {
+      "path": "src/bridges/bridge-017.js",
+      "kind": "javascript",
+      "bytes": 34958
+    },
+    {
+      "path": "src/bridges/bridge-018.js",
+      "kind": "javascript",
+      "bytes": 48683
+    },
+    {
+      "path": "src/bridges/bridge-019.js",
+      "kind": "javascript",
+      "bytes": 62469
+    },
+    {
+      "path": "src/bridges/bridge-020.js",
+      "kind": "javascript",
+      "bytes": 76253
+    },
+    {
+      "path": "src/bridges/bridge-021.js",
+      "kind": "javascript",
+      "bytes": 90057
+    },
+    {
+      "path": "src/bridges/bridge-022.js",
+      "kind": "javascript",
+      "bytes": 103840
+    },
+    {
+      "path": "src/bridges/bridge-023.js",
+      "kind": "javascript",
+      "bytes": 117629
+    },
+    {
+      "path": "src/bridges/bridge-024.js",
+      "kind": "javascript",
+      "bytes": 29073
+    },
+    {
+      "path": "src/bridges/bridge-025.js",
+      "kind": "javascript",
+      "bytes": 21534
+    },
+    {
+      "path": "src/bridges/bridge-026.js",
+      "kind": "javascript",
+      "bytes": 191236
+    },
+    {
+      "path": "src/bridges/bridge-027.js",
+      "kind": "javascript",
+      "bytes": 70346
+    },
+    {
+      "path": "src/bridges/bridge-028.js",
+      "kind": "javascript",
+      "bytes": 84133
+    },
+    {
+      "path": "src/bridges/bridge-029.js",
+      "kind": "javascript",
+      "bytes": 97933
+    },
+    {
+      "path": "src/bridges/bridge-030.js",
+      "kind": "javascript",
+      "bytes": 111720
+    },
+    {
+      "path": "src/bridges/bridge-031.js",
+      "kind": "javascript",
+      "bytes": 125513
+    },
+    {
+      "path": "src/bridges/bridge-032.js",
+      "kind": "javascript",
+      "bytes": 36911
+    },
+    {
+      "path": "src/bridges/bridge-033.js",
+      "kind": "javascript",
+      "bytes": 50646
+    },
+    {
+      "path": "src/bridges/bridge-034.js",
+      "kind": "javascript",
+      "bytes": 64432
+    },
+    {
+      "path": "src/bridges/bridge-035.js",
+      "kind": "javascript",
+      "bytes": 78231
+    },
+    {
+      "path": "src/bridges/bridge-036.js",
+      "kind": "javascript",
+      "bytes": 92008
+    },
+    {
+      "path": "src/bridges/bridge-037.js",
+      "kind": "javascript",
+      "bytes": 105816
+    },
+    {
+      "path": "src/bridges/bridge-038.js",
+      "kind": "javascript",
+      "bytes": 119598
+    },
+    {
+      "path": "src/bridges/bridge-039.js",
+      "kind": "javascript",
+      "bytes": 29782
+    },
+    {
+      "path": "src/bridges/bridge-040.js",
+      "kind": "javascript",
+      "bytes": 43501
+    },
+    {
+      "path": "src/bridges/bridge-041.js",
+      "kind": "javascript",
+      "bytes": 57131
+    },
+    {
+      "path": "src/bridges/bridge-042.js",
+      "kind": "javascript",
+      "bytes": 70916
+    },
+    {
+      "path": "src/bridges/bridge-043.js",
+      "kind": "javascript",
+      "bytes": 84706
+    },
+    {
+      "path": "src/bridges/bridge-044.js",
+      "kind": "javascript",
+      "bytes": 98488
+    },
+    {
+      "path": "src/bridges/bridge-045.js",
+      "kind": "javascript",
+      "bytes": 112031
+    },
+    {
+      "path": "src/bridges/bridge-046.js",
+      "kind": "javascript",
+      "bytes": 125818
+    },
+    {
+      "path": "src/bridges/bridge-047.js",
+      "kind": "javascript",
+      "bytes": 37219
+    },
+    {
+      "path": "src/bridges/bridge-048.js",
+      "kind": "javascript",
+      "bytes": 50947
+    },
+    {
+      "path": "src/bridges/bridge-049.js",
+      "kind": "javascript",
+      "bytes": 64744
+    },
+    {
+      "path": "src/bridges/bridge-050.js",
+      "kind": "javascript",
+      "bytes": 78227
+    },
+    {
+      "path": "src/bridges/bridge-051.js",
+      "kind": "javascript",
+      "bytes": 92021
+    },
+    {
+      "path": "src/bridges/bridge-052.js",
+      "kind": "javascript",
+      "bytes": 105797
+    },
+    {
+      "path": "src/bridges/bridge-053.js",
+      "kind": "javascript",
+      "bytes": 119608
+    },
+    {
+      "path": "src/bridges/bridge-054.js",
+      "kind": "javascript",
+      "bytes": 21537
+    },
+    {
+      "path": "src/bridges/bridge-055.js",
+      "kind": "javascript",
+      "bytes": 191244
+    },
+    {
+      "path": "src/bridges/bridge-056.js",
+      "kind": "javascript",
+      "bytes": 58522
+    },
+    {
+      "path": "src/bridges/bridge-057.js",
+      "kind": "javascript",
+      "bytes": 72325
+    },
+    {
+      "path": "src/bridges/bridge-058.js",
+      "kind": "javascript",
+      "bytes": 86109
+    },
+    {
+      "path": "src/bridges/bridge-059.js",
+      "kind": "javascript",
+      "bytes": 99899
+    },
+    {
+      "path": "src/bridges/bridge-060.js",
+      "kind": "javascript",
+      "bytes": 113680
+    },
+    {
+      "path": "src/bridges/bridge-061.js",
+      "kind": "javascript",
+      "bytes": 127493
+    },
+    {
+      "path": "src/bridges/bridge-062.js",
+      "kind": "javascript",
+      "bytes": 38883
+    },
+    {
+      "path": "src/bridges/bridge-063.js",
+      "kind": "javascript",
+      "bytes": 52617
+    },
+    {
+      "path": "src/bridges/bridge-064.js",
+      "kind": "javascript",
+      "bytes": 66404
+    },
+    {
+      "path": "src/bridges/bridge-065.js",
+      "kind": "javascript",
+      "bytes": 80208
+    },
+    {
+      "path": "src/bridges/bridge-066.js",
+      "kind": "javascript",
+      "bytes": 93992
+    },
+    {
+      "path": "src/bridges/bridge-067.js",
+      "kind": "javascript",
+      "bytes": 107782
+    },
+    {
+      "path": "src/bridges/bridge-068.js",
+      "kind": "javascript",
+      "bytes": 121554
+    },
+    {
+      "path": "src/bridges/bridge-069.js",
+      "kind": "javascript",
+      "bytes": 32997
+    },
+    {
+      "path": "src/bridges/bridge-070.js",
+      "kind": "javascript",
+      "bytes": 46723
+    },
+    {
+      "path": "src/bridges/bridge-071.js",
+      "kind": "javascript",
+      "bytes": 59242
+    },
+    {
+      "path": "src/bridges/bridge-072.js",
+      "kind": "javascript",
+      "bytes": 73020
+    },
+    {
+      "path": "src/bridges/bridge-073.js",
+      "kind": "javascript",
+      "bytes": 86686
+    },
+    {
+      "path": "src/bridges/bridge-074.js",
+      "kind": "javascript",
+      "bytes": 100472
+    },
+    {
+      "path": "src/bridges/bridge-075.js",
+      "kind": "javascript",
+      "bytes": 114261
+    },
+    {
+      "path": "src/bridges/bridge-076.js",
+      "kind": "javascript",
+      "bytes": 25714
+    },
+    {
+      "path": "src/bridges/bridge-077.js",
+      "kind": "javascript",
+      "bytes": 39182
+    },
+    {
+      "path": "src/areas/catalog/mod-000.jsx",
+      "kind": "javascript",
+      "bytes": 192282
+    },
+    {
+      "path": "src/areas/catalog/mod-001.js",
+      "kind": "javascript",
+      "bytes": 102723
+    },
+    {
+      "path": "src/areas/catalog/mod-002.js",
+      "kind": "javascript",
+      "bytes": 116590
+    },
+    {
+      "path": "src/areas/catalog/mod-003.js",
+      "kind": "javascript",
+      "bytes": 27873
+    },
+    {
+      "path": "src/areas/catalog/mod-004.js",
+      "kind": "javascript",
+      "bytes": 41401
+    },
+    {
+      "path": "src/areas/catalog/mod-005.js",
+      "kind": "javascript",
+      "bytes": 55241
+    },
+    {
+      "path": "src/areas/catalog/mod-006.js",
+      "kind": "javascript",
+      "bytes": 69073
+    },
+    {
+      "path": "src/areas/catalog/mod-007.js",
+      "kind": "javascript",
+      "bytes": 82622
+    },
+    {
+      "path": "src/areas/catalog/mod-008.js",
+      "kind": "javascript",
+      "bytes": 96484
+    },
+    {
+      "path": "src/areas/catalog/mod-009.js",
+      "kind": "javascript",
+      "bytes": 110334
+    },
+    {
+      "path": "src/areas/catalog/mod-010.js",
+      "kind": "javascript",
+      "bytes": 124181
+    },
+    {
+      "path": "src/areas/catalog/mod-011.js",
+      "kind": "javascript",
+      "bytes": 35209
+    },
+    {
+      "path": "src/areas/catalog/mod-012.js",
+      "kind": "javascript",
+      "bytes": 48974
+    },
+    {
+      "path": "src/areas/catalog/mod-013.js",
+      "kind": "javascript",
+      "bytes": 62833
+    },
+    {
+      "path": "src/areas/catalog/mod-014.js",
+      "kind": "javascript",
+      "bytes": 76695
+    },
+    {
+      "path": "src/areas/catalog/mod-015.js",
+      "kind": "javascript",
+      "bytes": 90534
+    },
+    {
+      "path": "src/areas/catalog/mod-016.js",
+      "kind": "javascript",
+      "bytes": 104383
+    },
+    {
+      "path": "src/areas/catalog/mod-017.js",
+      "kind": "javascript",
+      "bytes": 118271
+    },
+    {
+      "path": "src/areas/catalog/mod-018.js",
+      "kind": "javascript",
+      "bytes": 29279
+    },
+    {
+      "path": "src/areas/catalog/mod-019.js",
+      "kind": "javascript",
+      "bytes": 43072
+    },
+    {
+      "path": "src/areas/catalog/mod-020.jsx",
+      "kind": "javascript",
+      "bytes": 57028
+    },
+    {
+      "path": "src/areas/catalog/mod-021.js",
+      "kind": "javascript",
+      "bytes": 70743
+    },
+    {
+      "path": "src/areas/catalog/mod-022.js",
+      "kind": "javascript",
+      "bytes": 84596
+    },
+    {
+      "path": "src/areas/catalog/mod-023.js",
+      "kind": "javascript",
+      "bytes": 98470
+    },
+    {
+      "path": "src/areas/catalog/mod-024.js",
+      "kind": "javascript",
+      "bytes": 112290
+    },
+    {
+      "path": "src/areas/catalog/mod-025.js",
+      "kind": "javascript",
+      "bytes": 126164
+    },
+    {
+      "path": "src/areas/catalog/mod-026.js",
+      "kind": "javascript",
+      "bytes": 37181
+    },
+    {
+      "path": "src/areas/catalog/mod-027.js",
+      "kind": "javascript",
+      "bytes": 50952
+    },
+    {
+      "path": "src/areas/catalog/mod-028.js",
+      "kind": "javascript",
+      "bytes": 21395
+    },
+    {
+      "path": "src/areas/catalog/mod-029.js",
+      "kind": "javascript",
+      "bytes": 192210
+    },
+    {
+      "path": "src/areas/catalog/mod-030.js",
+      "kind": "javascript",
+      "bytes": 91105
+    },
+    {
+      "path": "src/areas/catalog/mod-031.js",
+      "kind": "javascript",
+      "bytes": 104968
+    },
+    {
+      "path": "src/areas/catalog/mod-032.js",
+      "kind": "javascript",
+      "bytes": 118824
+    },
+    {
+      "path": "src/areas/catalog/mod-033.js",
+      "kind": "javascript",
+      "bytes": 29847
+    },
+    {
+      "path": "src/areas/catalog/mod-034.js",
+      "kind": "javascript",
+      "bytes": 43646
+    },
+    {
+      "path": "src/areas/catalog/mod-035.js",
+      "kind": "javascript",
+      "bytes": 57219
+    },
+    {
+      "path": "src/areas/catalog/mod-036.js",
+      "kind": "javascript",
+      "bytes": 71045
+    },
+    {
+      "path": "src/areas/catalog/mod-037.js",
+      "kind": "javascript",
+      "bytes": 84908
+    },
+    {
+      "path": "src/areas/catalog/index.js",
+      "kind": "javascript",
+      "bytes": 87761
+    },
+    {
+      "path": "src/lazy/catalog/panel-00.js",
+      "kind": "javascript",
+      "bytes": 70601
+    },
+    {
+      "path": "src/lazy/catalog/panel-01.js",
+      "kind": "javascript",
+      "bytes": 84463
+    },
+    {
+      "path": "src/lazy/catalog/panel-02.js",
+      "kind": "javascript",
+      "bytes": 98633
+    },
+    {
+      "path": "src/lazy/catalog/panel-03.js",
+      "kind": "javascript",
+      "bytes": 112799
+    },
+    {
+      "path": "src/lazy/catalog/panel-04.js",
+      "kind": "javascript",
+      "bytes": 126955
+    },
+    {
+      "path": "src/lazy/catalog/panel-05.js",
+      "kind": "javascript",
+      "bytes": 36550
+    },
+    {
+      "path": "src/lazy/catalog/panel-06.js",
+      "kind": "javascript",
+      "bytes": 50378
+    },
+    {
+      "path": "src/lazy/catalog/panel-07.js",
+      "kind": "javascript",
+      "bytes": 64224
+    },
+    {
+      "path": "src/lazy/catalog/panel-08.js",
+      "kind": "javascript",
+      "bytes": 78385
+    },
+    {
+      "path": "src/lazy/catalog/panel-09.js",
+      "kind": "javascript",
+      "bytes": 92570
+    },
+    {
+      "path": "src/lazy/catalog/panel-10.js",
+      "kind": "javascript",
+      "bytes": 106734
+    },
+    {
+      "path": "src/lazy/catalog/panel-11.js",
+      "kind": "javascript",
+      "bytes": 120904
+    },
+    {
+      "path": "src/lazy/catalog/panel-12.js",
+      "kind": "javascript",
+      "bytes": 30227
+    },
+    {
+      "path": "src/lazy/catalog/panel-13.js",
+      "kind": "javascript",
+      "bytes": 44023
+    },
+    {
+      "path": "src/lazy/catalog/panel-14.js",
+      "kind": "javascript",
+      "bytes": 58151
+    },
+    {
+      "path": "src/lazy/catalog/panel-15.js",
+      "kind": "javascript",
+      "bytes": 72321
+    },
+    {
+      "path": "src/lazy/catalog/panel-16.js",
+      "kind": "javascript",
+      "bytes": 86482
+    },
+    {
+      "path": "src/lazy/catalog/panel-17.js",
+      "kind": "javascript",
+      "bytes": 100662
+    },
+    {
+      "path": "src/areas/catalog/loader.js",
+      "kind": "javascript",
+      "bytes": 50473
+    },
+    {
+      "path": "src/areas/warehouse/mod-000.jsx",
+      "kind": "javascript",
+      "bytes": 99490
+    },
+    {
+      "path": "src/areas/warehouse/mod-001.js",
+      "kind": "javascript",
+      "bytes": 113321
+    },
+    {
+      "path": "src/areas/warehouse/mod-002.js",
+      "kind": "javascript",
+      "bytes": 127294
+    },
+    {
+      "path": "src/areas/warehouse/mod-003.js",
+      "kind": "javascript",
+      "bytes": 37515
+    },
+    {
+      "path": "src/areas/warehouse/mod-004.js",
+      "kind": "javascript",
+      "bytes": 51413
+    },
+    {
+      "path": "src/areas/warehouse/mod-005.js",
+      "kind": "javascript",
+      "bytes": 65397
+    },
+    {
+      "path": "src/areas/warehouse/mod-006.js",
+      "kind": "javascript",
+      "bytes": 79388
+    },
+    {
+      "path": "src/areas/warehouse/mod-007.js",
+      "kind": "javascript",
+      "bytes": 93363
+    },
+    {
+      "path": "src/areas/warehouse/mod-008.js",
+      "kind": "javascript",
+      "bytes": 107335
+    },
+    {
+      "path": "src/areas/warehouse/mod-009.js",
+      "kind": "javascript",
+      "bytes": 121334
+    },
+    {
+      "path": "src/areas/warehouse/mod-010.js",
+      "kind": "javascript",
+      "bytes": 31524
+    },
+    {
+      "path": "src/areas/warehouse/mod-011.js",
+      "kind": "javascript",
+      "bytes": 45452
+    },
+    {
+      "path": "src/areas/warehouse/mod-012.js",
+      "kind": "javascript",
+      "bytes": 59418
+    },
+    {
+      "path": "src/areas/warehouse/mod-013.js",
+      "kind": "javascript",
+      "bytes": 73385
+    },
+    {
+      "path": "src/areas/warehouse/mod-014.js",
+      "kind": "javascript",
+      "bytes": 87357
+    },
+    {
+      "path": "src/areas/warehouse/mod-015.js",
+      "kind": "javascript",
+      "bytes": 99957
+    },
+    {
+      "path": "src/areas/warehouse/mod-016.js",
+      "kind": "javascript",
+      "bytes": 113911
+    },
+    {
+      "path": "src/areas/warehouse/mod-017.js",
+      "kind": "javascript",
+      "bytes": 127620
+    },
+    {
+      "path": "src/areas/warehouse/mod-018.js",
+      "kind": "javascript",
+      "bytes": 39499
+    },
+    {
+      "path": "src/areas/warehouse/mod-019.js",
+      "kind": "javascript",
+      "bytes": 21547
+    },
+    {
+      "path": "src/areas/warehouse/mod-020.jsx",
+      "kind": "javascript",
+      "bytes": 193287
+    },
+    {
+      "path": "src/areas/warehouse/mod-021.js",
+      "kind": "javascript",
+      "bytes": 79910
+    },
+    {
+      "path": "src/areas/warehouse/mod-022.js",
+      "kind": "javascript",
+      "bytes": 93609
+    },
+    {
+      "path": "src/areas/warehouse/mod-023.js",
+      "kind": "javascript",
+      "bytes": 107606
+    },
+    {
+      "path": "src/areas/warehouse/mod-024.js",
+      "kind": "javascript",
+      "bytes": 121269
+    },
+    {
+      "path": "src/areas/warehouse/mod-025.js",
+      "kind": "javascript",
+      "bytes": 32064
+    },
+    {
+      "path": "src/areas/warehouse/mod-026.js",
+      "kind": "javascript",
+      "bytes": 45975
+    },
+    {
+      "path": "src/areas/warehouse/mod-027.js",
+      "kind": "javascript",
+      "bytes": 59672
+    },
+    {
+      "path": "src/areas/warehouse/mod-028.js",
+      "kind": "javascript",
+      "bytes": 73646
+    },
+    {
+      "path": "src/areas/warehouse/mod-029.js",
+      "kind": "javascript",
+      "bytes": 87317
+    },
+    {
+      "path": "src/areas/warehouse/mod-030.js",
+      "kind": "javascript",
+      "bytes": 101283
+    },
+    {
+      "path": "src/areas/warehouse/mod-031.js",
+      "kind": "javascript",
+      "bytes": 115282
+    },
+    {
+      "path": "src/areas/warehouse/mod-032.js",
+      "kind": "javascript",
+      "bytes": 25831
+    },
+    {
+      "path": "src/areas/warehouse/mod-033.js",
+      "kind": "javascript",
+      "bytes": 39437
+    },
+    {
+      "path": "src/areas/warehouse/mod-034.js",
+      "kind": "javascript",
+      "bytes": 53356
+    },
+    {
+      "path": "src/areas/warehouse/mod-035.js",
+      "kind": "javascript",
+      "bytes": 67345
+    },
+    {
+      "path": "src/areas/warehouse/mod-036.js",
+      "kind": "javascript",
+      "bytes": 81325
+    },
+    {
+      "path": "src/areas/warehouse/mod-037.js",
+      "kind": "javascript",
+      "bytes": 95300
+    },
+    {
+      "path": "src/areas/warehouse/index.js",
+      "kind": "javascript",
+      "bytes": 100478
+    },
+    {
+      "path": "src/lazy/warehouse/panel-00.js",
+      "kind": "javascript",
+      "bytes": 113809
+    },
+    {
+      "path": "src/lazy/warehouse/panel-01.js",
+      "kind": "javascript",
+      "bytes": 128101
+    },
+    {
+      "path": "src/lazy/warehouse/panel-02.js",
+      "kind": "javascript",
+      "bytes": 38306
+    },
+    {
+      "path": "src/lazy/warehouse/panel-03.js",
+      "kind": "javascript",
+      "bytes": 52547
+    },
+    {
+      "path": "src/lazy/warehouse/panel-04.js",
+      "kind": "javascript",
+      "bytes": 65559
+    },
+    {
+      "path": "src/lazy/warehouse/panel-05.js",
+      "kind": "javascript",
+      "bytes": 79695
+    },
+    {
+      "path": "src/lazy/warehouse/panel-06.js",
+      "kind": "javascript",
+      "bytes": 22041
+    },
+    {
+      "path": "src/lazy/warehouse/panel-07.js",
+      "kind": "javascript",
+      "bytes": 194219
+    },
+    {
+      "path": "src/lazy/warehouse/panel-08.js",
+      "kind": "javascript",
+      "bytes": 121971
+    },
+    {
+      "path": "src/lazy/warehouse/panel-09.js",
+      "kind": "javascript",
+      "bytes": 32208
+    },
+    {
+      "path": "src/lazy/warehouse/panel-10.js",
+      "kind": "javascript",
+      "bytes": 45157
+    },
+    {
+      "path": "src/lazy/warehouse/panel-11.js",
+      "kind": "javascript",
+      "bytes": 59277
+    },
+    {
+      "path": "src/lazy/warehouse/panel-12.js",
+      "kind": "javascript",
+      "bytes": 73283
+    },
+    {
+      "path": "src/lazy/warehouse/panel-13.js",
+      "kind": "javascript",
+      "bytes": 87262
+    },
+    {
+      "path": "src/lazy/warehouse/panel-14.js",
+      "kind": "javascript",
+      "bytes": 101541
+    },
+    {
+      "path": "src/lazy/warehouse/panel-15.js",
+      "kind": "javascript",
+      "bytes": 115850
+    },
+    {
+      "path": "src/lazy/warehouse/panel-16.js",
+      "kind": "javascript",
+      "bytes": 128860
+    },
+    {
+      "path": "src/lazy/warehouse/panel-17.js",
+      "kind": "javascript",
+      "bytes": 38905
+    },
+    {
+      "path": "src/areas/warehouse/loader.js",
+      "kind": "javascript",
+      "bytes": 64695
+    },
+    {
+      "path": "src/areas/storefront/mod-000.jsx",
+      "kind": "javascript",
+      "bytes": 109886
+    },
+    {
+      "path": "src/areas/storefront/mod-001.js",
+      "kind": "javascript",
+      "bytes": 122555
+    },
+    {
+      "path": "src/areas/storefront/mod-002.js",
+      "kind": "javascript",
+      "bytes": 33623
+    },
+    {
+      "path": "src/areas/storefront/mod-003.js",
+      "kind": "javascript",
+      "bytes": 47600
+    },
+    {
+      "path": "src/areas/storefront/mod-004.js",
+      "kind": "javascript",
+      "bytes": 61623
+    },
+    {
+      "path": "src/areas/storefront/mod-005.js",
+      "kind": "javascript",
+      "bytes": 75673
+    },
+    {
+      "path": "src/areas/storefront/mod-006.js",
+      "kind": "javascript",
+      "bytes": 88444
+    },
+    {
+      "path": "src/areas/storefront/mod-007.js",
+      "kind": "javascript",
+      "bytes": 102339
+    },
+    {
+      "path": "src/areas/storefront/mod-008.js",
+      "kind": "javascript",
+      "bytes": 116092
+    },
+    {
+      "path": "src/areas/storefront/mod-009.js",
+      "kind": "javascript",
+      "bytes": 27631
+    },
+    {
+      "path": "src/areas/storefront/mod-010.js",
+      "kind": "javascript",
+      "bytes": 21640
+    },
+    {
+      "path": "src/areas/storefront/mod-011.js",
+      "kind": "javascript",
+      "bytes": 192763
+    },
+    {
+      "path": "src/areas/storefront/mod-012.js",
+      "kind": "javascript",
+      "bytes": 68226
+    },
+    {
+      "path": "src/areas/storefront/mod-013.js",
+      "kind": "javascript",
+      "bytes": 82282
+    },
+    {
+      "path": "src/areas/storefront/mod-014.js",
+      "kind": "javascript",
+      "bytes": 96050
+    },
+    {
+      "path": "src/areas/storefront/mod-015.js",
+      "kind": "javascript",
+      "bytes": 109775
+    },
+    {
+      "path": "src/areas/storefront/mod-016.js",
+      "kind": "javascript",
+      "bytes": 123803
+    },
+    {
+      "path": "src/areas/storefront/mod-017.js",
+      "kind": "javascript",
+      "bytes": 34207
+    },
+    {
+      "path": "src/areas/storefront/mod-018.js",
+      "kind": "javascript",
+      "bytes": 48186
+    },
+    {
+      "path": "src/areas/storefront/mod-019.js",
+      "kind": "javascript",
+      "bytes": 61942
+    },
+    {
+      "path": "src/areas/storefront/mod-020.jsx",
+      "kind": "javascript",
+      "bytes": 75784
+    },
+    {
+      "path": "src/areas/storefront/mod-021.js",
+      "kind": "javascript",
+      "bytes": 89718
+    },
+    {
+      "path": "src/areas/storefront/mod-022.js",
+      "kind": "javascript",
+      "bytes": 103758
+    },
+    {
+      "path": "src/areas/storefront/mod-023.js",
+      "kind": "javascript",
+      "bytes": 117796
+    },
+    {
+      "path": "src/areas/storefront/mod-024.js",
+      "kind": "javascript",
+      "bytes": 27936
+    },
+    {
+      "path": "src/areas/storefront/mod-025.js",
+      "kind": "javascript",
+      "bytes": 41609
+    },
+    {
+      "path": "src/areas/storefront/mod-026.js",
+      "kind": "javascript",
+      "bytes": 55606
+    },
+    {
+      "path": "src/areas/storefront/mod-027.js",
+      "kind": "javascript",
+      "bytes": 69654
+    },
+    {
+      "path": "src/areas/storefront/mod-028.js",
+      "kind": "javascript",
+      "bytes": 83686
+    },
+    {
+      "path": "src/areas/storefront/mod-029.js",
+      "kind": "javascript",
+      "bytes": 97746
+    },
+    {
+      "path": "src/areas/storefront/mod-030.js",
+      "kind": "javascript",
+      "bytes": 111783
+    },
+    {
+      "path": "src/areas/storefront/mod-031.js",
+      "kind": "javascript",
+      "bytes": 125826
+    },
+    {
+      "path": "src/areas/storefront/mod-032.js",
+      "kind": "javascript",
+      "bytes": 35617
+    },
+    {
+      "path": "src/areas/storefront/mod-033.js",
+      "kind": "javascript",
+      "bytes": 49604
+    },
+    {
+      "path": "src/areas/storefront/mod-034.js",
+      "kind": "javascript",
+      "bytes": 63641
+    },
+    {
+      "path": "src/areas/storefront/mod-035.js",
+      "kind": "javascript",
+      "bytes": 77680
+    },
+    {
+      "path": "src/areas/storefront/mod-036.js",
+      "kind": "javascript",
+      "bytes": 91715
+    },
+    {
+      "path": "src/areas/storefront/mod-037.js",
+      "kind": "javascript",
+      "bytes": 104503
+    },
+    {
+      "path": "src/areas/storefront/index.js",
+      "kind": "javascript",
+      "bytes": 113846
+    },
+    {
+      "path": "src/lazy/storefront/panel-00.js",
+      "kind": "javascript",
+      "bytes": 52768
+    },
+    {
+      "path": "src/lazy/storefront/panel-01.js",
+      "kind": "javascript",
+      "bytes": 67133
+    },
+    {
+      "path": "src/lazy/storefront/panel-02.js",
+      "kind": "javascript",
+      "bytes": 81490
+    },
+    {
+      "path": "src/lazy/storefront/panel-03.js",
+      "kind": "javascript",
+      "bytes": 95846
+    },
+    {
+      "path": "src/lazy/storefront/panel-04.js",
+      "kind": "javascript",
+      "bytes": 108749
+    },
+    {
+      "path": "src/lazy/storefront/panel-05.js",
+      "kind": "javascript",
+      "bytes": 122842
+    },
+    {
+      "path": "src/lazy/storefront/panel-06.js",
+      "kind": "javascript",
+      "bytes": 32349
+    },
+    {
+      "path": "src/lazy/storefront/panel-07.js",
+      "kind": "javascript",
+      "bytes": 46643
+    },
+    {
+      "path": "src/lazy/storefront/panel-08.js",
+      "kind": "javascript",
+      "bytes": 60970
+    },
+    {
+      "path": "src/lazy/storefront/panel-09.js",
+      "kind": "javascript",
+      "bytes": 75339
+    },
+    {
+      "path": "src/lazy/storefront/panel-10.js",
+      "kind": "javascript",
+      "bytes": 88249
+    },
+    {
+      "path": "src/lazy/storefront/panel-11.js",
+      "kind": "javascript",
+      "bytes": 102327
+    },
+    {
+      "path": "src/lazy/storefront/panel-12.js",
+      "kind": "javascript",
+      "bytes": 116345
+    },
+    {
+      "path": "src/lazy/storefront/panel-13.js",
+      "kind": "javascript",
+      "bytes": 26226
+    },
+    {
+      "path": "src/lazy/storefront/panel-14.js",
+      "kind": "javascript",
+      "bytes": 40516
+    },
+    {
+      "path": "src/lazy/storefront/panel-15.js",
+      "kind": "javascript",
+      "bytes": 54825
+    },
+    {
+      "path": "src/lazy/storefront/panel-16.js",
+      "kind": "javascript",
+      "bytes": 67892
+    },
+    {
+      "path": "src/lazy/storefront/panel-17.js",
+      "kind": "javascript",
+      "bytes": 22143
+    },
+    {
+      "path": "src/areas/storefront/loader.js",
+      "kind": "javascript",
+      "bytes": 79405
+    },
+    {
+      "path": "src/areas/dispatch/mod-000.jsx",
+      "kind": "javascript",
+      "bytes": 118854
+    },
+    {
+      "path": "src/areas/dispatch/mod-001.js",
+      "kind": "javascript",
+      "bytes": 21443
+    },
+    {
+      "path": "src/areas/dispatch/mod-002.js",
+      "kind": "javascript",
+      "bytes": 192578
+    },
+    {
+      "path": "src/areas/dispatch/mod-003.js",
+      "kind": "javascript",
+      "bytes": 57099
+    },
+    {
+      "path": "src/areas/dispatch/mod-004.js",
+      "kind": "javascript",
+      "bytes": 71010
+    },
+    {
+      "path": "src/areas/dispatch/mod-005.js",
+      "kind": "javascript",
+      "bytes": 84929
+    },
+    {
+      "path": "src/areas/dispatch/mod-006.js",
+      "kind": "javascript",
+      "bytes": 98834
+    },
+    {
+      "path": "src/areas/dispatch/mod-007.js",
+      "kind": "javascript",
+      "bytes": 111507
+    },
+    {
+      "path": "src/areas/dispatch/mod-008.js",
+      "kind": "javascript",
+      "bytes": 125270
+    },
+    {
+      "path": "src/areas/dispatch/mod-009.js",
+      "kind": "javascript",
+      "bytes": 37278
+    },
+    {
+      "path": "src/areas/dispatch/mod-010.js",
+      "kind": "javascript",
+      "bytes": 51127
+    },
+    {
+      "path": "src/areas/dispatch/mod-011.js",
+      "kind": "javascript",
+      "bytes": 63789
+    },
+    {
+      "path": "src/areas/dispatch/mod-012.js",
+      "kind": "javascript",
+      "bytes": 77558
+    },
+    {
+      "path": "src/areas/dispatch/mod-013.js",
+      "kind": "javascript",
+      "bytes": 91472
+    },
+    {
+      "path": "src/areas/dispatch/mod-014.js",
+      "kind": "javascript",
+      "bytes": 105112
+    },
+    {
+      "path": "src/areas/dispatch/mod-015.js",
+      "kind": "javascript",
+      "bytes": 119044
+    },
+    {
+      "path": "src/areas/dispatch/mod-016.js",
+      "kind": "javascript",
+      "bytes": 29936
+    },
+    {
+      "path": "src/areas/dispatch/mod-017.js",
+      "kind": "javascript",
+      "bytes": 43789
+    },
+    {
+      "path": "src/areas/dispatch/mod-018.js",
+      "kind": "javascript",
+      "bytes": 57403
+    },
+    {
+      "path": "src/areas/dispatch/mod-019.js",
+      "kind": "javascript",
+      "bytes": 71329
+    },
+    {
+      "path": "src/areas/dispatch/mod-020.jsx",
+      "kind": "javascript",
+      "bytes": 85055
+    },
+    {
+      "path": "src/areas/dispatch/mod-021.js",
+      "kind": "javascript",
+      "bytes": 98846
+    },
+    {
+      "path": "src/areas/dispatch/mod-022.js",
+      "kind": "javascript",
+      "bytes": 112751
+    },
+    {
+      "path": "src/areas/dispatch/mod-023.js",
+      "kind": "javascript",
+      "bytes": 126688
+    },
+    {
+      "path": "src/areas/dispatch/mod-024.js",
+      "kind": "javascript",
+      "bytes": 37271
+    },
+    {
+      "path": "src/areas/dispatch/mod-025.js",
+      "kind": "javascript",
+      "bytes": 51134
+    },
+    {
+      "path": "src/areas/dispatch/mod-026.js",
+      "kind": "javascript",
+      "bytes": 65042
+    },
+    {
+      "path": "src/areas/dispatch/mod-027.js",
+      "kind": "javascript",
+      "bytes": 78971
+    },
+    {
+      "path": "src/areas/dispatch/mod-028.js",
+      "kind": "javascript",
+      "bytes": 92881
+    },
+    {
+      "path": "src/areas/dispatch/mod-029.js",
+      "kind": "javascript",
+      "bytes": 106799
+    },
+    {
+      "path": "src/areas/dispatch/mod-030.js",
+      "kind": "javascript",
+      "bytes": 21440
+    },
+    {
+      "path": "src/areas/dispatch/mod-031.js",
+      "kind": "javascript",
+      "bytes": 192605
+    },
+    {
+      "path": "src/areas/dispatch/mod-032.js",
+      "kind": "javascript",
+      "bytes": 45192
+    },
+    {
+      "path": "src/areas/dispatch/mod-033.js",
+      "kind": "javascript",
+      "bytes": 59082
+    },
+    {
+      "path": "src/areas/dispatch/mod-034.js",
+      "kind": "javascript",
+      "bytes": 72993
+    },
+    {
+      "path": "src/areas/dispatch/mod-035.js",
+      "kind": "javascript",
+      "bytes": 86922
+    },
+    {
+      "path": "src/areas/dispatch/mod-036.js",
+      "kind": "javascript",
+      "bytes": 100835
+    },
+    {
+      "path": "src/areas/dispatch/mod-037.js",
+      "kind": "javascript",
+      "bytes": 114750
+    },
+    {
+      "path": "src/areas/dispatch/index.js",
+      "kind": "javascript",
+      "bytes": 27759
+    },
+    {
+      "path": "src/lazy/dispatch/panel-00.js",
+      "kind": "javascript",
+      "bytes": 194631
+    },
+    {
+      "path": "src/lazy/dispatch/panel-01.js",
+      "kind": "javascript",
+      "bytes": 109239
+    },
+    {
+      "path": "src/lazy/dispatch/panel-02.js",
+      "kind": "javascript",
+      "bytes": 123460
+    },
+    {
+      "path": "src/lazy/dispatch/panel-03.js",
+      "kind": "javascript",
+      "bytes": 34096
+    },
+    {
+      "path": "src/lazy/dispatch/panel-04.js",
+      "kind": "javascript",
+      "bytes": 48264
+    },
+    {
+      "path": "src/lazy/dispatch/panel-05.js",
+      "kind": "javascript",
+      "bytes": 61201
+    },
+    {
+      "path": "src/lazy/dispatch/panel-06.js",
+      "kind": "javascript",
+      "bytes": 75264
+    },
+    {
+      "path": "src/lazy/dispatch/panel-07.js",
+      "kind": "javascript",
+      "bytes": 88912
+    },
+    {
+      "path": "src/lazy/dispatch/panel-08.js",
+      "kind": "javascript",
+      "bytes": 103139
+    },
+    {
+      "path": "src/lazy/dispatch/panel-09.js",
+      "kind": "javascript",
+      "bytes": 117370
+    },
+    {
+      "path": "src/lazy/dispatch/panel-10.js",
+      "kind": "javascript",
+      "bytes": 28016
+    },
+    {
+      "path": "src/lazy/dispatch/panel-11.js",
+      "kind": "javascript",
+      "bytes": 40917
+    },
+    {
+      "path": "src/lazy/dispatch/panel-12.js",
+      "kind": "javascript",
+      "bytes": 54665
+    },
+    {
+      "path": "src/lazy/dispatch/panel-13.js",
+      "kind": "javascript",
+      "bytes": 68580
+    },
+    {
+      "path": "src/lazy/dispatch/panel-14.js",
+      "kind": "javascript",
+      "bytes": 82798
+    },
+    {
+      "path": "src/lazy/dispatch/panel-15.js",
+      "kind": "javascript",
+      "bytes": 97043
+    },
+    {
+      "path": "src/lazy/dispatch/panel-16.js",
+      "kind": "javascript",
+      "bytes": 111273
+    },
+    {
+      "path": "src/lazy/dispatch/panel-17.js",
+      "kind": "javascript",
+      "bytes": 125503
+    },
+    {
+      "path": "src/areas/dispatch/loader.js",
+      "kind": "javascript",
+      "bytes": 92988
+    },
+    {
+      "path": "src/areas/archive/mod-000.jsx",
+      "kind": "javascript",
+      "bytes": 128186
+    },
+    {
+      "path": "src/areas/archive/mod-001.js",
+      "kind": "javascript",
+      "bytes": 39076
+    },
+    {
+      "path": "src/areas/archive/mod-002.js",
+      "kind": "javascript",
+      "bytes": 52876
+    },
+    {
+      "path": "src/areas/archive/mod-003.js",
+      "kind": "javascript",
+      "bytes": 66732
+    },
+    {
+      "path": "src/areas/archive/mod-004.js",
+      "kind": "javascript",
+      "bytes": 80575
+    },
+    {
+      "path": "src/areas/archive/mod-005.js",
+      "kind": "javascript",
+      "bytes": 94447
+    },
+    {
+      "path": "src/areas/archive/mod-006.js",
+      "kind": "javascript",
+      "bytes": 107034
+    },
+    {
+      "path": "src/areas/archive/mod-007.js",
+      "kind": "javascript",
+      "bytes": 120749
+    },
+    {
+      "path": "src/areas/archive/mod-008.js",
+      "kind": "javascript",
+      "bytes": 31904
+    },
+    {
+      "path": "src/areas/archive/mod-009.js",
+      "kind": "javascript",
+      "bytes": 45702
+    },
+    {
+      "path": "src/areas/archive/mod-010.js",
+      "kind": "javascript",
+      "bytes": 59395
+    },
+    {
+      "path": "src/areas/archive/mod-011.js",
+      "kind": "javascript",
+      "bytes": 73243
+    },
+    {
+      "path": "src/areas/archive/mod-012.js",
+      "kind": "javascript",
+      "bytes": 87091
+    },
+    {
+      "path": "src/areas/archive/mod-013.js",
+      "kind": "javascript",
+      "bytes": 100691
+    },
+    {
+      "path": "src/areas/archive/mod-014.js",
+      "kind": "javascript",
+      "bytes": 114544
+    },
+    {
+      "path": "src/areas/archive/mod-015.js",
+      "kind": "javascript",
+      "bytes": 25591
+    },
+    {
+      "path": "src/areas/archive/mod-016.js",
+      "kind": "javascript",
+      "bytes": 39380
+    },
+    {
+      "path": "src/areas/archive/mod-017.js",
+      "kind": "javascript",
+      "bytes": 53193
+    },
+    {
+      "path": "src/areas/archive/mod-018.js",
+      "kind": "javascript",
+      "bytes": 66738
+    },
+    {
+      "path": "src/areas/archive/mod-019.js",
+      "kind": "javascript",
+      "bytes": 80586
+    },
+    {
+      "path": "src/areas/archive/mod-020.jsx",
+      "kind": "javascript",
+      "bytes": 94552
+    },
+    {
+      "path": "src/areas/archive/mod-021.js",
+      "kind": "javascript",
+      "bytes": 21345
+    },
+    {
+      "path": "src/areas/archive/mod-022.js",
+      "kind": "javascript",
+      "bytes": 192134
+    },
+    {
+      "path": "src/areas/archive/mod-023.js",
+      "kind": "javascript",
+      "bytes": 33167
+    },
+    {
+      "path": "src/areas/archive/mod-024.js",
+      "kind": "javascript",
+      "bytes": 46950
+    },
+    {
+      "path": "src/areas/archive/mod-025.js",
+      "kind": "javascript",
+      "bytes": 60800
+    },
+    {
+      "path": "src/areas/archive/mod-026.js",
+      "kind": "javascript",
+      "bytes": 74648
+    },
+    {
+      "path": "src/areas/archive/mod-027.js",
+      "kind": "javascript",
+      "bytes": 88502
+    },
+    {
+      "path": "src/areas/archive/mod-028.js",
+      "kind": "javascript",
+      "bytes": 102345
+    },
+    {
+      "path": "src/areas/archive/mod-029.js",
+      "kind": "javascript",
+      "bytes": 116214
+    },
+    {
+      "path": "src/areas/archive/mod-030.js",
+      "kind": "javascript",
+      "bytes": 27258
+    },
+    {
+      "path": "src/areas/archive/mod-031.js",
+      "kind": "javascript",
+      "bytes": 41045
+    },
+    {
+      "path": "src/areas/archive/mod-032.js",
+      "kind": "javascript",
+      "bytes": 54853
+    },
+    {
+      "path": "src/areas/archive/mod-033.js",
+      "kind": "javascript",
+      "bytes": 68717
+    },
+    {
+      "path": "src/areas/archive/mod-034.js",
+      "kind": "javascript",
+      "bytes": 82568
+    },
+    {
+      "path": "src/areas/archive/mod-035.js",
+      "kind": "javascript",
+      "bytes": 96419
+    },
+    {
+      "path": "src/areas/archive/mod-036.js",
+      "kind": "javascript",
+      "bytes": 110255
+    },
+    {
+      "path": "src/areas/archive/mod-037.js",
+      "kind": "javascript",
+      "bytes": 122874
+    },
+    {
+      "path": "src/areas/archive/index.js",
+      "kind": "javascript",
+      "bytes": 41237
+    },
+    {
+      "path": "src/lazy/archive/panel-00.js",
+      "kind": "javascript",
+      "bytes": 34528
+    },
+    {
+      "path": "src/lazy/archive/panel-01.js",
+      "kind": "javascript",
+      "bytes": 48364
+    },
+    {
+      "path": "src/lazy/archive/panel-02.js",
+      "kind": "javascript",
+      "bytes": 62202
+    },
+    {
+      "path": "src/lazy/archive/panel-03.js",
+      "kind": "javascript",
+      "bytes": 76366
+    },
+    {
+      "path": "src/lazy/archive/panel-04.js",
+      "kind": "javascript",
+      "bytes": 90524
+    },
+    {
+      "path": "src/lazy/archive/panel-05.js",
+      "kind": "javascript",
+      "bytes": 104710
+    },
+    {
+      "path": "src/lazy/archive/panel-06.js",
+      "kind": "javascript",
+      "bytes": 118871
+    },
+    {
+      "path": "src/lazy/archive/panel-07.js",
+      "kind": "javascript",
+      "bytes": 27892
+    },
+    {
+      "path": "src/lazy/archive/panel-08.js",
+      "kind": "javascript",
+      "bytes": 41992
+    },
+    {
+      "path": "src/lazy/archive/panel-09.js",
+      "kind": "javascript",
+      "bytes": 56129
+    },
+    {
+      "path": "src/lazy/archive/panel-10.js",
+      "kind": "javascript",
+      "bytes": 21849
+    },
+    {
+      "path": "src/lazy/archive/panel-11.js",
+      "kind": "javascript",
+      "bytes": 194360
+    },
+    {
+      "path": "src/lazy/archive/panel-12.js",
+      "kind": "javascript",
+      "bytes": 97348
+    },
+    {
+      "path": "src/lazy/archive/panel-13.js",
+      "kind": "javascript",
+      "bytes": 111379
+    },
+    {
+      "path": "src/lazy/archive/panel-14.js",
+      "kind": "javascript",
+      "bytes": 125265
+    },
+    {
+      "path": "src/lazy/archive/panel-15.js",
+      "kind": "javascript",
+      "bytes": 35955
+    },
+    {
+      "path": "src/lazy/archive/panel-16.js",
+      "kind": "javascript",
+      "bytes": 50056
+    },
+    {
+      "path": "src/lazy/archive/panel-17.js",
+      "kind": "javascript",
+      "bytes": 64225
+    },
+    {
+      "path": "src/areas/archive/loader.js",
+      "kind": "javascript",
+      "bytes": 106781
+    },
+    {
+      "path": "src/areas/ledger/mod-000.jsx",
+      "kind": "javascript",
+      "bytes": 35095
+    },
+    {
+      "path": "src/areas/ledger/mod-001.js",
+      "kind": "javascript",
+      "bytes": 48701
+    },
+    {
+      "path": "src/areas/ledger/mod-002.js",
+      "kind": "javascript",
+      "bytes": 62476
+    },
+    {
+      "path": "src/areas/ledger/mod-003.js",
+      "kind": "javascript",
+      "bytes": 76281
+    },
+    {
+      "path": "src/areas/ledger/mod-004.js",
+      "kind": "javascript",
+      "bytes": 88809
+    },
+    {
+      "path": "src/areas/ledger/mod-005.js",
+      "kind": "javascript",
+      "bytes": 102604
+    },
+    {
+      "path": "src/areas/ledger/mod-006.js",
+      "kind": "javascript",
+      "bytes": 116376
+    },
+    {
+      "path": "src/areas/ledger/mod-007.js",
+      "kind": "javascript",
+      "bytes": 27696
+    },
+    {
+      "path": "src/areas/ledger/mod-008.js",
+      "kind": "javascript",
+      "bytes": 41424
+    },
+    {
+      "path": "src/areas/ledger/mod-009.js",
+      "kind": "javascript",
+      "bytes": 55173
+    },
+    {
+      "path": "src/areas/ledger/mod-010.js",
+      "kind": "javascript",
+      "bytes": 68959
+    },
+    {
+      "path": "src/areas/ledger/mod-011.js",
+      "kind": "javascript",
+      "bytes": 82494
+    },
+    {
+      "path": "src/areas/ledger/mod-012.js",
+      "kind": "javascript",
+      "bytes": 21248
+    },
+    {
+      "path": "src/areas/ledger/mod-013.js",
+      "kind": "javascript",
+      "bytes": 191256
+    },
+    {
+      "path": "src/areas/ledger/mod-014.js",
+      "kind": "javascript",
+      "bytes": 123850
+    },
+    {
+      "path": "src/areas/ledger/mod-015.js",
+      "kind": "javascript",
+      "bytes": 34976
+    },
+    {
+      "path": "src/areas/ledger/mod-016.js",
+      "kind": "javascript",
+      "bytes": 48705
+    },
+    {
+      "path": "src/areas/ledger/mod-017.js",
+      "kind": "javascript",
+      "bytes": 62487
+    },
+    {
+      "path": "src/areas/ledger/mod-018.js",
+      "kind": "javascript",
+      "bytes": 76270
+    },
+    {
+      "path": "src/areas/ledger/mod-019.js",
+      "kind": "javascript",
+      "bytes": 90077
+    },
+    {
+      "path": "src/areas/ledger/mod-020.jsx",
+      "kind": "javascript",
+      "bytes": 103986
+    },
+    {
+      "path": "src/areas/ledger/mod-021.js",
+      "kind": "javascript",
+      "bytes": 117656
+    },
+    {
+      "path": "src/areas/ledger/mod-022.js",
+      "kind": "javascript",
+      "bytes": 29092
+    },
+    {
+      "path": "src/areas/ledger/mod-023.js",
+      "kind": "javascript",
+      "bytes": 42826
+    },
+    {
+      "path": "src/areas/ledger/mod-024.js",
+      "kind": "javascript",
+      "bytes": 56579
+    },
+    {
+      "path": "src/areas/ledger/mod-025.js",
+      "kind": "javascript",
+      "bytes": 70371
+    },
+    {
+      "path": "src/areas/ledger/mod-026.js",
+      "kind": "javascript",
+      "bytes": 84153
+    },
+    {
+      "path": "src/areas/ledger/mod-027.js",
+      "kind": "javascript",
+      "bytes": 97954
+    },
+    {
+      "path": "src/areas/ledger/mod-028.js",
+      "kind": "javascript",
+      "bytes": 111744
+    },
+    {
+      "path": "src/areas/ledger/mod-029.js",
+      "kind": "javascript",
+      "bytes": 125533
+    },
+    {
+      "path": "src/areas/ledger/mod-030.js",
+      "kind": "javascript",
+      "bytes": 36934
+    },
+    {
+      "path": "src/areas/ledger/mod-031.js",
+      "kind": "javascript",
+      "bytes": 50670
+    },
+    {
+      "path": "src/areas/ledger/mod-032.js",
+      "kind": "javascript",
+      "bytes": 64459
+    },
+    {
+      "path": "src/areas/ledger/mod-033.js",
+      "kind": "javascript",
+      "bytes": 78247
+    },
+    {
+      "path": "src/areas/ledger/mod-034.js",
+      "kind": "javascript",
+      "bytes": 92024
+    },
+    {
+      "path": "src/areas/ledger/mod-035.js",
+      "kind": "javascript",
+      "bytes": 105836
+    },
+    {
+      "path": "src/areas/ledger/mod-036.js",
+      "kind": "javascript",
+      "bytes": 119617
+    },
+    {
+      "path": "src/areas/ledger/mod-037.js",
+      "kind": "javascript",
+      "bytes": 29798
+    },
+    {
+      "path": "src/areas/ledger/index.js",
+      "kind": "javascript",
+      "bytes": 54660
+    },
+    {
+      "path": "src/lazy/ledger/panel-00.js",
+      "kind": "javascript",
+      "bytes": 78046
+    },
+    {
+      "path": "src/lazy/ledger/panel-01.js",
+      "kind": "javascript",
+      "bytes": 90726
+    },
+    {
+      "path": "src/lazy/ledger/panel-02.js",
+      "kind": "javascript",
+      "bytes": 104822
+    },
+    {
+      "path": "src/lazy/ledger/panel-03.js",
+      "kind": "javascript",
+      "bytes": 118667
+    },
+    {
+      "path": "src/lazy/ledger/panel-04.js",
+      "kind": "javascript",
+      "bytes": 29778
+    },
+    {
+      "path": "src/lazy/ledger/panel-05.js",
+      "kind": "javascript",
+      "bytes": 43820
+    },
+    {
+      "path": "src/lazy/ledger/panel-06.js",
+      "kind": "javascript",
+      "bytes": 57879
+    },
+    {
+      "path": "src/lazy/ledger/panel-07.js",
+      "kind": "javascript",
+      "bytes": 70576
+    },
+    {
+      "path": "src/lazy/ledger/panel-08.js",
+      "kind": "javascript",
+      "bytes": 84401
+    },
+    {
+      "path": "src/lazy/ledger/panel-09.js",
+      "kind": "javascript",
+      "bytes": 98191
+    },
+    {
+      "path": "src/lazy/ledger/panel-10.js",
+      "kind": "javascript",
+      "bytes": 112284
+    },
+    {
+      "path": "src/lazy/ledger/panel-11.js",
+      "kind": "javascript",
+      "bytes": 126412
+    },
+    {
+      "path": "src/lazy/ledger/panel-12.js",
+      "kind": "javascript",
+      "bytes": 36380
+    },
+    {
+      "path": "src/lazy/ledger/panel-13.js",
+      "kind": "javascript",
+      "bytes": 50427
+    },
+    {
+      "path": "src/lazy/ledger/panel-14.js",
+      "kind": "javascript",
+      "bytes": 64246
+    },
+    {
+      "path": "src/lazy/ledger/panel-15.js",
+      "kind": "javascript",
+      "bytes": 78044
+    },
+    {
+      "path": "src/lazy/ledger/panel-16.js",
+      "kind": "javascript",
+      "bytes": 92149
+    },
+    {
+      "path": "src/lazy/ledger/panel-17.js",
+      "kind": "javascript",
+      "bytes": 106256
+    },
+    {
+      "path": "src/areas/ledger/loader.js",
+      "kind": "javascript",
+      "bytes": 120480
+    },
+    {
+      "path": "src/entries/catalog.js",
+      "kind": "javascript",
+      "bytes": 30266
+    },
+    {
+      "path": "src/entries/warehouse.js",
+      "kind": "javascript",
+      "bytes": 22231
+    },
+    {
+      "path": "src/entries/storefront.js",
+      "kind": "javascript",
+      "bytes": 195242
+    },
+    {
+      "path": "src/entries/dispatch.js",
+      "kind": "javascript",
+      "bytes": 72830
+    },
+    {
+      "path": "src/entries/archive.js",
+      "kind": "javascript",
+      "bytes": 86594
+    },
+    {
+      "path": "src/entries/ledger.js",
+      "kind": "javascript",
+      "bytes": 100339
+    },
+    {
+      "path": "src/styles/sheet-00.css",
+      "kind": "css",
+      "bytes": 20555
+    },
+    {
+      "path": "src/styles/sheet-01.css",
+      "kind": "css",
+      "bytes": 20505
+    },
+    {
+      "path": "src/styles/sheet-02.css",
+      "kind": "css",
+      "bytes": 20505
+    },
+    {
+      "path": "src/styles/sheet-03.css",
+      "kind": "css",
+      "bytes": 20505
+    },
+    {
+      "path": "src/styles/sheet-04.css",
+      "kind": "css",
+      "bytes": 37976
+    },
+    {
+      "path": "src/styles/sheet-05.css",
+      "kind": "css",
+      "bytes": 55302
+    },
+    {
+      "path": "src/styles/sheet-06.css",
+      "kind": "css",
+      "bytes": 72833
+    },
+    {
+      "path": "src/styles/sheet-07.css",
+      "kind": "css",
+      "bytes": 90125
+    },
+    {
+      "path": "src/styles/sheet-08.css",
+      "kind": "css",
+      "bytes": 45179
+    },
+    {
+      "path": "src/styles/sheet-09.css",
+      "kind": "css",
+      "bytes": 62647
+    },
+    {
+      "path": "src/styles/sheet-10.css",
+      "kind": "css",
+      "bytes": 79974
+    },
+    {
+      "path": "src/styles/sheet-11.css",
+      "kind": "css",
+      "bytes": 34994
+    },
+    {
+      "path": "src/styles/sheet-12.css",
+      "kind": "css",
+      "bytes": 52320
+    },
+    {
+      "path": "src/styles/sheet-13.css",
+      "kind": "css",
+      "bytes": 69646
+    },
+    {
+      "path": "src/styles/sheet-14.css",
+      "kind": "css",
+      "bytes": 87083
+    },
+    {
+      "path": "src/styles/sheet-15.css",
+      "kind": "css",
+      "bytes": 42081
+    },
+    {
+      "path": "src/styles/sheet-16.css",
+      "kind": "css",
+      "bytes": 59467
+    },
+    {
+      "path": "src/styles/sheet-17.css",
+      "kind": "css",
+      "bytes": 76938
+    },
+    {
+      "path": "src/styles/sheet-18.css",
+      "kind": "css",
+      "bytes": 31813
+    },
+    {
+      "path": "src/styles/sheet-19.css",
+      "kind": "css",
+      "bytes": 49284
+    },
+    {
+      "path": "src/styles/sheet-20.css",
+      "kind": "css",
+      "bytes": 66610
+    },
+    {
+      "path": "src/styles/sheet-21.css",
+      "kind": "css",
+      "bytes": 84081
+    },
+    {
+      "path": "src/styles/sheet-22.css",
+      "kind": "css",
+      "bytes": 39045
+    },
+    {
+      "path": "src/styles/sheet-23.css",
+      "kind": "css",
+      "bytes": 153500
+    },
+    {
+      "path": "src/styles/sheet-24.css",
+      "kind": "css",
+      "bytes": 153500
+    },
+    {
+      "path": "src/styles/sheet-25.css",
+      "kind": "css",
+      "bytes": 153500
+    }
+  ]
+}

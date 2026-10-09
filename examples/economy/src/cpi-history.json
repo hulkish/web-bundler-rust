@@ -1,0 +1,296 @@
+[
+  {
+    "period": "December 2013",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 1.3,
+    "cpiYear": 1.5
+  },
+  {
+    "period": "December 2014",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 0.5,
+    "cpiYear": 0.8
+  },
+  {
+    "period": "December 2015",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 0.4,
+    "cpiYear": 0.7
+  },
+  {
+    "period": "December 2016",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 1.8,
+    "cpiYear": 2.1
+  },
+  {
+    "period": "December 2017",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 1.7,
+    "cpiYear": 2.1
+  },
+  {
+    "period": "December 2018",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 1.5,
+    "cpiYear": 1.9
+  },
+  {
+    "period": "December 2019",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 1.8,
+    "cpiYear": 2.3
+  },
+  {
+    "period": "December 2020",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 1.5,
+    "cpiYear": 1.4
+  },
+  {
+    "period": "December 2021",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 6.5,
+    "cpiYear": 7
+  },
+  {
+    "period": "December 2022",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 6.4,
+    "cpiYear": 6.5
+  },
+  {
+    "period": "December 2023",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 2.9,
+    "cpiYear": 3.4
+  },
+  {
+    "period": "January 2024",
+    "chainedMonth": 0.5,
+    "cpiMonth": 0.5,
+    "chainedYear": 2.6,
+    "cpiYear": 3.1
+  },
+  {
+    "period": "February 2024",
+    "chainedMonth": 0.6,
+    "cpiMonth": 0.6,
+    "chainedYear": 2.8,
+    "cpiYear": 3.2
+  },
+  {
+    "period": "March 2024",
+    "chainedMonth": 0.6,
+    "cpiMonth": 0.6,
+    "chainedYear": 3.1,
+    "cpiYear": 3.5
+  },
+  {
+    "period": "April 2024",
+    "chainedMonth": 0.4,
+    "cpiMonth": 0.4,
+    "chainedYear": 3,
+    "cpiYear": 3.4
+  },
+  {
+    "period": "May 2024",
+    "chainedMonth": 0.1,
+    "cpiMonth": 0.2,
+    "chainedYear": 2.9,
+    "cpiYear": 3.3
+  },
+  {
+    "period": "June 2024",
+    "chainedMonth": 0,
+    "cpiMonth": 0,
+    "chainedYear": 2.6,
+    "cpiYear": 3
+  },
+  {
+    "period": "July 2024",
+    "chainedMonth": 0,
+    "cpiMonth": 0.1,
+    "chainedYear": 2.5,
+    "cpiYear": 2.9
+  },
+  {
+    "period": "August 2024",
+    "chainedMonth": 0,
+    "cpiMonth": 0.1,
+    "chainedYear": 2.2,
+    "cpiYear": 2.5
+  },
+  {
+    "period": "September 2024",
+    "chainedMonth": 0.1,
+    "cpiMonth": 0.2,
+    "chainedYear": 2.1,
+    "cpiYear": 2.4
+  },
+  {
+    "period": "October 2024",
+    "chainedMonth": 0.1,
+    "cpiMonth": 0.1,
+    "chainedYear": 2.3,
+    "cpiYear": 2.6
+  },
+  {
+    "period": "November 2024",
+    "chainedMonth": -0.1,
+    "cpiMonth": -0.1,
+    "chainedYear": 2.5,
+    "cpiYear": 2.7
+  },
+  {
+    "period": "December 2024",
+    "chainedMonth": 0,
+    "cpiMonth": 0,
+    "chainedYear": 2.6,
+    "cpiYear": 2.9
+  },
+  {
+    "period": "January 2025",
+    "chainedMonth": 0.7,
+    "cpiMonth": 0.7,
+    "chainedYear": 2.7,
+    "cpiYear": 3
+  },
+  {
+    "period": "February 2025",
+    "chainedMonth": 0.4,
+    "cpiMonth": 0.4,
+    "chainedYear": 2.6,
+    "cpiYear": 2.8
+  },
+  {
+    "period": "March 2025",
+    "chainedMonth": 0.2,
+    "cpiMonth": 0.2,
+    "chainedYear": 2.1,
+    "cpiYear": 2.4
+  },
+  {
+    "period": "April 2025",
+    "chainedMonth": 0.3,
+    "cpiMonth": 0.3,
+    "chainedYear": 2.1,
+    "cpiYear": 2.3
+  },
+  {
+    "period": "May 2025",
+    "chainedMonth": 0.2,
+    "cpiMonth": 0.2,
+    "chainedYear": 2.1,
+    "cpiYear": 2.4
+  },
+  {
+    "period": "June 2025",
+    "chainedMonth": 0.3,
+    "cpiMonth": 0.3,
+    "chainedYear": 2.4,
+    "cpiYear": 2.7
+  },
+  {
+    "period": "July 2025",
+    "chainedMonth": 0.2,
+    "cpiMonth": 0.2,
+    "chainedYear": 2.6,
+    "cpiYear": 2.7
+  },
+  {
+    "period": "August 2025",
+    "chainedMonth": 0.3,
+    "cpiMonth": 0.3,
+    "chainedYear": 2.9,
+    "cpiYear": 2.9
+  },
+  {
+    "period": "September 2025",
+    "chainedMonth": 0.3,
+    "cpiMonth": 0.3,
+    "chainedYear": 3,
+    "cpiYear": 3
+  },
+  {
+    "period": "November 2025",
+    "chainedMonth": null,
+    "cpiMonth": null,
+    "chainedYear": 2.7,
+    "cpiYear": 2.7
+  },
+  {
+    "period": "December 2025",
+    "chainedMonth": -0.1,
+    "cpiMonth": 0,
+    "chainedYear": 2.6,
+    "cpiYear": 2.7
+  },
+  {
+    "period": "January 2026",
+    "chainedMonth": 0.4,
+    "cpiMonth": 0.4,
+    "chainedYear": 2.3,
+    "cpiYear": 2.4
+  },
+  {
+    "period": "February 2026",
+    "chainedMonth": 0.5,
+    "cpiMonth": 0.5,
+    "chainedYear": 2.3,
+    "cpiYear": 2.4
+  },
+  {
+    "period": "March 2026",
+    "chainedMonth": 1.1,
+    "cpiMonth": 1,
+    "chainedYear": 3.2,
+    "cpiYear": 3.3
+  },
+  {
+    "period": "April 2026",
+    "chainedMonth": 0.8,
+    "cpiMonth": 0.9,
+    "chainedYear": 3.7,
+    "cpiYear": 3.8
+  },
+  {
+    "period": "May 2026",
+    "chainedMonth": 0.6,
+    "cpiMonth": 0.6,
+    "chainedYear": 4.1,
+    "cpiYear": 4.2
+  },
+  {
+    "period": "June 2026",
+    "chainedMonth": -0.3,
+    "cpiMonth": -0.3,
+    "chainedYear": 3.5,
+    "cpiYear": 3.5
+  },
+  {
+    "period": "July 2026",
+    "chainedMonth": 0,
+    "cpiMonth": 0,
+    "chainedYear": 3.3,
+    "cpiYear": 3.4
+  },
+  {
+    "period": "August 2026",
+    "chainedMonth": 0.3,
+    "cpiMonth": 0.3,
+    "chainedYear": 3.3,
+    "cpiYear": 3.4
+  }
+]

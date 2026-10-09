@@ -1,0 +1,5 @@
+{
+  "name": "beacon-example",
+  "private": true,
+  "sideEffects": ["**/*.css", "**/*.svg"]
+}

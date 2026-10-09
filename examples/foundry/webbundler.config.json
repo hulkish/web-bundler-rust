@@ -1,0 +1,11 @@
+{
+  "entry": "src/main.js",
+  "output": "preview/foundry.js",
+  "target": "browser",
+  "format": "esm",
+  "sourcemap": true,
+  "report": true,
+  "define": {
+    "process.env.NODE_ENV": "\"production\""
+  }
+}

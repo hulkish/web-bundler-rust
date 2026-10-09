@@ -1,0 +1,10 @@
+{
+  "name": "release-example",
+  "private": true,
+  "dependencies": {
+    "chalk": "4.1.2",
+    "marked": "14.1.4",
+    "minimist": "1.2.8",
+    "ms": "2.1.3"
+  }
+}

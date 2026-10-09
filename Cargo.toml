@@ -1,0 +1,37 @@
+[package]
+name = "webbundler"
+version = "0.1.0"
+edition = "2021"
+description = "A JavaScript module bundler with minification, written in Rust"
+license = "MIT"
+rust-version = "1.85"
+
+[[bin]]
+name = "webbundler"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+oxc_allocator = "=0.152.0"
+oxc_ast = "=0.152.0"
+oxc_ast_visit = "=0.152.0"
+oxc_codegen = "=0.152.0"
+oxc_mangler = "=0.152.0"
+oxc_minifier = "=0.152.0"
+oxc_parser = "=0.152.0"
+oxc_semantic = "=0.152.0"
+oxc_span = "=0.152.0"
+oxc_str = "=0.152.0"
+oxc_syntax = "=0.152.0"
+oxc_sourcemap = "9.0.0"
+serde = "1.0"
+serde_json = "1.0"
+log = "0.4"
+
+[dev-dependencies]
+oxc_sourcemap = "9.0.0"
+libc-print = "0.5.0"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

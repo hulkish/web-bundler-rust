@@ -1,0 +1,17 @@
+[
+  {
+    "id": "systems",
+    "title": "Systems",
+    "blurb": "How a program is cut into files and put back together, and how a request finds a page."
+  },
+  {
+    "id": "stories",
+    "title": "Stories",
+    "blurb": "Narratives that borrow the vocabulary of the shelf: presses, gardens, and names that change."
+  },
+  {
+    "id": "reference",
+    "title": "Reference",
+    "blurb": "Tables, indexes, and the dates printed on the spine."
+  }
+]

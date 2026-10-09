@@ -1,0 +1,11 @@
+{
+  "entry": "src/main.jsx",
+  "output": "preview/workshop.mjs",
+  "target": "browser",
+  "format": "esm",
+  "sourcemap": true,
+  "report": true,
+  "define": {
+    "process.env.NODE_ENV": "\"production\""
+  }
+}

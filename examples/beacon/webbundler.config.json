@@ -1,0 +1,11 @@
+{
+  "entry": "src/index.ts",
+  "output": "dist/beacon.js",
+  "minify": true,
+  "sourcemap": true,
+  "report": true,
+  "define": {
+    "BEACON_ARMED": true,
+    "process.env.NODE_ENV": "\"production\""
+  }
+}

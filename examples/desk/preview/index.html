@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desk</title>
+    <link rel="stylesheet" href="./ui.css">
+    <style>
+      body {
+        margin: 0;
+        background: #f7f1e3;
+        color: #1a1a1a;
+        font-family: Palatino, "Iowan Old Style", "Palatino Linotype", serif;
+      }
+      .site-nav, .toolbar { display: flex; gap: 1rem; }
+      .site-nav {
+        padding: 0.8rem 1.4rem;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+        font-size: 0.85rem;
+      }
+      .site-nav a { color: inherit; }
+      #app { max-width: 40rem; margin: 0 auto; padding: 1.2rem 1.4rem 3rem; }
+      .eyebrow, .meta, .margin { letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.75rem; }
+      h1 { font-weight: 500; font-size: 2.8rem; margin: 0.2rem 0; }
+      .toolbar { gap: 0.5rem; margin: 1rem 0; }
+      button, textarea {
+        font: inherit;
+        color: inherit;
+        background: transparent;
+        border: 1px solid #1a1a1a;
+      }
+      button { padding: 0.35rem 0.8rem; cursor: pointer; }
+      button[aria-pressed="true"] { background: #1a1a1a; color: #f7f1e3; }
+      .sheet { min-height: 12rem; }
+      .preface { font-size: 1.35rem; line-height: 1.5; }
+      textarea { width: 100%; box-sizing: border-box; padding: 0.6rem; margin-top: 0.4rem; }
+      label { display: block; margin-top: 1rem; }
+    </style>
+  </head>
+  <body class="page">
+    <nav class="site-nav">
+      <a href="../../index.html">Examples</a>
+      <a href="../../observatory/preview/index.html">Observatory</a>
+      <a href="../../gallery/preview/index.html">Gallery</a>
+      <a href="./index.html" aria-current="page">Desk</a>
+      <a href="../../beacon/preview/index.html">Beacon</a>
+      <a href="../../economy/preview/index.html">Economy</a>
+      <a href="../../foundry/preview/index.html">Foundry</a>
+      <a href="../../storybook/preview/index.html">Storybook</a>
+    </nav>
+    <main id="app">Opening the desk…</main>
+    <script type="module" src="./ui.js"></script>
+  </body>
+</html>

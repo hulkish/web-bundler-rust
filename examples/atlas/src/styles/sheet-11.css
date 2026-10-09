@@ -1,0 +1,1620 @@
+/* Atlas stylesheet 11. Imported from src/shared/styles.js. */
+:root {
+  --atlas-sheet: 11;
+  --atlas-ink: #1b1a17;
+  --atlas-paper: #f4efe6;
+}
+.atlas-s11-r0000 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-23.png");
+  border-image-source: url("../icons/png/icon-23.png");
+}
+.atlas-s11-r0000 { margin: 0px; }
+@media (min-width: 40rem) {
+  .atlas-s11-r0000 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0001 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0002 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0003 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0004 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0005 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0006 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0007 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0008 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0009 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0010 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0011 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-34.png");
+}
+.atlas-s11-r0012 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0013 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0014 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0015 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0016 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0017 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0018 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0019 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-02.svg");
+}
+.atlas-s11-r0020 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0021 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0022 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-05.svg");
+}
+.atlas-s11-r0023 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0023 { margin: 0px; }
+.atlas-s11-r0024 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0025 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0026 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0027 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0028 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0029 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 49rem) {
+  .atlas-s11-r0029 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0030 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0031 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0032 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0033 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-16.svg");
+}
+.atlas-s11-r0034 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0035 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0036 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0037 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0038 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-21.svg");
+}
+.atlas-s11-r0039 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0040 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0041 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0042 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0043 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0044 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-27.svg");
+}
+.atlas-s11-r0045 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0046 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0046 { margin: 0px; }
+.atlas-s11-r0047 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0048 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0049 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0050 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0051 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0052 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0053 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0054 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0055 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-38.svg");
+}
+.atlas-s11-r0056 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0057 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-00.png");
+}
+.atlas-s11-r0058 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 58rem) {
+  .atlas-s11-r0058 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0059 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0060 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0061 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0062 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0063 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0064 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0065 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0066 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-09.png");
+}
+.atlas-s11-r0067 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0068 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0069 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0069 { margin: 0px; }
+.atlas-s11-r0070 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0071 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0072 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0073 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0074 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0075 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0076 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-19.png");
+}
+.atlas-s11-r0077 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-20.png");
+}
+.atlas-s11-r0078 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0079 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0080 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0081 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0082 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0083 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0084 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0085 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0086 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0087 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 47rem) {
+  .atlas-s11-r0087 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0088 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-31.png");
+}
+.atlas-s11-r0089 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0090 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0091 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0092 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0092 { margin: 0px; }
+.atlas-s11-r0093 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0094 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0095 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-38.png");
+}
+.atlas-s11-r0096 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0097 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0098 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0099 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-02.svg");
+}
+.atlas-s11-r0100 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0101 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0102 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0103 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0104 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0105 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0106 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0107 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0108 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0109 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0110 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-13.svg");
+}
+.atlas-s11-r0111 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0112 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0113 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0114 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-17.svg");
+}
+.atlas-s11-r0115 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0115 { margin: 0px; }
+.atlas-s11-r0116 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 56rem) {
+  .atlas-s11-r0116 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0117 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0118 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0119 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0120 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0121 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-24.svg");
+}
+.atlas-s11-r0122 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0123 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0124 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0125 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0126 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0127 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0128 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0129 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0130 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0131 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0132 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-35.svg");
+}
+.atlas-s11-r0133 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-36.svg");
+}
+.atlas-s11-r0134 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0135 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0136 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0137 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0138 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0138 { margin: 0px; }
+.atlas-s11-r0139 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0140 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0141 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0142 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0143 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-06.png");
+}
+.atlas-s11-r0144 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0145 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 45rem) {
+  .atlas-s11-r0145 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0146 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0147 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0148 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0149 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0150 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0151 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0152 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-15.png");
+}
+.atlas-s11-r0153 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0154 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-17.png");
+}
+.atlas-s11-r0155 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0156 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0157 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0158 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0159 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0160 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0161 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0161 { margin: 0px; }
+.atlas-s11-r0162 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0163 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0164 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0165 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-28.png");
+}
+.atlas-s11-r0166 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0167 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0168 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0169 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0170 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0171 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/png/icon-34.png");
+}
+.atlas-s11-r0172 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0173 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0174 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 54rem) {
+  .atlas-s11-r0174 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0175 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0176 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-39.png");
+}
+.atlas-s11-r0177 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0178 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0179 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0180 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0181 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0182 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0183 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0184 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0184 { margin: 0px; }
+.atlas-s11-r0185 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0186 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0187 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-10.svg");
+}
+.atlas-s11-r0188 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0189 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0190 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  border-image-source: url("../icons/svg/icon-13.svg");
+}
+.atlas-s11-r0191 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0192 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0193 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0194 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0195 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0196 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0197 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0198 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-21.svg");
+}
+.atlas-s11-r0199 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0200 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0201 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0202 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0203 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+@media (min-width: 43rem) {
+  .atlas-s11-r0203 { outline: 1px solid transparent; }
+}
+.atlas-s11-r0204 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0205 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0206 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0207 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0207 { margin: 0px; }
+.atlas-s11-r0208 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0209 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/svg/icon-32.svg");
+  border-image-source: url("../icons/svg/icon-32.svg");
+}
+.atlas-s11-r0210 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0211 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0212 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0213 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0214 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0215 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0216 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0217 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0218 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0219 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+}
+.atlas-s11-r0220 {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  font-weight: normal;
+  background-image: url("../icons/png/icon-03.png");
+}

@@ -1,0 +1,2987 @@
+// src/areas/warehouse/index.js
+// Barrel for the warehouse entry. These modules are not imported by the other entries.
+export { collect as part000, area as area000 } from "./mod-000.jsx";
+export { collect as part001, area as area001 } from "./mod-001.js";
+export { collect as part002, area as area002 } from "./mod-002.js";
+export { collect as part003, area as area003 } from "./mod-003.js";
+export { collect as part004, area as area004 } from "./mod-004.js";
+export { collect as part005, area as area005 } from "./mod-005.js";
+export { collect as part006, area as area006 } from "./mod-006.js";
+export { collect as part007, area as area007 } from "./mod-007.js";
+export { collect as part008, area as area008 } from "./mod-008.js";
+export { collect as part009, area as area009 } from "./mod-009.js";
+export { collect as part010, area as area010 } from "./mod-010.js";
+export { collect as part011, area as area011 } from "./mod-011.js";
+export { collect as part012, area as area012 } from "./mod-012.js";
+export { collect as part013, area as area013 } from "./mod-013.js";
+export { collect as part014, area as area014 } from "./mod-014.js";
+export { collect as part015, area as area015 } from "./mod-015.js";
+export { collect as part016, area as area016 } from "./mod-016.js";
+export { collect as part017, area as area017 } from "./mod-017.js";
+export { collect as part018, area as area018 } from "./mod-018.js";
+export { collect as part019, area as area019 } from "./mod-019.js";
+export { collect as part020, area as area020 } from "./mod-020.jsx";
+export { collect as part021, area as area021 } from "./mod-021.js";
+export { collect as part022, area as area022 } from "./mod-022.js";
+export { collect as part023, area as area023 } from "./mod-023.js";
+export { collect as part024, area as area024 } from "./mod-024.js";
+export { collect as part025, area as area025 } from "./mod-025.js";
+export { collect as part026, area as area026 } from "./mod-026.js";
+export { collect as part027, area as area027 } from "./mod-027.js";
+export { collect as part028, area as area028 } from "./mod-028.js";
+export { collect as part029, area as area029 } from "./mod-029.js";
+export { collect as part030, area as area030 } from "./mod-030.js";
+export { collect as part031, area as area031 } from "./mod-031.js";
+export { collect as part032, area as area032 } from "./mod-032.js";
+export { collect as part033, area as area033 } from "./mod-033.js";
+export { collect as part034, area as area034 } from "./mod-034.js";
+export { collect as part035, area as area035 } from "./mod-035.js";
+export { collect as part036, area as area036 } from "./mod-036.js";
+export { collect as part037, area as area037 } from "./mod-037.js";
+export function collect(n) {
+  return part000(n) + part001(n) + part002(n) + part003(n) + part004(n) + part005(n) + part006(n) + part007(n) + part008(n) + part009(n) + part010(n) + part011(n) + part012(n) + part013(n) + part014(n) + part015(n) + part016(n) + part017(n) + part018(n) + part019(n) + part020(n) + part021(n) + part022(n) + part023(n) + part024(n) + part025(n) + part026(n) + part027(n) + part028(n) + part029(n) + part030(n) + part031(n) + part032(n) + part033(n) + part034(n) + part035(n) + part036(n) + part037(n);
+}
+export function warehouseIndexLane0(n) {
+  const added = 1 + 2;
+  const text = "atlas" + "-warehouseIndexLane0";
+  const flag = true ? 1 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(6);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane1(n) {
+  let value = 0;
+  try {
+    value = 2 + 5;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane2(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane3(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane4(n) {
+  const added = 5 + 6;
+  const text = "atlas" + "-warehouseIndexLane4";
+  const flag = true ? 5 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(10);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane5(n) {
+  let value = 0;
+  try {
+    value = 6 + 9;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane6(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane7(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane8(n) {
+  const added = 9 + 10;
+  const text = "atlas" + "-warehouseIndexLane8";
+  const flag = true ? 9 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(14);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane9(n) {
+  let value = 0;
+  try {
+    value = 10 + 13;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane10(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane11(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane12(n) {
+  const added = 13 + 14;
+  const text = "atlas" + "-warehouseIndexLane12";
+  const flag = true ? 4 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(3);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane13(n) {
+  let value = 0;
+  try {
+    value = 14 + 17;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane14(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane15(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane16(n) {
+  const added = 17 + 18;
+  const text = "atlas" + "-warehouseIndexLane16";
+  const flag = true ? 8 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(7);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane17(n) {
+  let value = 0;
+  try {
+    value = 18 + 21;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane18(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane19(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane20(n) {
+  const added = 21 + 22;
+  const text = "atlas" + "-warehouseIndexLane20";
+  const flag = true ? 3 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(11);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane21(n) {
+  let value = 0;
+  try {
+    value = 22 + 25;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane22(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane23(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane24(n) {
+  const added = 25 + 1;
+  const text = "atlas" + "-warehouseIndexLane24";
+  const flag = true ? 7 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(0);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane25(n) {
+  let value = 0;
+  try {
+    value = 26 + 29;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane26(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane27(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane28(n) {
+  const added = 29 + 5;
+  const text = "atlas" + "-warehouseIndexLane28";
+  const flag = true ? 2 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(4);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane29(n) {
+  let value = 0;
+  try {
+    value = 30 + 33;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane30(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane31(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane32(n) {
+  const added = 33 + 9;
+  const text = "atlas" + "-warehouseIndexLane32";
+  const flag = true ? 6 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(8);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane33(n) {
+  let value = 0;
+  try {
+    value = 34 + 37;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane34(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane35(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane36(n) {
+  const added = 37 + 13;
+  const text = "atlas" + "-warehouseIndexLane36";
+  const flag = true ? 1 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(12);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane37(n) {
+  let value = 0;
+  try {
+    value = 38 + 41;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane38(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane39(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane40(n) {
+  const added = 1 + 17;
+  const text = "atlas" + "-warehouseIndexLane40";
+  const flag = true ? 5 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(1);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane41(n) {
+  let value = 0;
+  try {
+    value = 42 + 45;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane42(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane43(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane44(n) {
+  const added = 5 + 21;
+  const text = "atlas" + "-warehouseIndexLane44";
+  const flag = true ? 9 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(5);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane45(n) {
+  let value = 0;
+  try {
+    value = 46 + 49;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane46(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane47(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane48(n) {
+  const added = 9 + 25;
+  const text = "atlas" + "-warehouseIndexLane48";
+  const flag = true ? 4 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(9);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane49(n) {
+  let value = 0;
+  try {
+    value = 0 + 3;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane50(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane51(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane52(n) {
+  const added = 13 + 4;
+  const text = "atlas" + "-warehouseIndexLane52";
+  const flag = true ? 8 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(13);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane53(n) {
+  let value = 0;
+  try {
+    value = 4 + 7;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane54(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane55(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane56(n) {
+  const added = 17 + 8;
+  const text = "atlas" + "-warehouseIndexLane56";
+  const flag = true ? 3 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(2);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane57(n) {
+  let value = 0;
+  try {
+    value = 8 + 11;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane58(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane59(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane60(n) {
+  const added = 21 + 12;
+  const text = "atlas" + "-warehouseIndexLane60";
+  const flag = true ? 7 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(6);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane61(n) {
+  let value = 0;
+  try {
+    value = 12 + 15;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane62(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane63(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane64(n) {
+  const added = 25 + 16;
+  const text = "atlas" + "-warehouseIndexLane64";
+  const flag = true ? 2 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(10);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane65(n) {
+  let value = 0;
+  try {
+    value = 16 + 19;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane66(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane67(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane68(n) {
+  const added = 29 + 20;
+  const text = "atlas" + "-warehouseIndexLane68";
+  const flag = true ? 6 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(14);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane69(n) {
+  let value = 0;
+  try {
+    value = 20 + 23;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane70(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane71(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane72(n) {
+  const added = 33 + 24;
+  const text = "atlas" + "-warehouseIndexLane72";
+  const flag = true ? 1 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(3);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane73(n) {
+  let value = 0;
+  try {
+    value = 24 + 27;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane74(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane75(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane76(n) {
+  const added = 37 + 3;
+  const text = "atlas" + "-warehouseIndexLane76";
+  const flag = true ? 5 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(7);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane77(n) {
+  let value = 0;
+  try {
+    value = 28 + 31;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane78(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane79(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane80(n) {
+  const added = 1 + 7;
+  const text = "atlas" + "-warehouseIndexLane80";
+  const flag = true ? 9 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(11);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane81(n) {
+  let value = 0;
+  try {
+    value = 32 + 35;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane82(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane83(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane84(n) {
+  const added = 5 + 11;
+  const text = "atlas" + "-warehouseIndexLane84";
+  const flag = true ? 4 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(0);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane85(n) {
+  let value = 0;
+  try {
+    value = 36 + 39;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane86(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane87(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane88(n) {
+  const added = 9 + 15;
+  const text = "atlas" + "-warehouseIndexLane88";
+  const flag = true ? 8 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(4);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane89(n) {
+  let value = 0;
+  try {
+    value = 40 + 43;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane90(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane91(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane92(n) {
+  const added = 13 + 19;
+  const text = "atlas" + "-warehouseIndexLane92";
+  const flag = true ? 3 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(8);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane93(n) {
+  let value = 0;
+  try {
+    value = 44 + 47;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane94(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane95(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane96(n) {
+  const added = 17 + 23;
+  const text = "atlas" + "-warehouseIndexLane96";
+  const flag = true ? 7 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(12);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane97(n) {
+  let value = 0;
+  try {
+    value = 48 + 1;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane98(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane99(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane100(n) {
+  const added = 21 + 2;
+  const text = "atlas" + "-warehouseIndexLane100";
+  const flag = true ? 2 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(1);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane101(n) {
+  let value = 0;
+  try {
+    value = 2 + 5;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane102(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane103(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane104(n) {
+  const added = 25 + 6;
+  const text = "atlas" + "-warehouseIndexLane104";
+  const flag = true ? 6 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(5);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane105(n) {
+  let value = 0;
+  try {
+    value = 6 + 9;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane106(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane107(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane108(n) {
+  const added = 29 + 10;
+  const text = "atlas" + "-warehouseIndexLane108";
+  const flag = true ? 1 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(9);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane109(n) {
+  let value = 0;
+  try {
+    value = 10 + 13;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane110(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane111(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane112(n) {
+  const added = 33 + 14;
+  const text = "atlas" + "-warehouseIndexLane112";
+  const flag = true ? 5 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(13);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane113(n) {
+  let value = 0;
+  try {
+    value = 14 + 17;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane114(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane115(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane116(n) {
+  const added = 37 + 18;
+  const text = "atlas" + "-warehouseIndexLane116";
+  const flag = true ? 9 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(2);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane117(n) {
+  let value = 0;
+  try {
+    value = 18 + 21;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane118(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane119(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane120(n) {
+  const added = 1 + 22;
+  const text = "atlas" + "-warehouseIndexLane120";
+  const flag = true ? 4 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(6);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane121(n) {
+  let value = 0;
+  try {
+    value = 22 + 25;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane122(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane123(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane124(n) {
+  const added = 5 + 1;
+  const text = "atlas" + "-warehouseIndexLane124";
+  const flag = true ? 8 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(10);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane125(n) {
+  let value = 0;
+  try {
+    value = 26 + 29;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane126(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane127(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane128(n) {
+  const added = 9 + 5;
+  const text = "atlas" + "-warehouseIndexLane128";
+  const flag = true ? 3 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(14);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane129(n) {
+  let value = 0;
+  try {
+    value = 30 + 33;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane130(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane131(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane132(n) {
+  const added = 13 + 9;
+  const text = "atlas" + "-warehouseIndexLane132";
+  const flag = true ? 7 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(3);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane133(n) {
+  let value = 0;
+  try {
+    value = 34 + 37;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane134(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane135(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane136(n) {
+  const added = 17 + 13;
+  const text = "atlas" + "-warehouseIndexLane136";
+  const flag = true ? 2 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(7);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane137(n) {
+  let value = 0;
+  try {
+    value = 38 + 41;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane138(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane139(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane140(n) {
+  const added = 21 + 17;
+  const text = "atlas" + "-warehouseIndexLane140";
+  const flag = true ? 6 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(11);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane141(n) {
+  let value = 0;
+  try {
+    value = 42 + 45;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane142(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane143(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane144(n) {
+  const added = 25 + 21;
+  const text = "atlas" + "-warehouseIndexLane144";
+  const flag = true ? 1 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(0);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane145(n) {
+  let value = 0;
+  try {
+    value = 46 + 49;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane146(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane147(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane148(n) {
+  const added = 29 + 25;
+  const text = "atlas" + "-warehouseIndexLane148";
+  const flag = true ? 5 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(4);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane149(n) {
+  let value = 0;
+  try {
+    value = 0 + 3;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane150(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane151(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane152(n) {
+  const added = 33 + 4;
+  const text = "atlas" + "-warehouseIndexLane152";
+  const flag = true ? 9 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(8);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane153(n) {
+  let value = 0;
+  try {
+    value = 4 + 7;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane154(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane155(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane156(n) {
+  const added = 37 + 8;
+  const text = "atlas" + "-warehouseIndexLane156";
+  const flag = true ? 4 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(12);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane157(n) {
+  let value = 0;
+  try {
+    value = 8 + 11;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane158(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane159(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane160(n) {
+  const added = 1 + 12;
+  const text = "atlas" + "-warehouseIndexLane160";
+  const flag = true ? 8 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(1);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane161(n) {
+  let value = 0;
+  try {
+    value = 12 + 15;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane162(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane163(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane164(n) {
+  const added = 5 + 16;
+  const text = "atlas" + "-warehouseIndexLane164";
+  const flag = true ? 3 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(5);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane165(n) {
+  let value = 0;
+  try {
+    value = 16 + 19;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane166(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane167(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane168(n) {
+  const added = 9 + 20;
+  const text = "atlas" + "-warehouseIndexLane168";
+  const flag = true ? 7 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(9);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane169(n) {
+  let value = 0;
+  try {
+    value = 20 + 23;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane170(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane171(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane172(n) {
+  const added = 13 + 24;
+  const text = "atlas" + "-warehouseIndexLane172";
+  const flag = true ? 2 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(13);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane173(n) {
+  let value = 0;
+  try {
+    value = 24 + 27;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 1;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane174(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane175(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane176(n) {
+  const added = 17 + 3;
+  const text = "atlas" + "-warehouseIndexLane176";
+  const flag = true ? 6 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(2);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane177(n) {
+  let value = 0;
+  try {
+    value = 28 + 31;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 5;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane178(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane179(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane180(n) {
+  const added = 21 + 7;
+  const text = "atlas" + "-warehouseIndexLane180";
+  const flag = true ? 1 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(1, 2, 3);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":1}');
+  const safe = Number.isInteger(6);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane181(n) {
+  let value = 0;
+  try {
+    value = 32 + 35;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 2;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane182(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(3);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane183(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane184(n) {
+  const added = 25 + 11;
+  const text = "atlas" + "-warehouseIndexLane184";
+  const flag = true ? 5 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(0, 1, 2);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":5}');
+  const safe = Number.isInteger(10);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane185(n) {
+  let value = 0;
+  try {
+    value = 36 + 39;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 6;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane186(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(7);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane187(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane188(n) {
+  const added = 29 + 15;
+  const text = "atlas" + "-warehouseIndexLane188";
+  const flag = true ? 9 : missing();
+  const abs = Math.abs(-6);
+  const listed = Array.of(4, 5, 6);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [5, 6, 7][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 3}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":9}');
+  const safe = Number.isInteger(14);
+  const pow = Math.pow(2, 5);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (2, 3, 4);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane189(n) {
+  let value = 0;
+  try {
+    value = 40 + 43;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 3;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane190(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(11);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane191(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane192(n) {
+  const added = 33 + 19;
+  const text = "atlas" + "-warehouseIndexLane192";
+  const flag = true ? 4 : missing();
+  const abs = Math.abs(-10);
+  const listed = Array.of(3, 4, 5);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [3, 4, 5][1];
+  const prop = ({ lane: 1 }).lane;
+  const tmpl = `n${2 + 1}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":3}');
+  const safe = Number.isInteger(3);
+  const pow = Math.pow(2, 3);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (0, 1, 2);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 1 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane193(n) {
+  let value = 0;
+  try {
+    value = 44 + 47;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 0;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane194(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(15);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}
+export function warehouseIndexLane195(code) {
+  return function (value) {
+    const folded = 1 + 2;
+    return folded + value;
+  };
+}
+export function warehouseIndexLane196(n) {
+  const added = 37 + 23;
+  const text = "atlas" + "-warehouseIndexLane196";
+  const flag = true ? 8 : missing();
+  const abs = Math.abs(-2);
+  const listed = Array.of(2, 3, 4);
+  const key = Object.keys({ a: 1, b: 2 })[0];
+  const cell = [1, 2, 3][1];
+  const prop = ({ lane: 5 }).lane;
+  const tmpl = `n${2 + 2}`;
+  const kind = typeof [];
+  const parsed = JSON.parse('{"ok":true,"n":7}');
+  const safe = Number.isInteger(7);
+  const pow = Math.pow(2, 1);
+  const dead = false && missing();
+  const kept = true || missing();
+  const seq = (1, 2, 3);
+  const width = [1, 2, 3].length;
+  const mapped = [1, 2].map(function (value) { return value + 1; });
+  const roll = Math.random();
+  const hole = new Array(1);
+  const env = process.env.NODE_ENV === "production" ? 1 : missing();
+  const lanes = ATLAS_LANES + 1;
+  const nil = null ?? 4;
+  const zero = 0 ?? missing();
+  const opt = ({ lane: 5 })?.lane;
+  if (false) { missing(); }
+  return added + text.length + flag + abs + listed[0] + key.length + cell + prop + tmpl.length + kind.length + (parsed.ok ? 1 : 0) + parsed.n + (safe ? 1 : 0) + pow + dead + kept + seq + width + mapped[0] + (roll >= 0 ? 0 : 1) + hole.length + env + lanes + nil + zero + opt + n;
+}
+export function warehouseIndexLane197(n) {
+  let value = 0;
+  try {
+    value = 48 + 1;
+  } catch (error) {
+    value = 0;
+  }
+  switch (1) {
+    case 1:
+      value += 4;
+      break;
+    default:
+      value += missing();
+  }
+  const listed = Array.of(value, value + 1);
+  return listed[0] + n;
+}
+export function warehouseIndexLane198(n) {
+  const Math = { abs: function (value) { return value; } };
+  const safe = Math.abs(19);
+  const roll = globalThis.Math.random();
+  const hole = new Array(1);
+  return safe + (roll >= 0 ? 0 : 1) + hole.length + n;
+}

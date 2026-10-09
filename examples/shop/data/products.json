@@ -1,0 +1,6 @@
+[
+  {"id": "notebook", "name": "Notebook", "cents": 450, "stock": 10},
+  {"id": "pencil", "name": "Pencil", "cents": 125, "stock": 20},
+  {"id": "folder", "name": "Folder", "cents": 225, "stock": 40},
+  {"id": "eraser", "name": "Eraser", "cents": 80, "stock": 5}
+]

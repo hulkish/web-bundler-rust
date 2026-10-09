@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./gallery.css">
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        background: #1b1a17;
+        color: #f4efe6;
+        font-family: "Avenir Next", "Segoe UI", sans-serif;
+      }
+      .site-nav, .toolbar { display: flex; gap: 1rem; }
+      .site-nav { padding: 0.8rem 1.4rem; font-size: 0.85rem; }
+      .site-nav a { color: inherit; }
+      #app { max-width: 56rem; margin: 0 auto; padding: 1.2rem 1.4rem 3rem; }
+      .eyebrow { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; opacity: 0.7; }
+      h1 { font-family: Palatino, "Iowan Old Style", serif; font-weight: 500; font-size: 2.6rem; margin: 0.2rem 0; }
+      .toolbar { gap: 0.5rem; margin: 1rem 0; }
+      button {
+        font: inherit;
+        color: inherit;
+        background: transparent;
+        border: 1px solid rgb(244 239 230 / 35%);
+        padding: 0.35rem 0.8rem;
+        cursor: pointer;
+      }
+      button[aria-pressed="true"] { background: var(--accent, #c45c26); border-color: transparent; }
+      .hang { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.8rem; }
+      .hang article {
+        margin: 0;
+        min-height: 10rem;
+        padding: 1rem;
+        background: #26241f;
+        border-top: 4px solid var(--accent, #c45c26);
+      }
+      .year { margin: 0; opacity: 0.65; }
+      .hang h2 { font-family: Palatino, serif; font-weight: 500; margin: 0.4rem 0; }
+      .swatches { display: flex; gap: 1rem; align-items: end; margin-top: 1.4rem; }
+      .swatches img { width: 4.5rem; height: 4.5rem; object-fit: cover; background: white; }
+      figcaption { font-size: 0.75rem; opacity: 0.7; }
+    </style>
+  </head>
+  <body class="wall">
+    <nav class="site-nav">
+      <a href="../../index.html">Examples</a>
+      <a href="../../observatory/preview/index.html">Observatory</a>
+      <a href="./index.html" aria-current="page">Gallery</a>
+      <a href="../../desk/preview/index.html">Desk</a>
+      <a href="../../beacon/preview/index.html">Beacon</a>
+      <a href="../../economy/preview/index.html">Economy</a>
+      <a href="../../foundry/preview/index.html">Foundry</a>
+      <a href="../../storybook/preview/index.html">Storybook</a>
+    </nav>
+    <main id="app">Loading the wall…</main>
+    <script type="importmap">
+      {
+        "imports": {
+          "gallery-theme": "../node_modules/gallery-theme/index.js"
+        }
+      }
+    </script>
+    <script type="module" src="./gallery.js"></script>
+  </body>
+</html>

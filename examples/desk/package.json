@@ -1,0 +1,5 @@
+{
+  "name": "desk-example",
+  "private": true,
+  "sideEffects": ["**/*.css"]
+}

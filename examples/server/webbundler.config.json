@@ -1,0 +1,11 @@
+{
+  "entries": ["index.js"],
+  "output": "dist",
+  "target": "node",
+  "format": "esm",
+  "sourcemap": true,
+  "report": true,
+  "define": {
+    "process.env.NODE_ENV": "\"production\""
+  }
+}
